@@ -1,7 +1,7 @@
 <!-- Footer: Start -->
 <footer class="landing-footer bg-body footer-text">
     <div class="footer-top position-relative overflow-hidden z-1">
-        <img src="{{ asset('/assets/template/img/front-pages/backgrounds/footer-bg-2.png') }}" alt="footer bg"
+        <img src="{{ asset('/assets/template/img/backgrounds/footer-bg-2.png') }}" alt="footer bg"
             class="footer-bg banner-bg-img z-n1" />
         <div class="container">
             <div class="row gx-0 gy-6 g-lg-10">
