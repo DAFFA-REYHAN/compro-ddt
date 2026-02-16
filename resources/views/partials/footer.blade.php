@@ -1,13 +1,13 @@
 <!-- Footer: Start -->
 <footer class="landing-footer bg-body footer-text">
     <div class="footer-top position-relative overflow-hidden z-1">
-        <img src="{{ asset('/assets/template/img/backgrounds/footer-bg-2.png') }}" alt="footer bg"
+        <img src="{{ asset('/assets/template/img/backgrounds/footer-bg-2.webp') }}" alt="footer bg"
             class="footer-bg banner-bg-img z-n1" />
         <div class="container">
             <div class="row gx-0 gy-6 g-lg-10">
                 <div class="col-lg-5">
                     <a href="{{ url('/') }}" class="app-brand-link mb-6">
-                        <img src="{{ asset('assets/template/img/logo/logo dwi damar tirta.png') }}"
+                        <img src="{{ asset('assets/template/img/logo/logo dwi damar tirta.webp') }}"
                             alt="Logo PT Dwi Damar Tirta" width="60">
                         <span class="app-brand-text demo footer-link fw-bold ms-2 ps-1">
                             PT Dwi Damar Tirta

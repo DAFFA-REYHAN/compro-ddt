@@ -55,7 +55,7 @@ window.config = {
 if (typeof TemplateCustomizer !== 'undefined') {
     window.templateCustomizer = new TemplateCustomizer({
         displayCustomizer: false,
-        defaultPrimaryColor: '#0F78ED',
+        defaultPrimaryColor: '#0066FF',
         // defaultTextDir: 'rtl',
         // defaultTheme: 'dark',
         controls: ['color', 'theme', 'rtl']
