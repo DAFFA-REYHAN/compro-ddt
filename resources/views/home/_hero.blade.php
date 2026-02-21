@@ -9,7 +9,7 @@
                     {{-- Eyebrow / badge: bagus untuk konteks lokal --}}
                     <p class="hero-badge" data-aos="fade-right">
                         <span class="badge-dot"></span>
-                        <span>Spesialis Solusi Limbah B3 • Batam &amp; Sekitarnya</span>
+                        <span>{{ __('home.badgeHero') }}</span>
                     </p>
 
                     {{-- H1 utama halaman (SEO) --}}
@@ -23,16 +23,16 @@
                     </p>
 
                     {{-- CTA utama --}}
-                    <div class="hero-cta" data-aos="fade-right" data-aos-delay="300">
+                    <div class="hero-desc" data-aos="fade-right" data-aos-delay="300">
                         <div class="row">
                             <div class="col-6">
-                                <a href="#layanan" class="btn-primary-modern">
-                                    <span>Layanan Kami</span>
+                                <a href="#layanan" class="btn btn-primary w-100 py-3">
+                                    <span>{{ __('home.serviceButton') }}</span>
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="#layanan" class="btn btn-outline-primary w-100 py-3">
-                                    <span>Perizinan Kami</span>
+                                <a href="/dokumen/legal" class="btn btn-outline-primary w-100 py-3">
+                                    <span>{{ __('home.legal') }}</span>
                                 </a>
                             </div>
                         </div>
@@ -61,57 +61,27 @@
             {{-- Kolom visual --}}
             <div class="col-lg-6">
                 <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
-                    <div class="image-wrapper">
-                        {{-- Gambar LCP: jangan pakai loading="lazy" --}}
+                    <div class="image-wrapper position-relative">
                         <img src="{{ asset('assets/template/img/Hero/Hero1.webp') }}"
                             alt="Kantor PT Dwi Damar Tirta dan armada pengangkutan limbah B3 di Batam">
 
-                        {{-- Stats di atas foto --}}
-                        <div class="hero-photo-stats">
-                            <div class="hero-photo-stat-item">
-                                <span class="hero-photo-stat-number">15+</span>
-                                <span class="hero-photo-stat-label">Tahun pengalaman</span>
-                            </div>
-
-                            <span class="hero-photo-divider" aria-hidden="true"></span>
-
-                            <div class="hero-photo-stat-item">
-                                <span class="hero-photo-stat-number">100+</span>
-                                <span class="hero-photo-stat-label">Klien aktif</span>
-                            </div>
-
-                            <span class="hero-photo-divider" aria-hidden="true"></span>
-
-                            <div class="hero-photo-stat-item">
-                                <span class="hero-photo-stat-number">24/7</span>
-                                <span class="hero-photo-stat-label">Siap tangani insiden</span>
-                            </div>
+                        {{-- LOGO DI TENGAH ATAS TAGLINE --}}
+                        <div class="hero-logo-center">
+                            <img src="{{ asset('assets/template/img/logo/logo dwi damar tirta.webp') }}"
+                                alt=" Logo PT Dwi Damar Tirta ">
                         </div>
-                    </div>
 
-                    {{-- Floating card --}}
-                    <aside class="hero-floating-card" data-aos="fade-up" data-aos-delay="350"
-                        aria-label="Keunggulan dokumentasi dan pelaporan">
-                        <div class="hero-floating-icon">
-                            <i class="iconbase ti tabler-shield-check" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <p class="hero-floating-title">Dokumen &amp; pelaporan rapi</p>
-                            <p class="hero-floating-text">
-                                Dukungan dokumen lingkungan, manifest, dan pelaporan berkala untuk perusahaan Anda.
+                        {{-- Tagline sedikit di bawah logo --}}
+                        <div class="hero-tagline-card">
+                            <p class="hero-tagline-text mb-0 fw-bolder fst-italic">
+                                " New Spirit With Better Services "
                             </p>
                         </div>
-                    </aside>
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
 
-    {{-- Scroll indicator --}}
-    <div class="scroll-down" data-aos="fade-down" data-aos-delay="500">
-        <a href="#siapa-kami" aria-label="Scroll ke bagian tentang kami">
-            <i class="iconbase ti tabler-chevron-down" aria-hidden="true"></i>
-        </a>
-    </div>
 </section>

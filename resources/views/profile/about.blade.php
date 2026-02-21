@@ -1,129 +1,147 @@
 @extends('app')
 
-@section('title', 'Tentang Kami - PT Dwi Damar Tirta')
+@section('title', __('about.page_title'))
 
 @section('content')
     <section class="py-5 py-lg-6">
         <div class="container-md">
             <div class="row align-items-center g-4 justify-content-center">
                 <div class="col-lg-6">
-                    <span class="badge rounded-pill bg-label-primary mb-2 p-2">Tentang Kami</span>
-                    <h3 class="mb-3">PT Dwi Damar Tirta</h2>
+                    <span class="badge rounded-pill bg-label-primary mb-3 px-3 py-2 text-uppercase small">
+                        {{ __('about.badge') }}
+                    </span>
+
+                    <h2 class="mb-3 fw-bold">
+                        {{ __('about.heading') }}
+                    </h2>
 
                     {{-- Deskripsi perusahaan --}}
-                    <p class="mb-3" style="text-align: justify;">
-                        PT Dwi Damar Tirta adalah perusahaan pengumpulan dan pengangkutan limbah B3 dan non‑B3
-                        yang berbasis di Batam dan telah beroperasi sejak 2009.
+                    <p class="mb-3 text-body-secondary" style="text-align: justify;">
+                        {{ __('about.paragraph_1') }}
                     </p>
-                    <p class="mb-3" style="text-align: justify;">
-                        Kami mendukung perusahaan industri dalam menangani limbah secara aman dan patuh regulasi,
-                        mulai dari penjemputan di lokasi, pengangkutan dengan armada berizin, hingga dukungan dokumen
-                        lingkungan dan perizinan.
+                    <p class="mb-3 text-body-secondary" style="text-align: justify;">
+                        {{ __('about.paragraph_2') }}
                     </p>
-                    <p class="mb-4" style="text-align: justify;">
-                        Dengan tim berpengalaman dan fasilitas yang sesuai ketentuan, kami berkomitmen menjadi mitra
-                        jangka panjang dalam pengelolaan limbah perusahaan Anda.
+                    <p class="mb-4 text-body-secondary" style="text-align: justify;">
+                        {{ __('about.paragraph_3') }}
                     </p>
 
                     {{-- Jenis limbah yang ditangani --}}
-                    <div class="text-center text-lg-start mb-3">
-                        <h5 class="mb-1">Jenis limbah yang kami tangani</h5>
-                        <small class="text-muted">Limbah B3 dan non‑B3 dari berbagai aktivitas industri</small>
+                    <div class="card border-0 shadow-sm mb-3">
+                        <div class="card-body">
+                            <div class="text-center mb-3">
+                                <h5 class="mb-1">
+                                    {{ __('about.waste_title') }}
+                                </h5>
+                                <small class="text-muted">
+                                    {{ __('about.waste_subtitle') }}
+                                </small>
+                            </div>
+
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <h6 class="mb-2">
+                                        {{ __('about.hazardous_title') }}
+                                    </h6>
+                                    <ul class="list-unstyled mb-0 small">
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_1') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_2') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_3') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_4') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_5') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_6') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_7') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_8') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.hazardous_9') }}</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <h6 class="mb-2">
+                                        {{ __('about.non_hazardous_title') }}
+                                    </h6>
+                                    <ul class="list-unstyled mb-0 small">
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.non_hazardous_1') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.non_hazardous_2') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.non_hazardous_3') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-1">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.non_hazardous_4') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-start">
+                                            <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
+                                            <span>{{ __('about.non_hazardous_5') }}</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="row g-3">
-                        <div class="col-sm-6">
-                            <h6 class="mb-2">Limbah B3</h6>
-                            <ul class="list-unstyled mb-0">
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Aki</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Copper slag</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Sludge oil, slop oil, used oil</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Oily water</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Garnet, blasting sand, PS ball</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Contaminated rag</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Paint sludge, ink sludge</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Empty can, empty drum</span>
-                                </li>
-                                <li class="d-flex align-items-start">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Coolant dan limbah sejenis lainnya</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <h6 class="mb-2">Limbah industri non‑B3</h6>
-                            <ul class="list-unstyled mb-0">
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Aluminium</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Tembaga</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Besi</span>
-                                </li>
-                                <li class="d-flex align-items-start mb-1">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Kertas dan kardus</span>
-                                </li>
-                                <li class="d-flex align-items-start">
-                                    <i class="iconbase ti tabler-check text-success me-2 mt-1"></i>
-                                    <span>Pallet kayu</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="col-lg-6 d-none d-md-block">
-                    <img src="{{ asset('assets/template/img/Hero/Hero2.png') }}"
-                        alt="Kegiatan pengelolaan limbah PT Dwi Damar Tirta" class="img-fluid rounded-4 shadow-sm">
+                    <div class="position-relative">
+                        <img src="{{ asset('assets/template/img/Hero/Hero2.png') }}"
+                             alt="{{ __('about.image_alt') }}"
+                             class="img-fluid rounded-4 shadow-sm">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- CTA sederhana (tetap ada) --}}
+    {{-- CTA --}}
     <section class="py-5">
         <div class="container">
-            <div
-                class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 p-4 rounded-3 border bg-outline-light">
-                <div class="text-center text-md-start ">
-                    <h5 class="mb-1">Ingin konsultasi pengelolaan limbah?</h5>
+            <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 p-4 rounded-3 border">
+                <div class="text-center text-md-start">
+                    <h5 class="mb-1">
+                        {{ __('about.cta_title') }}
+                    </h5>
                     <p class="mb-0 text-muted">
-                        Hubungi kami untuk diskusi singkat mengenai kebutuhan limbah B3 dan non‑B3 di perusahaan Anda.
+                        {{ __('about.cta_text') }}
                     </p>
                 </div>
-                <div class="text-center text-md-start ">
+                <div class="text-center text-md-start">
                     <a href="{{ url('/kontak-kami') }}" class="btn btn-primary px-4">
-                        Hubungi kami
+                        {{ __('about.cta_button') }}
                     </a>
                 </div>
             </div>

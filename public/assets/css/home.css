@@ -500,48 +500,54 @@
     background: #e2e8f0;
 }
 
-/* FLOATING CARD */
-.hero-floating-card {
-    position: absolute;
-    top: 10%;
-    right: 8%;
-    background: #0f172a;
-    color: #e5e7eb;
-    padding: 0.9rem 1.1rem;
-    border-radius: 14px;
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
-    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.4);
-    max-width: 260px;
-}
 
-.hero-floating-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 999px;
-    background: rgba(56, 189, 248, 0.15);
+
+/* Logo di tengah gambar */
+.hero-logo-center {
+    position: absolute;
+    top: 40%;
+    /* sedikit di atas tengah */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
+    opacity: 90%;
+    box-shadow: 0 12px 35px rgba(15, 23, 42, 0.35);
+    z-index: 2;
 }
 
-.hero-floating-icon i {
-    color: #38bdf8;
+.hero-logo-center img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
 }
 
-.hero-floating-title {
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-bottom: 0.1rem;
+/* Tagline di bawah logo */
+.hero-tagline-card {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    /* tadinya 50%, digeser ke bawah logo */
+    transform: translate(-50%, -50%);
+    min-width: 260px;
+    max-width: 90%;
+    padding: 0.85rem 1.5rem;
+    border-radius: 19px;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    color: white;
 }
 
-.hero-floating-text {
-    font-size: 0.78rem;
-    color: #9ca3af;
-    margin-bottom: 0;
-}
 
 /* SCROLL DOWN */
 .scroll-down {
@@ -682,6 +688,10 @@
         top: 6%;
         right: 6%;
     }
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 @media (max-width: 575px) {

@@ -9,23 +9,19 @@
                 </div>
             </div>
 
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="about-content">
-                    <span class="section-subtitle d-inline-block mb-2">Tentang Kami</span>
+                    <span class="section-subtitle d-inline-block mb-2">{{__('home.badgeAbout')}}</span>
                     <h2 class="section-title mb-3">PT Dwi Damar Tirta</h2>
 
                     <p class="mb-3">
-                        Kami adalah perusahaan pengangkutan, pengumpulan limbah B3, dan jasa pembersihan tangki
-                        yang berbasis di Batam dan telah melayani berbagai industri sejak 2009.
+                        {{ __('home.aboutDescription1') }}
                     </p>
                     <p class="mb-4">
-                        Fokus kami sederhana: membantu perusahaan mengelola limbah secara aman, legal,
-                        dan praktis sehingga Anda bisa fokus pada operasional utama.
+                        {{ __('home.aboutDescription2') }}
                     </p>
 
-                    <a href="{{ url('/profil/tentang') }}" class="btn-primary-modern">
-                        <span>Selengkapnya tentang kami</span>
-                    </a>
+                    <a href="#" class="btn btn-primary">{{__('home.btnServices')}}</a>
                 </div>
             </div>
         </div>

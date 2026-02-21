@@ -1,12 +1,10 @@
- {{-- Layanan utama (baru, untuk menjawab "apa saja layanan Anda?") --}}
-    <section class="section-padding" id="layanan">
+<section class="section-padding" id="layanan">
         <div class="container">
             <div class="section-header text-center mb-5" data-aos="fade-up">
-                <span class="section-subtitle">Layanan Kami</span>
-                <h2 class="section-title">Solusi lengkap limbah B3 & non-B3</h2>
+                <span class="section-subtitle">{{__('home.serviceButton')}}</span>
+                <h2 class="section-title">{{(__('home.titleService'))}}</h2>
                 <p class="section-desc">
-                    Dirancang untuk kebutuhan perusahaan manufaktur, logistik, oil & gas, serta fasilitas komersial di
-                    Batam.
+                    {{ __('home.descriptionService') }}
                 </p>
             </div>
 
@@ -16,9 +14,9 @@
                         <div class="service-icon">
                             <i class="iconbase ti tabler-truck"></i>
                         </div>
-                        <h3 class="service-title">Pengangkutan limbah B3</h3>
+                        <h3 class="service-title">{{__('home.card1Title')}}</h3>
                         <p class="service-text">
-                            Layanan penjemputan terjadwal & on-call dengan armada berizin dan manifest yang terdokumentasi.
+                            {{__('home.card1Description')}}
                         </p>
                     </div>
                 </div>
@@ -28,10 +26,9 @@
                         <div class="service-icon">
                             <i class="iconbase ti tabler-recycle"></i>
                         </div>
-                        <h3 class="service-title">Pengelolaan & pemrosesan</h3>
+                        <h3 class="service-title">{{__('home.card2Title')}}</h3>
                         <p class="service-text">
-                            Pengolahan limbah B3 & non-B3 sesuai standar, termasuk pemilahan, penyimpanan sementara, dan
-                            kerja sama pemanfaatan.
+                           {{__('home.card2Description')}}
                         </p>
                     </div>
                 </div>
@@ -41,12 +38,14 @@
                         <div class="service-icon">
                             <i class="iconbase ti tabler-file-description"></i>
                         </div>
-                        <h3 class="service-title">Pembersihan Tangki</h3>
+                        <h3 class="service-title">{{__('home.card3Title')}}</h3>
                         <p class="service-text">
-                            Layanan pembersihan tangki untuk oli, bahan bakar, dan limbah cair dengan prosedur kerja aman
-                            dan sesuai standar lingkungan.
+                            {{__('home.card3Description')}}
                         </p>
                     </div>
+                </div>
+                <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="150">
+                    <a href="/layanan-kami" class="btn btn-primary">{{__('home.btnServices')}}</a>
                 </div>
             </div>
         </div>

@@ -54,6 +54,10 @@ use Illuminate\Support\Facades\Route;
         return view('document.awwards');
     });
 
+    Route::get('/gallery', function () {
+        return view('gallery.gallery');
+    });
+
     Route::get('/set-locale/{locale}', function (Request $request, $locale) {
         // dd($request->all());// daftar bahasa yang diizinkan
         $allowed = ['id', 'en'];
@@ -68,6 +72,9 @@ use Illuminate\Support\Facades\Route;
         // balik ke halaman sebelumnya
         return back();
     })->name('set-locale');
+
+
+     Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 // });
 
 Route::get('/set-locales/{locale}', function (Request $request, $locale) {

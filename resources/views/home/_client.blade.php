@@ -1,9 +1,9 @@
 <section class="section-padding">
     <div class="container">
         <div class="section-header text-center mb-5" data-aos="fade-up">
-            <span class="section-subtitle">Klien</span>
-            <h2 class="section-title">Klien Kami</h2>
-            <p class="section-desc">Beberapa perushaan yang mempercayakan pengangkutan dan pengumpulan limbahnya kepada kami.</p>
+            <span class="section-subtitle">{{__('home.titleClient')}}</span>
+            <h2 class="section-title">{{__('home.titleClient')}}</h2>
+            <p class="section-desc">{{__('home.descriptionClient')}}</p>
         </div>
 
         {{-- Row 1 – client 1–10 --}}
