@@ -53,11 +53,11 @@
                         <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
                     </a>
                     <div class="dropdown-menu-custom">
-                        <a href="{{ url('/pengolahan/proses-pekerjaan') }}" class="dropdown-item-custom">
+                        <a href="{{ url('/layanan-kami') }}" class="dropdown-item-custom">
                             <i class="iconbase ti tabler-settings-cog text-primary" aria-hidden="true"></i>
                             {{ __('nav.service') }}
                         </a>
-                        <a href="{{ url('/pengolahan/fasilitas') }}" class="dropdown-item-custom">
+                        <a href="{{ url('/fasilitas') }}" class="dropdown-item-custom">
                             <i class="iconbase ti tabler-building-factory-2 text-success" aria-hidden="true"></i>
                             {{ __('nav.facility') }}
                         </a>
@@ -214,18 +214,13 @@
                 </button>
                 <ul class="submenu">
                     <li>
-                        <a href="{{ url('/pengolahan/proses-pekerjaan') }}">
+                        <a href="{{ url('/layanan-kami') }}">
                             {{ __('nav.service') }}
                         </a>
                     </li>
                     <li>
-                        <a href="{{ url('/pengolahan/fasilitas') }}">
+                        <a href="{{ url('/fasilitas') }}">
                             {{ __('nav.facility') }}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ url('/pengolahan/jenis-limbah') }}">
-                            Jenis Limbah B3 &amp; Non B3
                         </a>
                     </li>
                 </ul>

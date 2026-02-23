@@ -19,10 +19,10 @@ use Illuminate\Support\Facades\Route;
     });
 
     // PENGOLAHAN
-    Route::get('/pengolahan/fasilitas', function () {
+    Route::get('/fasilitas', function () {
         return view('processing.facility');
     });
-    Route::get('/pengolahan/proses-pekerjaan', function () {
+    Route::get('/layanan-kami', function () {
         return view('processing.service');
     });
 
@@ -38,6 +38,11 @@ use Illuminate\Support\Facades\Route;
     });
 
     //DOKUMEN
+
+    
+    Route::get('/dokumen', function () {
+        return view('document.document');
+    });
     Route::get('/dokumen/legal', function () {
         return view('document.lincesing-and-legal');
     });
