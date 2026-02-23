@@ -46,8 +46,8 @@
 
                 {{-- Pengolahan (Dropdown) --}}
                 <li class="nav-link-item has-dropdown">
-                    <a href="{{ url('/pengolahan') }}"
-                        class="nav-link-custom {{ Request::is('pengolahan*') ? 'active' : '' }}">
+                    <a href="{{ url('/layanan-kami') }}"
+                        class="nav-link-custom {{ Request::is('layanan-kami')||Request::is('fasilitas') ? 'active' : '' }}">
                         <i class="iconbase ti tabler-recycle" aria-hidden="true"></i>
                         {{ __('nav.service') }}
                         <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
@@ -65,7 +65,13 @@
                 </li>
 
                 {{-- Dokumen (Dropdown) --}}
-                <li class="nav-link-item has-dropdown">
+                <li class="nav-link-item">
+                    <a href="{{ url('/dokumen') }}" class="nav-link-custom {{ Request::is('dokumen') ? 'active' : '' }}">
+                        <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
+                        {{ __('nav.document') }}
+                    </a>
+                </li>
+                <!-- <li class="nav-link-item has-dropdown">
                     <a href="{{ url('/dokumen/legal') }}"
                         class="nav-link-custom {{ Request::is('dokumen*') ? 'active' : '' }}">
                         <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
@@ -94,7 +100,7 @@
                             {{ __('nav.achievment') }}
                         </a>
                     </div>
-                </li>
+                </li> -->
 
                 {{-- Gallery --}}
                 <li class="nav-link-item">

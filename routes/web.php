@@ -16,7 +16,7 @@ Route::middleware('page-cache')->group(function () {
     });
     Route::get('/kontak-kami', function () {
         return view('contact_us.contact');
-    });
+    })->name('contact');
 
     // PENGOLAHAN
     Route::get('/fasilitas', function () {
