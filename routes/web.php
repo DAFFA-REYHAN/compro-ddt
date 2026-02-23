@@ -5,8 +5,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
-// Route::middleware('page-cache')->group(function () {
-    // Route::get('/', [PageController::class, 'home'])->name('home');
+Route::middleware('page-cache')->group(function () {
+    Route::get('/', [PageController::class, 'home'])->name('home');
 
     Route::get('/', function () {
         return view('home.home');
@@ -80,7 +80,7 @@ use Illuminate\Support\Facades\Route;
 
 
      Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
-// });
+});
 
 Route::get('/set-locales/{locale}', function (Request $request, $locale) {
     $allowed = ['id', 'en'];
