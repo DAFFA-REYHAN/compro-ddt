@@ -120,7 +120,7 @@
 
         .fab-main i {
             font-size: 1.5rem;
-            padding: 0px;
+            padding: 0px    ;
         }
 
         /* Menu Hubungi Kami */

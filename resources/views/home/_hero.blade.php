@@ -36,24 +36,47 @@
                                 </a>
                             </div>
                         </div>
-
-
                     </div>
-
-                    {{-- Trust / social proof --}}
                     <div class="hero-trust" data-aos="fade-up" data-aos-delay="350">
-                        <div class="hero-trust-item">
-                            <span class="hero-trust-label">Dipercaya lebih dari</span>
-                            <span class="hero-trust-value">100+ perusahaan manufaktur</span>
-                        </div>
+                        <div class="row g-3 hero-trust-row">
+                            <div class="col-12 col-md-4">
+                                <div class="card hero-trust-card h-100">
+                                    <div class="card-body d-flex align-items-center gap-3 text-center border rounded">
+                                        <div>
+                                            <span
+                                                class="hero-trust-label d-block">{{ __('home.experience_label') }}</span>
+                                            <span
+                                                class="hero-trust-value d-block">{{ __('home.experience_value') }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <span class="hero-trust-divider" aria-hidden="true"></span>
+                            <div class="col-12 col-md-4">
+                                <div class="card hero-trust-card h-100">
+                                    <div class="card-body d-flex align-items-center gap-3 text-center border rounded">
+                                        <div>
+                                            <span class="hero-trust-label d-block">{{ __('home.clients_label') }}</span>
+                                            <span class="hero-trust-value d-block">{{ __('home.clients_value') }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div class="hero-trust-item">
-                            <span class="hero-trust-label">Perizinan</span>
-                            <span class="hero-trust-value">Lengkap &amp; sesuai regulasi</span>
+                            <div class="col-12 col-md-4">
+                                <div class="card hero-trust-card h-100">
+                                    <div class="card-body d-flex align-items-center gap-3 text-center border rounded">
+                                        <div>
+                                            <span class="hero-trust-label d-block">{{ __('home.license_label') }}</span>
+                                            <span
+                                                class="hero-trust-value d-block">{{ __('home.license_value') }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
 
                 </div>
             </div>
