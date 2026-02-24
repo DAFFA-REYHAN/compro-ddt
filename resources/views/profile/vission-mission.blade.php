@@ -25,7 +25,7 @@
                 {{-- Card VISI (kiri) --}}
                 <div class="col-md-6">
                     <div class="card h-100 p-4 p-md-5 text-center text-md-start">
-                        <h3 class="mb-3 text-primary text-center fw-bold text-uppercase">
+                        <h3 class="mb-3 text-center fw-bold text-uppercase">
                             {{ __('vission-mission.visi_title') }}
                         </h3>
                         <p class="mb-0 text-muted text-center">
@@ -38,7 +38,7 @@
                 <div class="col-md-6">
                     <div class="card h-100 p-4 p-md-5">
                         <div class="text-center text-md-start mb-3">
-                            <h3 class="mb-0 text-primary text-center fw-bold text-uppercase">
+                            <h3 class="mb-0 text-center fw-bold text-uppercase">
                                 {{ __('vission-mission.misi_title') }}
                             </h3>
                         </div>

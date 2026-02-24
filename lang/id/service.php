@@ -1,27 +1,25 @@
 <?php
 
 return [
-    'heading' =>'Layanan Kami',
-    'badge'=>'Layanan Kami',
-    'smallText'=> 'Temukan layanan yang Anda butuhkan, pengolahan limbah hingga pembersihan tangki kapal, dikerjakan oleh tim berpengalaman.',
+    'heading'   => 'Layanan Kami',
+    'badge'     => 'Layanan Kami',
+    'smallText' => 'Temukan solusi pengelolaan limbah dan layanan pendukung operasional Anda, dari pengangkutan hingga pembersihan tangki kapal, ditangani oleh tim profesional dan berpengalaman.',
 
-    'header-card1'=> 'Pengangkutan Limbah B3',
-    'body-card1'=> 'Transporter sesuai standar untuk limbah B3',
-    'footer-card1'=> '',
-    
-    'header-card2'=> 'Pengumpulan Limbah B3',
-    'body-card2'=> 'Pengumpulan Limbah B3',
-    'footer-card2'=> '',
+    'header-card1' => 'Pengangkutan Limbah B3',
+    'body-card1'   => 'Layanan pengangkutan limbah B3 yang aman, berizin, dan sesuai standar regulasi.',
+    'footer-card1' => '',
 
-    'header-card3'=> 'Pembersihan Tangki Kapal',
-    'body-card3'=> 'Pembersihan Tangki Kapall dengan aman',
-    'footer-card3'=> '',
+    'header-card2' => 'Pengumpulan Limbah B3',
+    'body-card2'   => 'Pengumpulan limbah B3 secara terjadwal maupun on-demand dari berbagai sumber.',
+    'footer-card2' => '',
 
-    'header-card4'=> 'Konsultasi Lingkungan & Program CSR',
-    'body-card4'=> 'Pendampingan Kepatuhan & Pelaksanaan program sosial',
-    'footer-card4'=> '',
+    'header-card3' => 'Pembersihan Tangki Kapal',
+    'body-card3'   => 'Jasa pembersihan tangki kapal dengan prosedur kerja yang aman dan ramah lingkungan.',
+    'footer-card3' => '',
 
+    'header-card4' => 'Konsultasi Lingkungan & Program CSR',
+    'body-card4'   => 'Pendampingan kepatuhan lingkungan dan perancangan program CSR yang tepat sasaran.',
+    'footer-card4' => '',
 
     // CTA
-
 ];

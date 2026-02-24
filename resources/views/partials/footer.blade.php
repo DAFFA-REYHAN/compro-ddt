@@ -15,7 +15,7 @@
                         </span>
                     </div>
 
-                    <p class="footer-text footer-logo-description mb-3">
+                    <p class="footer-text footer-logo-description mb-3 text" style="text-align: justify;">
                         Spesialis pengumpulan dan pengangkutan limbah B3 & non‑B3, scrap industri,
                         serta pendampingan dokumen lingkungan untuk perusahaan di Batam dan sekitarnya.
                         <a href="{{ url('/kontak-kami') }}" class="text-white">

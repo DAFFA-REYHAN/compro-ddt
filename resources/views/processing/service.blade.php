@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('title', 'Layanan & Proses Kerja - PT Dwi Damar Tirta')
+@section('title', 'Layanan Kami - PT Dwi Damar Tirta')
 
 @section('content')
     <section class="section-padding" id="services">
@@ -23,7 +23,7 @@
                         <div class="card h-100">
                             <img class="card-img-top" src="{{ asset('assets/template/img/layanan-kami/1.png') }}"
                                 alt="Card image cap" />
-                            <div class="card-body">
+                            <div class="card-body pt-0">
                                 <h5 class="card-title">{{ __('service.header-card1') }}</h5>
                                 <p class="text-muted small-text">{{ __('service.body-card1') }}</p>
                             </div>
@@ -35,7 +35,7 @@
                         <div class="card h-100">
                             <img class="card-img-top" src="{{ asset('assets/template/img/layanan-kami/3.png') }}"
                                 alt="Card image cap" />
-                            <div class="card-body">
+                            <div class="card-body pt-0">
                                 <h5 class="card-title">{{ __('service.header-card2') }}</h5>
                                 <p class="text-muted small-text">{{ __('service.body-card2') }}</p>
                             </div>
@@ -47,7 +47,7 @@
                         <div class="card h-100">
                             <img class="card-img-top" src="{{ asset('assets/template/img/layanan-kami/2.png') }}"
                                 alt="Card image cap" />
-                            <div class="card-body">
+                            <div class="card-body pt-0">
                                 <h5 class="card-title">{{ __('service.header-card3') }}</h5>
                                 <p class="text-muted small-text">{{ __('service.body-card3') }}</p>
                             </div>
@@ -59,12 +59,33 @@
                         <div class="card h-100">
                             <img class="card-img-top" src="{{ asset('assets/template/img/layanan-kami/4.png') }}"
                                 alt="Card image cap" />
-                            <div class="card-body">
+                            <div class="card-body pt-0">
                                 <h5 class="card-title">{{ __('service.header-card4') }}</h5>
                                 <p class="text-muted small-text">{{ __('service.body-card4') }}</p>
                             </div>
                         </div>
                     </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- CTA --}}
+    <section class="py-5">
+        <div class="container">
+            <div
+                class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 p-4 rounded-3 border">
+                <div class="text-center text-md-start">
+                    <h5 class="mb-1">
+                        {{ __('about.cta_title') }}
+                    </h5>
+                    <p class="mb-0 text-muted">
+                        {{ __('about.cta_text') }}
+                    </p>
+                </div>
+                <div class="text-center text-md-start">
+                    <a href="{{ url('/kontak-kami') }}" class="btn btn-primary px-4">
+                        {{ __('about.cta_button') }}
+                    </a>
                 </div>
             </div>
         </div>
@@ -161,9 +182,13 @@
             </div>
         </div>
     </div>
-
     <!-- END MODAL VIEW LAYANAN-->
 @endsection
 
 @push('styles')
+<style>
+    .card-body p {
+        text-align: justify !important;
+    }
+</style>
 @endpush

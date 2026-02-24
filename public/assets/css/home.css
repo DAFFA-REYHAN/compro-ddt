@@ -228,7 +228,7 @@
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--dark);
-    margin-bottom: 0.25rem;
+    margin-bottom: 0 rem;
 }
 
 .service-text {
@@ -404,42 +404,69 @@
 }
 
 /* TRUST BAR */
-.hero-trust {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 0.9rem 1.4rem;
-    background: #ffffff;
-    border-radius: 999px;
-    box-shadow: 0 10px 35px rgba(15, 23, 42, 0.08);
-    margin-bottom: 1.75rem;
-    max-width: 480px;
+.hero-trust-row {
+    margin-top: 1.75rem;
 }
 
-.hero-trust-item {
+.hero-trust-card {
+    border-radius: 1rem;
+    background-color: #ffffff;
+    border: 1px solid rgba(15, 120, 237, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.hero-trust-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+    border-color: rgba(15, 120, 237, 0.25);
+}
+
+.hero-trust-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(15, 120, 237, 0.08);
     display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
+    align-items: center;
+    justify-content: center;
+    color: #0F78ED;
+    flex-shrink: 0;
+    font-size: 1.4rem;
 }
 
 .hero-trust-label {
     font-size: 0.75rem;
-    color: #94a3b8;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
+    color: #6c757d;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
 }
 
 .hero-trust-value {
-    font-size: 0.9rem;
-    color: var(--dark);
+    font-size: 0.98rem;
     font-weight: 600;
+    color: #003d99;
 }
 
-.hero-trust-divider {
-    width: 1px;
-    height: 28px;
-    background: #e2e8f0;
+@media (max-width: 576px) {
+    .hero-trust-card {
+        border-radius: 0.85rem;
+    }
+
+    .hero-trust-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 1.2rem;
+    }
+
+    .hero-trust-value {
+        font-size: 0.95rem;
+    }
 }
+
+
 
 /* IMAGE SIDE */
 .hero-image {
