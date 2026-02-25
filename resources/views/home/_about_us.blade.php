@@ -21,7 +21,7 @@
                         {{ __('home.aboutDescription2') }}
                     </p>
 
-                    <a href="#" class="btn btn-primary">{{__('home.btnServices')}}</a>
+                    <a href="/profil/tentang-kami" class="btn btn-primary">{{__('home.btnServices')}}</a>
                 </div>
             </div>
         </div>

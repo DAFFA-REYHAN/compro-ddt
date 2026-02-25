@@ -184,9 +184,9 @@
                                     alt="Gudang 1 - Gudang Penyimpanan Limbah B3">
                             </a>
                         </div>
-                        <div class="card-body py-3">
+                        <div class="card-body py-3 d-flex flex-column">
                             <span class="badge bg-primary mb-2 text-uppercase fst-italic">Gudang</span>
-                            <h6 class="card-title mb-1 fw-bold">Gudang 1</h6>
+                            <h6 class="card-title mb-1">Gudang 1</h6>
                             <ul class="ps-0 mt-3 mb-0 list-unstyled small">
                                 <li class="d-flex align-items-center mb-2">
                                     <i class="icon-base ti tabler-building-warehouse me-3"></i>
@@ -211,9 +211,9 @@
                                     alt="Gudang 2 - Gudang Penyimpanan Limbah B3">
                             </a>
                         </div>
-                        <div class="card-body py-3">
+                        <div class="card-body py-3 d-flex flex-column">
                             <span class="badge bg-primary mb-2 text-uppercase fst-italic">Gudang</span>
-                            <h6 class="card-title mb-1 fw-bold">Gudang 2</h6>
+                            <h6 class="card-title mb-1">Gudang 2</h6>
                             <ul class="ps-0 mt-3 mb-0 list-unstyled small">
                                 <li class="d-flex align-items-center mb-2">
                                     <i class="icon-base ti tabler-building-warehouse me-3"></i>
@@ -238,9 +238,9 @@
                                     alt="Gudang 3 - Gudang Penyimpanan Limbah B3">
                             </a>
                         </div>
-                        <div class="card-body py-3">
+                        <div class="card-body py-3 d-flex flex-column">
                             <span class="badge bg-primary mb-2 text-uppercase fst-italic">Gudang</span>
-                            <h6 class="card-title mb-1 fw-bold">Gudang 3</h6>
+                            <h6 class="card-title mb-1">Gudang 3</h6>
                             <ul class="ps-0 mt-3 mb-0 list-unstyled small">
                                 <li class="d-flex align-items-center mb-2">
                                     <i class="icon-base ti tabler-building-warehouse me-3"></i>
@@ -265,9 +265,9 @@
                                     alt="Gudang 4 - Gudang Penyimpanan Limbah B3">
                             </a>
                         </div>
-                        <div class="card-body py-3">
+                        <div class="card-body py-3 d-flex flex-column">
                             <span class="badge bg-primary mb-2 text-uppercase fst-italic">Gudang</span>
-                            <h6 class="card-title mb-1 fw-bold">Gudang 4</h6>
+                            <h6 class="card-title mb-1">Gudang 4</h6>
                             <ul class="ps-0 mt-3 mb-0 list-unstyled small">
                                 <li class="d-flex align-items-center mb-2">
                                     <i class="icon-base ti tabler-building-warehouse me-3"></i>
@@ -286,7 +286,7 @@
             {{-- Fasilitas Keselamatan di setiap gudang (Owl Carousel) --}}
             <div class="mt-5 position-relative">
                 <div class="text-center mb-3">
-                    <h5 class="mb-0 fw-bold small text-muted fst-italic">
+                    <h5 class="mb-0 pb-0 small text-muted fst-italic">
                         Setiap Gudang dilengkapi Fasilitas Keselamata yang Memadai Seperti :
                     </h5>
                 </div>
@@ -304,7 +304,7 @@
                                     </a>
                                 </div>
                                 <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fw-bold">FIRE EXTINGUISHER</h6>
+                                    <h6 class="card-title mb-0 small fst-italic">FIRE EXTINGUISHER</h6>
                                 </div>
                             </div>
                         </div>
@@ -320,7 +320,7 @@
                                     </a>
                                 </div>
                                 <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fw-bold">ALARM SYSTEM</h6>
+                                    <h6 class="card-title mb-0 small fst-italic">ALARM SYSTEM</h6>
                                 </div>
                             </div>
                         </div>
@@ -330,29 +330,13 @@
                             <div class="card gallery-card border-0 shadow-sm h-100">
                                 <div class="card-img-top position-relative overflow-hidden">
                                     <a href="{{ asset('assets/template/img/gudang/safety4.png') }}" title="EYES WASH"
-                                        data-location="Area Operasional">
+                                        data-location="Area Gudang ">
                                         <img src="{{ asset('assets/template/img/gudang/safety4.png') }}"
                                             class="img-fluid" alt="Eyes Wash">
                                     </a>
                                 </div>
                                 <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fw-bold">EYES WASH</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- LIGHTING PROTECTION --}}
-                        <div class="item mb-2">
-                            <div class="card gallery-card border-0 shadow-sm h-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety3.png') }}"
-                                        title="LIGHTING PROTECTION" data-location="Area Gudang & Kantor">
-                                        <img src="{{ asset('assets/template/img/gudang/safety3.png') }}"
-                                            class="img-fluid" alt="Lighting Protection">
-                                    </a>
-                                </div>
-                                <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fw-bold">LIGHTING PROTECTION</h6>
+                                    <h6 class="card-title mb-0 small fst-italic">EYES WASH</h6>
                                 </div>
                             </div>
                         </div>
@@ -361,14 +345,30 @@
                         <div class="item mb-2">
                             <div class="card gallery-card border-0 shadow-sm h-100">
                                 <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety2.png') }}" title="SPILL KIT"
-                                        data-location="Area Penanganan Tumpahan">
-                                        <img src="{{ asset('assets/template/img/gudang/safety2.png') }}"
-                                            class="img-fluid" alt="Spill Kit">
+                                    <a href="{{ asset('assets/template/img/gudang/safety3.png') }}"
+                                        title="SPILL KIT" data-location="Area Gudang">
+                                        <img src="{{ asset('assets/template/img/gudang/safety3.png') }}"
+                                            class="img-fluid" alt="SPILL KIT">
                                     </a>
                                 </div>
                                 <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fw-bold">SPILL KIT</h6>
+                                    <h6 class="card-title mb-0 small fst-italic">SPILL KIT</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- FIRST AID BOX --}}
+                        <div class="item mb-2">
+                            <div class="card gallery-card border-0 shadow-sm h-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/gudang/safety2.png') }}" title="SPILL KIT"
+                                        data-location="Area Gudang & Kantor">
+                                        <img src="{{ asset('assets/template/img/gudang/safety2.png') }}"
+                                            class="img-fluid" alt="FIRST AID BOX">
+                                    </a>
+                                </div>
+                                <div class="card-body py-2 text-center">
+                                    <h6 class="card-title mb-0 small fst-italic">FIRST AID BOX</h6>
                                 </div>
                             </div>
                         </div>
@@ -378,29 +378,29 @@
                             <div class="card gallery-card border-0 shadow-sm h-100">
                                 <div class="card-img-top position-relative overflow-hidden">
                                     <a href="{{ asset('assets/template/img/gudang/safety5.png') }}" title="SHOWER"
-                                        data-location="Area Operasional">
+                                        data-location="Area Gudang">
                                         <img src="{{ asset('assets/template/img/gudang/safety5.png') }}"
                                             class="img-fluid" alt="Safety Shower">
                                     </a>
                                 </div>
                                 <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fw-bold">SHOWER</h6>
+                                    <h6 class="card-title mb-0 small fst-italic">SHOWER</h6>
                                 </div>
                             </div>
                         </div>
 
-                        {{-- SAFETY ITEM mb-2 7 --}}
+                        {{-- LIGHTNING PROTECTION mb-2 7 --}}
                         <div class="item mb-2">
                             <div class="card gallery-card border-0 shadow-sm h-100">
                                 <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety7.png') }}" title="SAFETY ITEM"
-                                        data-location="Area Operasional">
+                                    <a href="{{ asset('assets/template/img/gudang/safety7.png') }}" title="LIGHTNING PROTECTION"
+                                        data-location="Area Gudang">
                                         <img src="{{ asset('assets/template/img/gudang/safety7.png') }}"
-                                            class="img-fluid" alt="Safety Item">
+                                            class="img-fluid" alt="LIGHTNING PROTECTION">
                                     </a>
                                 </div>
                                 <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fw-bold">SAFETY ITEM</h6>
+                                    <h6 class="card-title mb-0 small fst-italic">LIGHTNING PROTECTION</h6>
                                 </div>
                             </div>
                         </div>
