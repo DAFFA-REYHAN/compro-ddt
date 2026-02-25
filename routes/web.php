@@ -43,21 +43,21 @@ Route::middleware('page-cache')->group(function () {
     Route::get('/dokumen', function () {
         return view('document.document');
     });
-    Route::get('/dokumen/legal', function () {
-        return view('document.lincesing-and-legal');
-    });
-    Route::get('/dokumen/rekomendasi', function () {
-        return view('document.recommend');
-    });
-    Route::get('/dokumen/kerjasama', function () {
-        return view('document.collaboration');
-    });
-    Route::get('/dokumen/asuransi', function () {
-        return view('document.asurance');
-    });
-    Route::get('/dokumen/prestasi', function () {
-        return view('document.awwards');
-    });
+    // Route::get('/dokumen/legal', function () {
+    //     return view('document.lincesing-and-legal');
+    // });
+    // Route::get('/dokumen/rekomendasi', function () {
+    //     return view('document.recommend');
+    // });
+    // Route::get('/dokumen/kerjasama', function () {
+    //     return view('document.collaboration');
+    // });
+    // Route::get('/dokumen/asuransi', function () {
+    //     return view('document.asurance');
+    // });
+    // Route::get('/dokumen/prestasi', function () {
+    //     return view('document.awwards');
+    // });
 
     Route::get('/gallery', function () {
         return view('gallery.gallery');
