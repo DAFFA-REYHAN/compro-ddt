@@ -6,7 +6,7 @@ return [
     'badge'   => 'Tentang Kami',
     'heading' => 'PT Dwi Damar Tirta',
 
-    'paragraph_1' => '<span class="text-black fw-bold">PT Dwi Damar Tirta</span> adalah perusahaan pengumpulan dan pengangkutan limbah B3 dan non‑B3 yang berbasis di Batam dan telah beroperasi sejak 2009.',
+    'paragraph_1' => 'PT Dwi Damar Tirta adalah perusahaan pengumpulan dan pengangkutan limbah B3 dan non‑B3 yang berbasis di Batam dan telah beroperasi sejak 2009.',
     'paragraph_2' => 'Kami membantu perusahaan industri menangani limbah secara aman dan patuh regulasi, mulai dari penjemputan di lokasi, pengangkutan dengan armada berizin, hingga dukungan penyusunan dokumen lingkungan dan perizinan.',
     'paragraph_3' => 'Dengan tim berpengalaman dan fasilitas yang sesuai ketentuan, kami berkomitmen menjadi mitra jangka panjang dalam pengelolaan limbah di perusahaan Anda.',
 
