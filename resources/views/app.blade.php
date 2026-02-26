@@ -248,7 +248,7 @@
                     <span class="fab-label">Email</span>
                     <i class="iconbase ti tabler-mail"></i>
                 </button>
-                <button type="button" class="fab-item" onclick="window.location.href='{{ route('contact') }}'">
+                <button type="button" class="fab-item" onclick=`window.location.href="{{ route('contact') }}"`>
                     <span class="fab-label">Get Quotation</span>
                     <i class="iconbase ti tabler-file-text"></i>
                 </button>
