@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PageController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
@@ -98,6 +99,4 @@ Route::get('/set-locales/{locale}', function (Request $request, $locale) {
     return back();
 })->name('set-locale');
 
-Route::get('/tester', function () {
-    return view('welcome');
-});
+Route::post('/pesan', [ContactController::class, 'sendMail'])->name('message.post');
