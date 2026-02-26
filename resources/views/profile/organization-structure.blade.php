@@ -43,26 +43,4 @@
             </div>
         </div>
     </section>
-
-    {{-- CTA sederhana --}}
-    <section class="py-5">
-        <div class="container">
-            <div
-                class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3 p-4 rounded-3 border bg-outline-light">
-                <div>
-                    <h5 class="mb-1">
-                        {{ __('organization-structure.cta_title') }}
-                    </h5>
-                    <p class="mb-0 text-muted">
-                        {{ __('organization-structure.cta_text') }}
-                    </p>
-                </div>
-                <div>
-                    <a href="{{ url('/kontak-kami') }}" class="btn btn-primary px-4">
-                        {{ __('organization-structure.cta_button') }}
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 @endsection

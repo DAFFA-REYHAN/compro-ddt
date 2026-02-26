@@ -70,6 +70,28 @@
 
     <div data-bs-spy="scroll" class="scrollspy-example">
         @yield('content')
+        @if (!request()->is('kontak-kami'))
+            {{-- CTA --}}
+            <section class="py-5">
+                <div class="container text">
+                    <div class="d-flex flex-column flex-md-row align-items-center align-items-md-center justify-content-between gap-3 p-4 rounded-3 border">
+                        <div class="text-center text-md-start">
+                            <h5 class="mb-1">
+                                {{ __('about.cta_title') }}
+                            </h5>
+                            <p class="mb-0 text-muted">
+                                {{ __('about.cta_text') }}
+                            </p>
+                        </div>
+                        <div class="text-center text-md-start">
+                            <a href="{{ url('/kontak-kami') }}" class="btn btn-primary px-4">
+                                {{ __('about.cta_button') }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        @endif
     </div>
 
     @include('partials.footer')
@@ -87,8 +109,6 @@
     <!-- <script src="{{ asset('/assets/template/vendor/libs/swiper/swiper.js') }}"></script> -->
 
 
-
-    {{-- Floating CTA & Scroll Top --}}
     <style>
         .floating-actions {
             position: fixed;
@@ -120,7 +140,7 @@
 
         .fab-main i {
             font-size: 1.5rem;
-            padding: 0px    ;
+            padding: 0px;
         }
 
         /* Menu Hubungi Kami */
@@ -296,12 +316,6 @@
             });
         });
     </script>
-
-
-
-
-
-
     @stack('scripts')
 </body>
 

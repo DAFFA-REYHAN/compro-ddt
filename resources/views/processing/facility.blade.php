@@ -2,6 +2,721 @@
 
 @section('title', 'Fasilitas & Armada - PT Dwi Damar Tirta')
 
+@section('content')
+    <section class="py-6 bg-white">
+        <div class="container">
+            <div class="section-header mb-5">
+                <div class="section-icon bg-primary">
+                    <i class="iconbase ti tabler-building-warehouse"></i>
+                </div>
+                <div>
+                    <h2 class="fw-bold mb-1">{{ __('facility.warehouse_section_title') }}</h2>
+                    <p class="text-muted mb-0">
+                        {{ __('facility.warehouse_section_description') }}
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-3 popup-gallery-gudang">
+                <div class="col-md-6 col-xl-3">
+                    <div class="card gallery-card border-0 shadow-sm h-100">
+                        <div class="card-img-top position-relative overflow-hidden">
+                            <a href="{{ asset('assets/template/img/gudang/Gudang1.jpeg') }}"
+                                title="{{ __('facility.warehouse1_name') }}"
+                                data-area="{{ __('facility.warehouse1_area') }}"
+                                data-location="{{ __('facility.warehouse1_location') }}">
+                                <img src="{{ asset('assets/template/img/gudang/Gudang1.jpeg') }}" class="img-fluid"
+                                    alt="{{ __('facility.warehouse1_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-primary mb-2 text-uppercase fst-italic">
+                                {{ __('facility.badge_warehouse') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.warehouse1_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-building-warehouse me-3"></i>
+                                    <span>{{ __('facility.label_area') }} : {{ __('facility.warehouse1_area') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.label_location') }} :
+                                        {{ __('facility.warehouse1_location') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3">
+                    <div class="card gallery-card border-0 shadow-sm h-100">
+                        <div class="card-img-top position-relative overflow-hidden">
+                            <a href="{{ asset('assets/template/img/gudang/Gudang2.jpeg') }}"
+                                title="{{ __('facility.warehouse2_name') }}"
+                                data-area="{{ __('facility.warehouse2_area') }}"
+                                data-location="{{ __('facility.warehouse2_location') }}">
+                                <img src="{{ asset('assets/template/img/gudang/Gudang2.jpeg') }}" class="img-fluid"
+                                    alt="{{ __('facility.warehouse2_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-primary mb-2 text-uppercase fst-italic">
+                                {{ __('facility.badge_warehouse') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.warehouse2_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-building-warehouse me-3"></i>
+                                    <span>{{ __('facility.label_area') }} : {{ __('facility.warehouse2_area') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.label_location') }} :
+                                        {{ __('facility.warehouse2_location') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3">
+                    <div class="card gallery-card border-0 shadow-sm h-100">
+                        <div class="card-img-top position-relative overflow-hidden">
+                            <a href="{{ asset('assets/template/img/gudang/Gudang3_2.jpeg') }}"
+                                title="{{ __('facility.warehouse3_name') }}"
+                                data-area="{{ __('facility.warehouse3_area') }}"
+                                data-location="{{ __('facility.warehouse3_location') }}">
+                                <img src="{{ asset('assets/template/img/gudang/Gudang3_2.jpeg') }}" class="img-fluid"
+                                    alt="{{ __('facility.warehouse3_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-primary mb-2 text-uppercase fst-italic">
+                                {{ __('facility.badge_warehouse') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.warehouse3_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-building-warehouse me-3"></i>
+                                    <span>{{ __('facility.label_area') }} : {{ __('facility.warehouse3_area') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.label_location') }} :
+                                        {{ __('facility.warehouse3_location') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3">
+                    <div class="card gallery-card border-0 shadow-sm h-100">
+                        <div class="card-img-top position-relative overflow-hidden">
+                            <a href="{{ asset('assets/template/img/gudang/Gudang4.jpeg') }}"
+                                title="{{ __('facility.warehouse4_name') }}"
+                                data-area="{{ __('facility.warehouse4_area') }}"
+                                data-location="{{ __('facility.warehouse4_location') }}">
+                                <img src="{{ asset('assets/template/img/gudang/Gudang4.jpeg') }}" class="img-fluid"
+                                    alt="{{ __('facility.warehouse4_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-primary mb-2 text-uppercase fst-italic">
+                                {{ __('facility.badge_warehouse') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.warehouse4_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-building-warehouse me-3"></i>
+                                    <span>{{ __('facility.label_area') }} : {{ __('facility.warehouse4_area') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.label_location') }} :
+                                        {{ __('facility.warehouse4_location') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 position-relative">
+                <div class="text-center mb-3">
+                    <h5 class="mb-0 pb-0 small text-muted fst-italic">
+                        {{ __('facility.safety_section_description') }}
+                    </h5>
+                </div>
+
+                <div class="position-relative px-4 px-md-5">
+                    <div class="owl-carousel safety-owl popup-gallery-safety">
+                        <div class="item mb-2">
+                            <div class="card gallery-card border-0 shadow-sm h-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/gudang/safety1.png') }}"
+                                        title="FIRE EXTINGUISHER" data-location="Area Gudang & Kantor">
+                                        <img src="{{ asset('assets/template/img/gudang/safety1.png') }}" class="img-fluid"
+                                            alt="Fire Extinguisher">
+                                    </a>
+                                </div>
+                                <div class="card-body py-2 text-center">
+                                    <h6 class="card-title mb-0 small fst-italic">FIRE EXTINGUISHER</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item mb-2">
+                            <div class="card gallery-card border-0 shadow-sm h-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/gudang/safety6.png') }}" title="ALARM SYSTEM"
+                                        data-location="Area Gudang & Kantor">
+                                        <img src="{{ asset('assets/template/img/gudang/safety6.png') }}"
+                                            class="img-fluid" alt="Alarm System">
+                                    </a>
+                                </div>
+                                <div class="card-body py-2 text-center">
+                                    <h6 class="card-title mb-0 small fst-italic">ALARM SYSTEM</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item mb-2">
+                            <div class="card gallery-card border-0 shadow-sm h-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/gudang/safety4.png') }}" title="EYE WASH"
+                                        data-location="Area Gudang">
+                                        <img src="{{ asset('assets/template/img/gudang/safety4.png') }}"
+                                            class="img-fluid" alt="Eye Wash">
+                                    </a>
+                                </div>
+                                <div class="card-body py-2 text-center">
+                                    <h6 class="card-title mb-0 small fst-italic">EYE WASH</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item mb-2">
+                            <div class="card gallery-card border-0 shadow-sm h-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/gudang/safety3.png') }}" title="SPILL KIT"
+                                        data-location="Area Gudang">
+                                        <img src="{{ asset('assets/template/img/gudang/safety3.png') }}"
+                                            class="img-fluid" alt="Spill Kit">
+                                    </a>
+                                </div>
+                                <div class="card-body py-2 text-center">
+                                    <h6 class="card-title mb-0 small fst-italic">SPILL KIT</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item mb-2">
+                            <div class="card gallery-card border-0 shadow-sm h-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/gudang/safety2.png') }}" title="FIRST AID BOX"
+                                        data-location="Area Gudang & Kantor">
+                                        <img src="{{ asset('assets/template/img/gudang/safety2.png') }}"
+                                            class="img-fluid" alt="First Aid Box">
+                                    </a>
+                                </div>
+                                <div class="card-body py-2 text-center">
+                                    <h6 class="card-title mb-0 small fst-italic">FIRST AID BOX</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item mb-2">
+                            <div class="card gallery-card border-0 shadow-sm h-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/gudang/safety5.png') }}" title="SAFETY SHOWER"
+                                        data-location="Area Gudang">
+                                        <img src="{{ asset('assets/template/img/gudang/safety5.png') }}"
+                                            class="img-fluid" alt="Safety Shower">
+                                    </a>
+                                </div>
+                                <div class="card-body py-2 text-center">
+                                    <h6 class="card-title mb-0 small fst-italic">SAFETY SHOWER</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item mb-2">
+                            <div class="card gallery-card border-0 shadow-sm h-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/gudang/safety7.png') }}"
+                                        title="LIGHTNING PROTECTION" data-location="Area Gudang">
+                                        <img src="{{ asset('assets/template/img/gudang/safety7.png') }}"
+                                            class="img-fluid" alt="Lightning Protection">
+                                    </a>
+                                </div>
+                                <div class="card-body py-2 text-center">
+                                    <h6 class="card-title mb-0 small fst-italic">LIGHTNING PROTECTION</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- ================= ARMADA ================= --}}
+    <section class="py-6 bg-white">
+        <div class="container">
+            <div class="section-header mb-5">
+                <div class="section-icon bg-success">
+                    <i class="iconbase ti tabler-truck"></i>
+                </div>
+                <div>
+                    <h2 class="fw-bold mb-1">{{ __('facility.fleet_section_title') }}</h2>
+                    <p class="text-muted mb-0">
+                        {{ __('facility.fleet_section_description') }}
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-3 popup-gallery-armada">
+
+                {{-- Armada 1 --}}
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden">
+                            <a href="{{ asset('assets/template/img/armada/lorry-bak-terbuka.png') }}"
+                                title="{{ __('facility.fleet1_name') }}" data-location="">
+                                <img src="{{ asset('assets/template/img/armada/lorry-bak-terbuka.png') }}"
+                                    class="img-fluid" alt="{{ __('facility.fleet1_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-success mb-2 text-uppercase">
+                                {{ __('facility.badge_fleet') }}
+                            </span>
+                            <h6 class="card-title mb-3">{{ __('facility.fleet1_name') }}</h6>
+
+                            <ul class="ps-0 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-certificate me-3 text-success"></i>
+                                    <span><strong>{{ __('facility.label_legal') }}
+                                        </strong>{{ __('facility.fleet1_legal') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-weight me-3"></i>
+                                    <span><strong>{{ __('facility.label_capacity') }}:</strong>
+                                        {{ __('facility.fleet1_capacity') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Armada 2 --}}
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden">
+                            <a href="{{ asset('assets/template/img/armada/lorry-box-1.png') }}"
+                                title="{{ __('facility.fleet2_name') }}" data-location="Pool Armada - KPLI KABIL">
+                                <img src="{{ asset('assets/template/img/armada/lorry-box-1.png') }}" class="img-fluid"
+                                    alt="{{ __('facility.fleet2_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-success mb-2 text-uppercase">
+                                {{ __('facility.badge_fleet') }}
+                            </span>
+                            <h6 class="card-title mb-3">{{ __('facility.fleet2_name') }}</h6>
+
+                            <ul class="ps-0 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-certificate me-3 text-success"></i>
+                                    <span><strong>{{ __('facility.label_legal') }}
+                                        </strong>{{ __('facility.fleet2_legal') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-weight me-3"></i>
+                                    <span><strong>{{ __('facility.label_capacity') }}:</strong>
+                                        {{ __('facility.fleet2_capacity') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Armada 3 --}}
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden">
+                            <a href="{{ asset('assets/template/img/armada/lorry-box-2.png') }}"
+                                title="{{ __('facility.fleet2_name') }}" data-location="Pool Armada - KPLI KABIL">
+                                <img src="{{ asset('assets/template/img/armada/lorry-box-2.png') }}" class="img-fluid"
+                                    alt="{{ __('facility.fleet2_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-success mb-2 text-uppercase">
+                                {{ __('facility.badge_fleet') }}
+                            </span>
+                            <h6 class="card-title mb-3">{{ __('facility.fleet2_name') }}</h6>
+
+                            <ul class="ps-0 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-certificate me-3 text-success"></i>
+                                    <span><strong>{{ __('facility.label_legal') }}
+                                        </strong>{{ __('facility.fleet2_legal') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-weight me-3"></i>
+                                    <span><strong>{{ __('facility.label_capacity') }}:</strong>
+                                        {{ __('facility.fleet2_capacity') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Armada 4 --}}
+                <div class="col-md-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden">
+                            <a href="{{ asset('assets/template/img/armada/lorry-box-3.png') }}"
+                                title="{{ __('facility.fleet2_name') }}" data-location="Pool Armada - KPLI KABIL">
+                                <img src="{{ asset('assets/template/img/armada/lorry-box-3.png') }}" class="img-fluid"
+                                    alt="{{ __('facility.fleet2_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-success mb-2 text-uppercase">
+                                {{ __('facility.badge_fleet') }}
+                            </span>
+                            <h6 class="card-title mb-3">{{ __('facility.fleet2_name') }}</h6>
+
+                            <ul class="ps-0 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-certificate me-3 text-success"></i>
+                                    <span><strong>{{ __('facility.label_legal') }}
+                                        </strong>{{ __('facility.fleet2_legal') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-weight me-3"></i>
+                                    <span><strong>{{ __('facility.label_capacity') }}:</strong> 10 TON</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Baris bawah --}}
+                <div class="col-12 mt-4">
+                    <div class="row g-3 justif-content-center">
+
+                        {{-- Armada 5 --}}
+                        <div class="col-md-6 col-lg-3 d-flex">
+                            <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/armada/lorry-crane-1.png') }}"
+                                        title="{{ __('facility.fleet3_name') }}"
+                                        data-location="Pool Armada - KPLI KABIL">
+                                        <img src="{{ asset('assets/template/img/armada/lorry-crane-1.png') }}"
+                                            class="img-fluid" alt="{{ __('facility.fleet3_alt') }}">
+                                    </a>
+                                </div>
+                                <div class="card-body py-3 d-flex flex-column">
+                                    <span class="badge bg-success mb-2 text-uppercase">
+                                        {{ __('facility.badge_fleet') }}
+                                    </span>
+                                    <h6 class="card-title mb-3">{{ __('facility.fleet3_name') }}</h6>
+
+                                    <ul class="ps-0 mb-0 list-unstyled small mt-auto">
+                                        <li class="d-flex align-items-center mb-2">
+                                            <i class="icon-base ti tabler-certificate me-3 text-success"></i>
+                                            <span><strong>{{ __('facility.label_legal') }}
+                                                </strong>{{ __('facility.fleet3_legal') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="icon-base ti tabler-weight me-3"></i>
+                                            <span><strong>{{ __('facility.label_capacity') }}:</strong> 20 TON</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Armada 6 (bisa pakai fleet3_* juga atau buat fleet4_* baru) --}}
+                        <div class="col-md-6 col-lg-3 d-flex">
+                            <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/armada/lorry-crane-2.png') }}"
+                                        title="{{ __('facility.fleet3_name') }}"
+                                        data-location="Pool Armada - KPLI KABIL">
+                                        <img src="{{ asset('assets/template/img/armada/lorry-crane-2.png') }}"
+                                            class="img-fluid" alt="{{ __('facility.fleet3_alt') }}">
+                                    </a>
+                                </div>
+                                <div class="card-body py-3 d-flex flex-column">
+                                    <span class="badge bg-success mb-2 text-uppercase">
+                                        {{ __('facility.badge_fleet') }}
+                                    </span>
+                                    <h6 class="card-title mb-3">{{ __('facility.fleet3_name') }}</h6>
+
+                                    <ul class="ps-0 mb-0 list-unstyled small mt-auto">
+                                        <li class="d-flex align-items-center mb-2">
+                                            <i class="icon-base ti tabler-certificate me-3 text-success"></i>
+                                            <span><strong>{{ __('facility.label_legal') }}
+                                                </strong>{{ __('facility.fleet3_legal') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="icon-base ti tabler-weight me-3"></i>
+                                            <span><strong>{{ __('facility.label_capacity') }}:</strong> 10 TON</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Armada 7: buat fleet4_* di file language jika mau beda --}}
+                        <div class="col-md-6 col-lg-3 d-flex">
+                            <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/armada/truk-tangki.png') }}"
+                                        title="{{ __('facility.fleet4_name') }}"
+                                        data-location="Pool Armada - KPLI KABIL">
+                                        <img src="{{ asset('assets/template/img/armada/truk-tangki.png') }}"
+                                            class="img-fluid" alt="{{ __('facility.fleet4_alt') }}">
+                                    </a>
+                                </div>
+                                <div class="card-body py-3 d-flex flex-column">
+                                    <span class="badge bg-success mb-2 text-uppercase">
+                                        {{ __('facility.badge_fleet') }}
+                                    </span>
+                                    <h6 class="card-title mb-3">{{ __('facility.fleet4_name') }}</h6>
+
+                                    <ul class="ps-0 mb-0 list-unstyled small mt-auto">
+                                        <li class="d-flex align-items-center mb-2">
+                                            <i class="icon-base ti tabler-certificate me-3 text-success"></i>
+                                            <span><strong>{{ __('facility.label_legal') }}
+                                                </strong>{{ __('facility.fleet4_legal') }}</span>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <i class="icon-base ti tabler-weight me-3"></i>
+                                            <span><strong>{{ __('facility.label_capacity') }}:</strong> 24 TON</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    {{-- ================= PERALATAN & TEKNOLOGI ================= --}}
+    <section class="py-6 bg-white">
+        <div class="container">
+            <div class="section-header mb-5">
+                <div class="section-icon bg-warning">
+                    <i class="iconbase ti tabler-tool"></i>
+                </div>
+                <div>
+                    <h2 class="fw-bold mb-1">{{ __('facility.equip_section_title') }}</h2>
+                    <p class="text-muted mb-0">
+                        {{ __('facility.equip_section_description') }}
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-3 popup-gallery-peralatan">
+                {{-- Forklift 1 --}}
+                <div class="col-sm-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
+                            <a href="{{ asset('assets/template/img/peralatan/forklift-1.jpg') }}"
+                                title="{{ __('facility.equip_forklift_name') }}"
+                                data-location="{{ __('facility.equip_forklift_location') }}">
+                                <img src="{{ asset('assets/template/img/peralatan/forklift-1.jpg') }}" class="img-fluid"
+                                    alt="{{ __('facility.equip_forklift_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-warning mb-2 text-uppercase text-dark">
+                                {{ __('facility.badge_equipment') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.equip_forklift_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-weight me-3"></i>
+                                    <span>{{ __('facility.equip_forklift_capacity') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.equip_forklift_location_label') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Forklift 2 (pakai key sama, kalau mau bedakan buat equip_forklift2_* ) --}}
+                <div class="col-sm-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
+                            <a href="{{ asset('assets/template/img/fasilitas/fac-forklift.png') }}"
+                                title="{{ __('facility.equip_forklift_name') }}"
+                                data-location="{{ __('facility.equip_forklift_location') }}">
+                                <img src="{{ asset('assets/template/img/fasilitas/fac-forklift.png') }}"
+                                    class="img-fluid" alt="{{ __('facility.equip_forklift_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-warning mb-2 text-uppercase text-dark">
+                                {{ __('facility.badge_equipment') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.equip_forklift_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-weight me-3"></i>
+                                    <span>{{ __('facility.equip_forklift_capacity') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.equip_forklift_location_label') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Excavator 1 --}}
+                <div class="col-sm-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
+                            <a href="{{ asset('assets/template/img/peralatan/excavator-komatsu.jpg') }}"
+                                title="{{ __('facility.equip_excavator_name') }}"
+                                data-location="{{ __('facility.equip_excavator_location') }}">
+                                <img src="{{ asset('assets/template/img/peralatan/excavator-komatsu.jpg') }}"
+                                    class="img-fluid" alt="{{ __('facility.equip_excavator_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-warning mb-2 text-uppercase text-dark">
+                                {{ __('facility.badge_equipment') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.equip_excavator_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-tools me-3"></i>
+                                    <span>{{ __('facility.equip_excavator_usage') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.equip_excavator_location_label') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Excavator 2 --}}
+                <div class="col-sm-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
+                            <a href="{{ asset('assets/template/img/peralatan/excavator-cobelco.jpg') }}"
+                                title="{{ __('facility.equip_excavator_name') }}"
+                                data-location="{{ __('facility.equip_excavator_location') }}">
+                                <img src="{{ asset('assets/template/img/peralatan/excavator-cobelco.jpg') }}"
+                                    class="img-fluid" alt="{{ __('facility.equip_excavator_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-warning mb-2 text-uppercase text-dark">
+                                {{ __('facility.badge_equipment') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.equip_excavator_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-tools me-3"></i>
+                                    <span>{{ __('facility.equip_excavator_usage') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.equip_excavator_location_label') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-3 justify-content-center mt-1 popup-gallery-peralatan">
+                {{-- GPS Tracking --}}
+                <div class="col-sm-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
+                            <a href="{{ asset('assets/template/img/peralatan/gps-tracker.png') }}"
+                                title="{{ __('facility.equip_gps_name') }}"
+                                data-location="{{ __('facility.equip_gps_location') }}">
+                                <img src="{{ asset('assets/template/img/peralatan/gps-tracker.png') }}"
+                                    class="img-fluid" alt="{{ __('facility.equip_gps_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-warning mb-2 text-uppercase text-dark">
+                                {{ __('facility.badge_technology') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.equip_gps_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-map-search me-3"></i>
+                                    <span>{{ __('facility.equip_gps_desc') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.equip_gps_location_label') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- CCTV --}}
+                <div class="col-sm-6 col-lg-3 d-flex">
+                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
+                            <a href="{{ asset('assets/template/img/peralatan/cctv-sistem.png') }}"
+                                title="{{ __('facility.equip_cctv_name') }}"
+                                data-location="{{ __('facility.equip_cctv_location') }}">
+                                <img src="{{ asset('assets/template/img/peralatan/cctv-sistem.png') }}"
+                                    class="img-fluid" alt="{{ __('facility.equip_cctv_alt') }}">
+                            </a>
+                        </div>
+                        <div class="card-body py-3 d-flex flex-column">
+                            <span class="badge bg-warning mb-2 text-uppercase text-dark">
+                                {{ __('facility.badge_technology') }}
+                            </span>
+                            <h6 class="card-title mb-1">{{ __('facility.equip_cctv_name') }}</h6>
+                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
+                                <li class="d-flex align-items-center mb-2">
+                                    <i class="icon-base ti tabler-device-cctv me-3"></i>
+                                    <span>{{ __('facility.equip_cctv_desc') }}</span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="icon-base ti tabler-map-pin me-3"></i>
+                                    <span>{{ __('facility.equip_cctv_location_label') }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+@endsection
+
+
 @push('styles')
     {{-- Magnific Popup CSS --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
@@ -156,673 +871,6 @@
         }
     </style>
 @endpush
-
-@section('content')
-    {{-- ================= GUDANG & PENYIMPANAN ================= --}}
-    <section class="py-6 bg-white">
-        <div class="container">
-            <div class="section-header mb-5">
-                <div class="section-icon bg-primary">
-                    <i class="iconbase ti tabler-building-warehouse"></i>
-                </div>
-                <div>
-                    <h2 class="fw-bold mb-1">Fasilitas Penyimpanan (Gudang)</h2>
-                    <p class="text-muted mb-0">
-                        Fasilitas penyimpanan berstandar K3 dan lingkungan sesuai regulasi.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row g-3 popup-gallery-gudang">
-                {{-- Gudang 1 --}}
-                <div class="col-md-6 col-xl-3">
-                    <div class="card gallery-card border-0 shadow-sm h-100">
-                        <div class="card-img-top position-relative overflow-hidden">
-                            <a href="{{ asset('assets/template/img/gudang/Gudang1.jpeg') }}" title="Gudang 1"
-                                data-area="518.43" data-location="KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/gudang/Gudang1.jpeg') }}" class="img-fluid"
-                                    alt="Gudang 1 - Gudang Penyimpanan Limbah B3">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-primary mb-2 text-uppercase fst-italic">Gudang</span>
-                            <h6 class="card-title mb-1">Gudang 1</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-building-warehouse me-3"></i>
-                                    <span>LUAS : 518.43 M<sup>2</sup></span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>LOKASI : KPLI KABIL</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Gudang 2 --}}
-                <div class="col-md-6 col-xl-3">
-                    <div class="card gallery-card border-0 shadow-sm h-100">
-                        <div class="card-img-top position-relative overflow-hidden">
-                            <a href="{{ asset('assets/template/img/gudang/Gudang2.jpeg') }}" title="Gudang 2"
-                                data-area="985" data-location="KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/gudang/Gudang2.jpeg') }}" class="img-fluid"
-                                    alt="Gudang 2 - Gudang Penyimpanan Limbah B3">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-primary mb-2 text-uppercase fst-italic">Gudang</span>
-                            <h6 class="card-title mb-1">Gudang 2</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-building-warehouse me-3"></i>
-                                    <span>LUAS : 985 M<sup>2</sup></span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>LOKASI : KPLI KABIL</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Gudang 3 --}}
-                <div class="col-md-6 col-xl-3">
-                    <div class="card gallery-card border-0 shadow-sm h-100">
-                        <div class="card-img-top position-relative overflow-hidden">
-                            <a href="{{ asset('assets/template/img/gudang/Gudang3_2.jpeg') }}" title="Gudang 3"
-                                data-area="675" data-location="KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/gudang/Gudang3_2.jpeg') }}" class="img-fluid"
-                                    alt="Gudang 3 - Gudang Penyimpanan Limbah B3">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-primary mb-2 text-uppercase fst-italic">Gudang</span>
-                            <h6 class="card-title mb-1">Gudang 3</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-building-warehouse me-3"></i>
-                                    <span>LUAS : 675 M<sup>2</sup></span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>LOKASI : KPLI KABIL</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Gudang 4 --}}
-                <div class="col-md-6 col-xl-3">
-                    <div class="card gallery-card border-0 shadow-sm h-100">
-                        <div class="card-img-top position-relative overflow-hidden">
-                            <a href="{{ asset('assets/template/img/gudang/Gudang4.jpeg') }}" title="Gudang 4"
-                                data-area="2168.5" data-location="KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/gudang/Gudang4.jpeg') }}" class="img-fluid"
-                                    alt="Gudang 4 - Gudang Penyimpanan Limbah B3">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-primary mb-2 text-uppercase fst-italic">Gudang</span>
-                            <h6 class="card-title mb-1">Gudang 4</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-building-warehouse me-3"></i>
-                                    <span>LUAS : 2168.5 M<sup>2</sup></span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>LOKASI : KPLI KABIL</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> {{-- /.popup-gallery-gudang --}}
-
-            {{-- Fasilitas Keselamatan di setiap gudang (Owl Carousel) --}}
-            <div class="mt-5 position-relative">
-                <div class="text-center mb-3">
-                    <h5 class="mb-0 pb-0 small text-muted fst-italic">
-                        Setiap Gudang dilengkapi Fasilitas Keselamata yang Memadai Seperti :
-                    </h5>
-                </div>
-
-                <div class="position-relative px-4 px-md-5">
-                    <div class="owl-carousel safety-owl popup-gallery-safety">
-                        {{-- FIRE EXTINGUISHER --}}
-                        <div class="item mb-2">
-                            <div class="card gallery-card border-0 shadow-sm h-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety1.png') }}"
-                                        title="FIRE EXTINGUISHER" data-location="Area Gudang & Kantor">
-                                        <img src="{{ asset('assets/template/img/gudang/safety1.png') }}" class="img-fluid"
-                                            alt="Fire Extinguisher">
-                                    </a>
-                                </div>
-                                <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fst-italic">FIRE EXTINGUISHER</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- ALARM SYSTEM --}}
-                        <div class="item mb-2">
-                            <div class="card gallery-card border-0 shadow-sm h-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety6.png') }}" title="ALARM SYSTEM"
-                                        data-location="Area Gudang & Kantor">
-                                        <img src="{{ asset('assets/template/img/gudang/safety6.png') }}"
-                                            class="img-fluid" alt="Alarm System">
-                                    </a>
-                                </div>
-                                <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fst-italic">ALARM SYSTEM</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- EYES WASH --}}
-                        <div class="item mb-2">
-                            <div class="card gallery-card border-0 shadow-sm h-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety4.png') }}" title="EYES WASH"
-                                        data-location="Area Gudang ">
-                                        <img src="{{ asset('assets/template/img/gudang/safety4.png') }}"
-                                            class="img-fluid" alt="Eyes Wash">
-                                    </a>
-                                </div>
-                                <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fst-italic">EYES WASH</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- SPILL KIT --}}
-                        <div class="item mb-2">
-                            <div class="card gallery-card border-0 shadow-sm h-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety3.png') }}"
-                                        title="SPILL KIT" data-location="Area Gudang">
-                                        <img src="{{ asset('assets/template/img/gudang/safety3.png') }}"
-                                            class="img-fluid" alt="SPILL KIT">
-                                    </a>
-                                </div>
-                                <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fst-italic">SPILL KIT</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- FIRST AID BOX --}}
-                        <div class="item mb-2">
-                            <div class="card gallery-card border-0 shadow-sm h-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety2.png') }}" title="SPILL KIT"
-                                        data-location="Area Gudang & Kantor">
-                                        <img src="{{ asset('assets/template/img/gudang/safety2.png') }}"
-                                            class="img-fluid" alt="FIRST AID BOX">
-                                    </a>
-                                </div>
-                                <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fst-italic">FIRST AID BOX</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- SHOWER --}}
-                        <div class="item mb-2">
-                            <div class="card gallery-card border-0 shadow-sm h-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety5.png') }}" title="SHOWER"
-                                        data-location="Area Gudang">
-                                        <img src="{{ asset('assets/template/img/gudang/safety5.png') }}"
-                                            class="img-fluid" alt="Safety Shower">
-                                    </a>
-                                </div>
-                                <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fst-italic">SHOWER</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- LIGHTNING PROTECTION mb-2 7 --}}
-                        <div class="item mb-2">
-                            <div class="card gallery-card border-0 shadow-sm h-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/gudang/safety7.png') }}" title="LIGHTNING PROTECTION"
-                                        data-location="Area Gudang">
-                                        <img src="{{ asset('assets/template/img/gudang/safety7.png') }}"
-                                            class="img-fluid" alt="LIGHTNING PROTECTION">
-                                    </a>
-                                </div>
-                                <div class="card-body py-2 text-center">
-                                    <h6 class="card-title mb-0 small fst-italic">LIGHTNING PROTECTION</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div> {{-- /.owl-carousel --}}
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- ================= ARMADA ================= --}}
-    <section class="py-6 bg-white">
-        <div class="container">
-            <div class="section-header mb-5">
-                <div class="section-icon bg-success">
-                    <i class="iconbase ti tabler-truck"></i>
-                </div>
-                <div>
-                    <h2 class="fw-bold mb-1">Armada Transportasi</h2>
-                    <p class="text-muted mb-0">
-                        Armada berizin resmi dengan standar keselamatan tinggi untuk pengangkutan limbah B3.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row g-3 popup-gallery-armada">
-
-                {{-- ================== BARIS ATAS (4 ARMADA) ================== --}}
-                {{-- Armada 1 --}}
-                <div class="col-md-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden">
-                            <a href="{{ asset('assets/template/img/armada/lorry-bak-terbuka.png') }}"
-                                title="Truk Pengangkut Limbah B3" data-location="">
-                                <img src="{{ asset('assets/template/img/armada/lorry-bak-terbuka.png') }}"
-                                    class="img-fluid" alt="Truk Bak Terbuka">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-success mb-2 text-uppercase">Armada</span>
-                            <h6 class="card-title mb-3">Truk Bak Terbuka</h6>
-
-                            <ul class="ps-0 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-certificate me-3 text-success"></i>
-                                    <span><strong>Perizinan </strong>✅</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-weight me-3"></i>
-                                    <span><strong>Kapasitas:</strong> 20 ton</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Armada 2 --}}
-                <div class="col-md-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden">
-                            <a href="{{ asset('assets/template/img/armada/lorry-box-1.png') }}" title="Truk Wing Box 1"
-                                data-location="Pool Armada - KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/armada/lorry-box-1.png') }}" class="img-fluid"
-                                    alt="Truk Wing Box 1">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-success mb-2 text-uppercase">Armada</span>
-                            <h6 class="card-title mb-3">Truk Wing Box</h6>
-
-                            <ul class="ps-0 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-certificate me-3 text-success"></i>
-                                    <span><strong>Perizinan </strong>✅</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-weight me-3"></i>
-                                    <span><strong>Kapasitas:</strong> 20 TON</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Armada 3 --}}
-                <div class="col-md-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden">
-                            <a href="{{ asset('assets/template/img/armada/lorry-box-2.png') }}" title="Truk Wing Box 2"
-                                data-location="Pool Armada - KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/armada/lorry-box-2.png') }}" class="img-fluid"
-                                    alt="Truk Wing Box 2">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-success mb-2 text-uppercase">Armada</span>
-                            <h6 class="card-title mb-3">Truk Wing Box</h6>
-
-                            <ul class="ps-0 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-certificate me-3 text-success"></i>
-                                    <span><strong>Perizinan </strong>✅</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-weight me-3"></i>
-                                    <span><strong>Kapasitas:</strong> 20 TON</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Armada 4 --}}
-                <div class="col-md-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden">
-                            <a href="{{ asset('assets/template/img/armada/lorry-box-3.png') }}" title="Truk Wing Box 3"
-                                data-location="Pool Armada - KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/armada/lorry-box-3.png') }}" class="img-fluid"
-                                    alt="Truk Wing Box 3">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-success mb-2 text-uppercase">Armada</span>
-                            <h6 class="card-title mb-3">Truk Wing Box</h6>
-
-                            <ul class="ps-0 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-certificate me-3 text-success"></i>
-                                    <span><strong>Perizinan </strong>✅</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-weight me-3"></i>
-                                    <span><strong>Kapasitas:</strong> 10 TON</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- ================== BARIS BAWAH (3 ARMADA, TENGAH) ================== --}}
-                <div class="col-12 mt-4">
-                    <div class="row g-3 justif-content-center">
-
-                        {{-- Armada 5 --}}
-                        <div class="col-md-6 col-lg-3 d-flex">
-                            <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/armada/lorry-crane-1.png') }}"
-                                        title="Truk Bak Crane" data-location="Pool Armada - KPLI KABIL">
-                                        <img src="{{ asset('assets/template/img/armada/lorry-crane-1.png') }}"
-                                            class="img-fluid" alt="Truk Bak Crane">
-                                    </a>
-                                </div>
-                                <div class="card-body py-3 d-flex flex-column">
-                                    <span class="badge bg-success mb-2 text-uppercase">Armada</span>
-                                    <h6 class="card-title mb-3">Truk Bak Crane</h6>
-
-                                    <ul class="ps-0 mb-0 list-unstyled small mt-auto">
-                                        <li class="d-flex align-items-center mb-2">
-                                            <i class="icon-base ti tabler-certificate me-3 text-success"></i>
-                                            <span><strong>Perizinan </strong>✅</span>
-                                        </li>
-                                        <li class="d-flex align-items-center">
-                                            <i class="icon-base ti tabler-weight me-3"></i>
-                                            <span><strong>Kapasitas:</strong> 20 TON</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- Armada 6 --}}
-                        <div class="col-md-6 col-lg-3 d-flex">
-                            <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/armada/lorry-crane-2.png') }}"
-                                        title="Truk Bak Crane 2" data-location="Pool Armada - KPLI KABIL">
-                                        <img src="{{ asset('assets/template/img/armada/lorry-crane-2.png') }}"
-                                            class="img-fluid" alt="Truk Bak Crane 2">
-                                    </a>
-                                </div>
-                                <div class="card-body py-3 d-flex flex-column">
-                                    <span class="badge bg-success mb-2 text-uppercase">Armada</span>
-                                    <h6 class="card-title mb-3">Truk Bak Crane</h6>
-
-                                    <ul class="ps-0 mb-0 list-unstyled small mt-auto">
-                                        <li class="d-flex align-items-center mb-2">
-                                            <i class="icon-base ti tabler-certificate me-3 text-success"></i>
-                                            <span><strong>Perizinan </strong>✅</span>
-                                        </li>
-                                        <li class="d-flex align-items-center">
-                                            <i class="icon-base ti tabler-weight me-3"></i>
-                                            <span><strong>Kapasitas:</strong> 10 TON</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- Armada 7 --}}
-                        <div class="col-md-6 col-lg-3 d-flex">
-                            <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                                <div class="card-img-top position-relative overflow-hidden">
-                                    <a href="{{ asset('assets/template/img/armada/truk-tangki.png') }}"
-                                        title="Truk Tangki" data-location="Pool Armada - KPLI KABIL">
-                                        <img src="{{ asset('assets/template/img/armada/truk-tangki.png') }}"
-                                            class="img-fluid" alt="Truk Tangki">
-                                    </a>
-                                </div>
-                                <div class="card-body py-3 d-flex flex-column">
-                                    <span class="badge bg-success mb-2 text-uppercase">Armada</span>
-                                    <h6 class="card-title mb-3">Truk Tangki</h6>
-
-                                    <ul class="ps-0 mb-0 list-unstyled small mt-auto">
-                                        <li class="d-flex align-items-center mb-2">
-                                            <i class="icon-base ti tabler-certificate me-3 text-success"></i>
-                                            <span><strong>Perizinan </strong>✅</span>
-                                        </li>
-                                        <li class="d-flex align-items-center">
-                                            <i class="icon-base ti tabler-weight me-3"></i>
-                                            <span><strong>Kapasitas:</strong> 24 TON </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> {{-- /.row bawah --}}
-                </div>
-
-            </div> {{-- /.popup-gallery-armada --}}
-        </div>
-    </section>
-
-
-    {{-- ================= PERALATAN & TEKNOLOGI ================= --}}
-    <section class="py-6 bg-white">
-        <div class="container">
-            <div class="section-header mb-5">
-                <div class="section-icon bg-warning">
-                    <i class="iconbase ti tabler-tool"></i>
-                </div>
-                <div>
-                    <h2 class="fw-bold mb-1">Peralatan & Teknologi</h2>
-                    <p class="text-muted mb-0">
-                        Peralatan modern untuk operasional yang aman dan efisien.
-                    </p>
-                </div>
-            </div>
-
-            {{-- BARIS PERTAMA: 4 CARD --}}
-            <div class="row g-3 popup-gallery-peralatan">
-                {{-- Forklift 1 --}}
-                <div class="col-sm-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
-                            <a href="{{ asset('assets/template/img/peralatan/forklift-1.jpg') }}" title="Forklift"
-                                data-location="Area Operasional Gudang - KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/peralatan/forklift-1.jpg') }}" class="img-fluid"
-                                    alt="Forklift">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-warning mb-2 text-uppercase text-dark">Peralatan</span>
-                            <h6 class="card-title mb-1">Forklift</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-weight me-3"></i>
-                                    <span>Kapasitas 3 ton</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>Lokasi : Area Operasional Gudang - KPLI KABIL</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Forklift 2 --}}
-                <div class="col-sm-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
-                            <a href="{{ asset('assets/template/img/fasilitas/fac-forklift.png') }}" title="Forklift"
-                                data-location="Area Operasional Gudang - KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/fasilitas/fac-forklift.png') }}"
-                                    class="img-fluid" alt="Forklift">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-warning mb-2 text-uppercase text-dark">Peralatan</span>
-                            <h6 class="card-title mb-1">Forklift</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-weight me-3"></i>
-                                    <span>Kapasitas 3 ton</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>Lokasi : Area Operasional Gudang - KPLI KABIL</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Excavator 1 --}}
-                <div class="col-sm-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
-                            <a href="{{ asset('assets/template/img/peralatan/excavator-komatsu.jpg') }}"
-                                title="Excavator" data-location="Area Operasional Gudang - KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/peralatan/excavator-komatsu.jpg') }}"
-                                    class="img-fluid" alt="Excavator">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-warning mb-2 text-uppercase text-dark">Peralatan</span>
-                            <h6 class="card-title mb-1">Excavator</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-tools me-3"></i>
-                                    <span>Penanganan material volume besar</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>Lokasi : Area Operasional Gudang - KPLI KABIL</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Excavator 2 --}}
-                <div class="col-sm-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
-                            <a href="{{ asset('assets/template/img/peralatan/excavator-cobelco.jpg') }}"
-                                title="Excavator" data-location="Area Operasional Gudang - KPLI KABIL">
-                                <img src="{{ asset('assets/template/img/peralatan/excavator-cobelco.jpg') }}"
-                                    class="img-fluid" alt="Excavator">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-warning mb-2 text-uppercase text-dark">Peralatan</span>
-                            <h6 class="card-title mb-1">Excavator</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-tools me-3"></i>
-                                    <span>Penanganan material volume besar</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>Lokasi : Area Operasional Gudang - KPLI KABIL</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {{-- BARIS KEDUA: CARD DI TENGAH (GPS, CCTV) --}}
-            <div class="row g-3 justify-content-center mt-1 popup-gallery-peralatan">
-                {{-- GPS Tracking --}}
-                <div class="col-sm-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
-                            <a href="{{ asset('assets/template/img/peralatan/gps-tracker.png') }}"
-                                title="GPS Tracking Armada" data-location="Seluruh Armada Operasional">
-                                <img src="{{ asset('assets/template/img/peralatan/gps-tracker.png') }}" class="img-fluid"
-                                    alt="GPS Tracking Armada">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-warning mb-2 text-uppercase text-dark">Teknologi</span>
-                            <h6 class="card-title mb-1">GPS Tracking Armada</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-map-search me-3"></i>
-                                    <span>Monitoring pergerakan armada real-time</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>Lokasi : Seluruh Armada Operasional</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- CCTV --}}
-                <div class="col-sm-6 col-lg-3 d-flex">
-                    <div class="card gallery-card border-0 shadow-sm h-100 w-100">
-                        <div class="card-img-top position-relative overflow-hidden card-img-top-peralatan">
-                            <a href="{{ asset('assets/template/img/peralatan/cctv-sistem.png') }}"
-                                title="CCTV & Sistem Monitoring" data-location="Area Gudang & Kantor">
-                                <img src="{{ asset('assets/template/img/peralatan/cctv-sistem.png') }}" class="img-fluid"
-                                    alt="CCTV & Sistem Monitoring">
-                            </a>
-                        </div>
-                        <div class="card-body py-3 d-flex flex-column">
-                            <span class="badge bg-warning mb-2 text-uppercase text-dark">Teknologi</span>
-                            <h6 class="card-title mb-1">CCTV & Sistem Monitoring</h6>
-                            <ul class="ps-0 mt-3 mb-0 list-unstyled small mt-auto">
-                                <li class="d-flex align-items-center mb-2">
-                                    <i class="icon-base ti tabler-device-cctv me-3"></i>
-                                    <span>Pengawasan area 24/7</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="icon-base ti tabler-map-pin me-3"></i>
-                                    <span>Lokasi : Area Gudang & Kantor</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> {{-- /.row kedua --}}
-        </div>
-    </section>
-
-
-@endsection
 
 @push('scripts')
     {{-- jQuery + Magnific Popup --}}
