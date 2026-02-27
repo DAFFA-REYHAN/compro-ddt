@@ -338,11 +338,11 @@
                 <div class="col-12 col-md-6 col-lg-4 gallery-item" data-category="pengiriman" data-type="video"
                     data-title="Video Pengiriman Limbah B3" data-location="Lokasi Perusahaan Rekanan" data-date="2025"
                     data-description="Dokumentasi proses pengiriman limbah B3 ke perusahaan pemanfaat/pengolah berizin."
-                    data-src="{{ asset('assets/template/img/gallery/pengiriman.MP4') }}">
+                    data-src="{{ asset('assets/template/img/gallery/pengiriman.mp4') }}">
                     <article class="gallery-card">
                         <div class="gallery-thumb-wrapper">
                             <video class="gallery-thumb" controls preload="metadata">
-                                <source src="{{ asset('assets/template/img/gallery/pengiriman.MP4') }}" type="video/mp4">
+                                <source src="{{ asset('assets/template/img/gallery/pengiriman.mp4') }}" type="video/mp4">
                                 Browser Anda tidak mendukung video tag.
                             </video>
                         </div>
