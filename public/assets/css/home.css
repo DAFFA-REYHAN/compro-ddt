@@ -532,7 +532,7 @@
 /* Logo di tengah gambar */
 .hero-logo-center {
     position: absolute;
-    top: 40%;
+    top: 10%;
     /* sedikit di atas tengah */
     left: 50%;
     transform: translate(-50%, -50%);
@@ -556,7 +556,7 @@
 .hero-tagline-card {
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 90%;
     /* tadinya 50%, digeser ke bawah logo */
     transform: translate(-50%, -50%);
     min-width: 260px;

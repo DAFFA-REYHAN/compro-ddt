@@ -85,14 +85,9 @@
             <div class="col-lg-6">
                 <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
                     <div class="image-wrapper position-relative">
-                        <img src="{{ asset('assets/template/img/Hero/Hero1.webp') }}"
+                        <img src="{{ asset('assets/template/img/Hero/Hero6.webp') }}"
                             alt="Kantor PT Dwi Damar Tirta dan armada pengangkutan limbah B3 di Batam">
 
-                        {{-- LOGO DI TENGAH ATAS TAGLINE --}}
-                        <div class="hero-logo-center">
-                            <img src="{{ asset('assets/template/img/logo/logo dwi damar tirta.webp') }}"
-                                alt=" Logo PT Dwi Damar Tirta ">
-                        </div>
 
                         {{-- Tagline sedikit di bawah logo --}}
                         <div class="hero-tagline-card">
