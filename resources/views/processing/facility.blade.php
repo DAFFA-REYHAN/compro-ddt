@@ -505,6 +505,44 @@
                                 </div>
                             </div>
                         </div>
+                        {{-- Armada 8: buat fleet4_* di file language jika mau beda --}}
+                        <div class="col-md-6 col-lg-3 d-flex">
+                            <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/armada/fac-km-01.png') }}"
+                                        title="{{ __('facility.fleet4_name') }}">
+                                        <img src="{{ asset('assets/template/img/armada/fac-km-01.png') }}"
+                                            class="img-fluid" alt="KM. FGA – 138}">
+                                    </a>
+                                </div>
+                                <div class="card-body py-3 d-flex flex-column">
+                                    <span class="badge bg-success mb-2 text-uppercase">
+                                        {{ __('facility.badge_fleet') }}
+                                    </span>
+                                    <h6 class="card-title mb-3">KM. FGA – 138</h6>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- Armada 9: buat fleet4_* di file language jika mau beda --}}
+                        <div class="col-md-6 mx-lg-auto col-lg-3 d-flex">
+                            <div class="card gallery-card border-0 shadow-sm h-100 w-100">
+                                <div class="card-img-top position-relative overflow-hidden">
+                                    <a href="{{ asset('assets/template/img/armada/fac-km-02.png') }}"
+                                        title="KM. Sekar Permata">
+                                        <img src="{{ asset('assets/template/img/armada/fac-km-02.png') }}"
+                                            class="img-fluid" alt="KM. Sekar Permata">
+                                    </a>
+                                </div>
+                                <div class="card-body py-3 d-flex flex-column">
+                                    <span class="badge bg-success mb-2 text-uppercase">
+                                        {{ __('facility.badge_fleet') }}
+                                    </span>
+                                    <h6 class="card-title mb-3">KM. Sekar Permata</h6>
+
+                                  
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
