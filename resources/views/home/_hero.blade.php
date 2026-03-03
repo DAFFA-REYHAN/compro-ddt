@@ -31,7 +31,7 @@
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="/dokumen/legal" class="btn btn-outline-primary w-100 py-3">
+                                <a href="/dokumen" class="btn btn-outline-primary w-100 py-3">
                                     <span>{{ __('home.legal') }}</span>
                                 </a>
                             </div>

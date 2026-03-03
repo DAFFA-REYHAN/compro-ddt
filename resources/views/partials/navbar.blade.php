@@ -233,42 +233,13 @@
             </li>
 
             {{-- Dokumen --}}
-            <li class="has-submenu">
-                <button type="button" class="menu-toggle {{ Request::is('dokumen*') ? 'active' : '' }}">
+            <li >
+                <a href="{{ url('/dokumen') }}" class="{{ Request::is('dokumen*') ? 'active' : '' }}">
                     <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
-                    <span class="ms-2">{{ __('nav.document') }}</span>
-                    <span class="arrow-icon">
-                        <i class="iconbase ti tabler-chevron-right" aria-hidden="true"></i>
-                    </span>
-                </button>
-                <ul class="submenu">
-                    <li>
-                        <a href="{{ url('/dokumen/legal') }}">
-                            {{ __('nav.legal') }}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ url('/dokumen/rekomendasi') }}">
-                            {{ __('nav.recomendation') }}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ url('/dokumen/kerjasama') }}">
-                            {{ __('nav.partnership') }}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ url('/dokumen/asuransi') }}">
-                            {{ __('nav.insurence') }}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ url('/dokumen/prestasi') }}">
-                            {{ __('nav.achievment') }}
-                        </a>
-                    </li>
-                </ul>
+                    <span>{{ __('nav.document') }}</span>
+                </a>
             </li>
+              
 
             {{-- Gallery --}}
             <li>

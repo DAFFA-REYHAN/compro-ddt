@@ -62,7 +62,7 @@
 
 </head>
 
-<body>
+<body style="scrollbar-behavior: smooth !important;">
     <!-- <script src="{{ asset('/assets/template/vendor/js/dropdown-hover.js') }}"></script> -->
     <!-- <script src="{{ asset('/assets/template/vendor/js/mega-dropdown.js') }}"></script> -->
 
