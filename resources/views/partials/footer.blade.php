@@ -42,17 +42,17 @@
                         </li>
 
                         <li class="mb-2">
-                            <a href="{{ url('/tentang-kami') }}" class="footer-link">{{ __('footer.nav_about') }}</a>
+                            <a href="{{ url('/profil/tentang-kami') }}" class="footer-link">{{ __('footer.nav_about') }}</a>
                         </li>
                         <li class="mb-2">
-                            <a href="{{ url('/visi-misi') }}" class="footer-link">{{ __('footer.nav_vision_mission') }}</a>
+                            <a href="{{ url('/profil/visi-misi') }}" class="footer-link">{{ __('footer.nav_vision_mission') }}</a>
                         </li>
                         <li class="mb-2">
-                            <a href="{{ url('/struktur-organisasi') }}" class="footer-link">{{ __('footer.nav_structure') }}</a>
+                            <a href="{{ url('/profil/struktur-organisasi') }}" class="footer-link">{{ __('footer.nav_structure') }}</a>
                         </li>
 
                         <li class="mb-2">
-                            <a href="{{ url('/layanan') }}" class="footer-link">{{ __('footer.nav_services') }}</a>
+                            <a href="{{ url('/layanan-kami') }}" class="footer-link">{{ __('footer.nav_services') }}</a>
                         </li>
                         <li class="mb-2">
                             <a href="{{ url('/fasilitas') }}" class="footer-link">{{ __('footer.nav_facilities') }}</a>
