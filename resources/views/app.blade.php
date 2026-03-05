@@ -14,7 +14,6 @@
     <title>@yield('title', 'PT Dwi Damar Tirta: Pengelolaan Limbah B3 Profesional di Batam')</title>
 
     <meta name="description" content="@yield('meta_description', 'PT Dwi Damar Tirta melayani pengangkutan, pengumpulan, penyimpanan, dan pengiriman limbah B3 di Batam secara legal dan sesuai regulasi.')">
-    {!! SEOTools::generate() !!}
     {{-- Canonical URL --}}
     <link rel="canonical" href="@yield('canonical', url()->current())" />
 
