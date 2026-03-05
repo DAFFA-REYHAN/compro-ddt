@@ -14,6 +14,7 @@
     <title>@yield('title', 'PT Dwi Damar Tirta: Pengelolaan Limbah B3 Profesional di Batam')</title>
 
     <meta name="description" content="@yield('meta_description', 'PT Dwi Damar Tirta melayani pengangkutan, pengumpulan, penyimpanan, dan pengiriman limbah B3 di Batam secara legal dan sesuai regulasi.')">
+    {!! SEOTools::generate() !!}
     {{-- Canonical URL --}}
     <link rel="canonical" href="@yield('canonical', url()->current())" />
 
@@ -248,7 +249,7 @@
                     <span class="fab-label">Email</span>
                     <i class="iconbase ti tabler-mail"></i>
                 </button>
-                <button type="button" class="fab-item" onclick=`window.location.href="{{ route('contact') }}"`>
+                <button type="button" class="fab-item" onclick="window.location.href='{{ route('contact') }}'">
                     <span class="fab-label">Get Quotation</span>
                     <i class="iconbase ti tabler-file-text"></i>
                 </button>
