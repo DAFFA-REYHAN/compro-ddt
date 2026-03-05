@@ -1,14 +1,16 @@
 @php
     $urls = [
         url('/'),
-        route('pengelolaan-limbah-b3-batam),
+        url('/pengelolaan-limbah-b3-batam'),
+        url('/transporter-pengumpul-limbah-b3-batam'),
+        url('/pembersihan-tangki-kapal-tank-cleaning'),
         url('/profil/tentang-kami'),
         url('/profil/visi-misi'),
         url('/profil/struktur-organisasi'),
         url('/layanan-kami'),
-        url('/kontak-kami'),
+        route('contact'),
         url('/dokumen'),
-        url('/gallery'),
+        route('gallery'),
         url('/fasilitas'),
     ];
 @endphp

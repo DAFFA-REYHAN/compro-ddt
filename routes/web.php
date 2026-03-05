@@ -8,12 +8,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('page-cache')->group(function () {
     Route::get('/', [PageController::class, 'home'])->name('home');
-    Route::get('/pengelolaan-limbah-b3-batam', [PageController::class, 'home'])->name('pengelolaan-limbah-b3-batam');
+    // Route::get('/pengelolaan-limbah-b3-batam', [PageController::class, 'home'])->name('pengelolaan-limbah-b3-batam');
 
-    
-    Route::get('/kontak-kami', function () {
-        return view('contact_us.contact');
-    });
     Route::get('/kontak-kami', function () {
         return view('contact_us.contact');
     })->name('contact');
@@ -22,6 +18,7 @@ Route::middleware('page-cache')->group(function () {
     Route::get('/fasilitas', function () {
         return view('processing.facility');
     });
+
     Route::get('/layanan-kami', function () {
         return view('processing.service');
     });
@@ -38,26 +35,9 @@ Route::middleware('page-cache')->group(function () {
     });
 
     //DOKUMEN
-
-    
     Route::get('/dokumen', function () {
         return view('document.document');
     });
-    // Route::get('/dokumen/legal', function () {
-    //     return view('document.lincesing-and-legal');
-    // });
-    // Route::get('/dokumen/rekomendasi', function () {
-    //     return view('document.recommend');
-    // });
-    // Route::get('/dokumen/kerjasama', function () {
-    //     return view('document.collaboration');
-    // });
-    // Route::get('/dokumen/asuransi', function () {
-    //     return view('document.asurance');
-    // });
-    // Route::get('/dokumen/prestasi', function () {
-    //     return view('document.awwards');
-    // });
 
     Route::get('/gallery', function () {
         return view('gallery.gallery');
@@ -78,8 +58,7 @@ Route::middleware('page-cache')->group(function () {
         return back();
     })->name('set-locale');
 
-
-     Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
+    Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 });
 
 Route::get('/set-locales/{locale}', function (Request $request, $locale) {
@@ -98,4 +77,26 @@ Route::get('/set-locales/{locale}', function (Request $request, $locale) {
     return back();
 })->name('set-locale');
 
-Route::post('/pesan', [ContactController::class,'sendMail'])->name('message.post');
+Route::post('/pesan', [ContactController::class, 'sendMail'])->name('message.post');
+
+Route::get('/sitemap.xml', function () {
+    return response()
+        ->view('sitemap') // nanti kita buat view ini
+        ->header('Content-Type', 'application/xml');
+})->name('sitemap');
+
+// Route::get('/dokumen/legal', function () {
+//     return view('document.lincesing-and-legal');
+// });
+// Route::get('/dokumen/rekomendasi', function () {
+//     return view('document.recommend');
+// });
+// Route::get('/dokumen/kerjasama', function () {
+//     return view('document.collaboration');
+// });
+// Route::get('/dokumen/asuransi', function () {
+//     return view('document.asurance');
+// });
+// Route::get('/dokumen/prestasi', function () {
+//     return view('document.awwards');
+// });
