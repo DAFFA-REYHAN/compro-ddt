@@ -3,7 +3,7 @@
     data-skin="default" data-bs-theme="light" data-assets-path="{{ asset('assets/template') }}/"
     data-template="front-pages">
 
-<head>
+<head>  
     <meta charset="utf-8" />
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
@@ -11,10 +11,9 @@
     {{-- Robots: default index/follow, bisa di-override --}}
     <meta name="robots" content="@yield('meta_robots', 'index, follow')" />
 
-    <title>@yield('title', 'Dwi Damar Tirta - Pengelolaan Limbah B3')</title>
+    <title>@yield('title', 'PT Dwi Damar Tirta: Pengelolaan Limbah B3 Profesional di Batam')</title>
 
-    <meta name="description" content="@yield('meta_description', 'Dwi Damar Tirta melayani pengangkutan dan pengelolaan limbah B3 di Batam dan Kepulauan Riau.')" />
-
+    <meta name="description" content="@yield('meta_description', 'PT Dwi Damar Tirta melayani pengangkutan, pengumpulan, penyimpanan, dan pengiriman limbah B3 di Batam secara legal dan sesuai regulasi.')">
     {{-- Canonical URL --}}
     <link rel="canonical" href="@yield('canonical', url()->current())" />
 
@@ -74,7 +73,8 @@
             {{-- CTA --}}
             <section class="py-5">
                 <div class="container text">
-                    <div class="d-flex flex-column flex-md-row align-items-center align-items-md-center justify-content-between gap-3 p-4 rounded-3 border">
+                    <div
+                        class="d-flex flex-column flex-md-row align-items-center align-items-md-center justify-content-between gap-3 p-4 rounded-3 border">
                         <div class="text-center text-md-start">
                             <h5 class="mb-1">
                                 {{ __('about.cta_title') }}

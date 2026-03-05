@@ -8,10 +8,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('page-cache')->group(function () {
     Route::get('/', [PageController::class, 'home'])->name('home');
+    Route::get('/pengelolaan-limbah-b3-batam', [PageController::class, 'home'])->name('pengelolaan-limbah-b3-batam');
 
-    Route::get('/', function () {
-        return view('home.home');
-    });
+    
     Route::get('/kontak-kami', function () {
         return view('contact_us.contact');
     });
