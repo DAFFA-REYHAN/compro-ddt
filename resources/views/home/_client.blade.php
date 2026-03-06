@@ -12,13 +12,13 @@
                 @for ($i = 1; $i <= 10; $i++)
                     <div class="client-logo">
                         <img src="{{ asset('assets/template/img/clients/client-' . $i . '.jpg') }}"
-                            alt="Client {{ $i }}">
+                            alt="Client {{ $i }}" loading="lazy">
                     </div>
                 @endfor
                 @for ($i = 1; $i <= 10; $i++)
                     <div class="client-logo">
                         <img src="{{ asset('assets/template/img/clients/client-' . $i . '.jpg') }}"
-                            alt="Client {{ $i }}">
+                            alt="Client {{ $i }}" loading="lazy">
                     </div>
                 @endfor
             </div>
@@ -30,13 +30,13 @@
                 @for ($i = 11; $i <= 20; $i++)
                     <div class="client-logo">
                         <img src="{{ asset('assets/template/img/clients/client-' . $i . '.jpg') }}"
-                            alt="Client {{ $i }}">
+                            alt="Client {{ $i }}" loading="lazy">
                     </div>
                 @endfor
                 @for ($i = 11; $i <= 20; $i++)
                     <div class="client-logo">
                         <img src="{{ asset('assets/template/img/clients/client-' . $i . '.jpg') }}"
-                            alt="Client {{ $i }}">
+                            alt="Client {{ $i }}" loading="lazy">
                     </div>
                 @endfor
             </div>
@@ -48,13 +48,13 @@
                 @for ($i = 21; $i <= 28; $i++)
                     <div class="client-logo">
                         <img src="{{ asset('assets/template/img/clients/client-' . $i . '.jpg') }}"
-                            alt="Client {{ $i }}">
+                            alt="Client {{ $i }}" loading="lazy">
                     </div>
                 @endfor
                 @for ($i = 21; $i <= 29; $i++)
                     <div class="client-logo">
                         <img src="{{ asset('assets/template/img/clients/client-' . $i . '.jpg') }}"
-                            alt="Client {{ $i }}">
+                            alt="Client {{ $i }}" loading="lazy">
                     </div>
                 @endfor
             </div>

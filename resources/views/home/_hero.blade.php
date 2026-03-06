@@ -13,7 +13,7 @@
                     </p>
 
                     {{-- H1 utama halaman (SEO) --}}
-                    <h1 class="hero-title text-center text-md-start" data-aos="fade-right" data-aos-delay="100">
+                    <h1 class="hero-title text-center text-md-start">
                         {{ __('home.heroTitle') }}
                     </h1>
 
@@ -86,7 +86,7 @@
                 <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
                     <div class="image-wrapper position-relative">
                         <img src="{{ asset('assets/template/img/Hero/Hero6.webp') }}"
-                            alt="Kantor PT Dwi Damar Tirta dan armada pengangkutan limbah B3 di Batam">
+                            alt="Kantor PT Dwi Damar Tirta dan armada pengangkutan limbah B3 di Batam" loading="lazy">
 
 
                         {{-- Tagline sedikit di bawah logo --}}

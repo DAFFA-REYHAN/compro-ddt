@@ -23,12 +23,12 @@
 
                     {{-- ISO logos --}}
                     <div class="d-flex align-items-center flex-wrap gap-3 mt-2">
-                        <img src="{{ asset('assets/template/img/iso/ISO-140011000.png') }}" alt="ISO 45001"
-                             class="img-fluid" style="height: 80px;">
-                        <img src="{{ asset('assets/template/img/iso/ISO-9001.png') }}" alt="ISO 9001"
-                             class="img-fluid" style="height: 80px;">
-                        <img src="{{ asset('assets/template/img/iso/ISO-45001.png') }}" alt="ISO 14001"
-                             class="img-fluid" style="height: 80px;">
+                        <img src="{{ asset('assets/template/img/iso/ISO-140011000.webp') }}" alt="ISO 45001"
+                             class="img-fluid" style="height: 80px;" loading="lazy">
+                        <img src="{{ asset('assets/template/img/iso/ISO-9001.webp') }}" alt="ISO 9001"
+                             class="img-fluid" style="height: 80px;" loading="lazy">
+                        <img src="{{ asset('assets/template/img/iso/ISO-45001.webp') }}" alt="ISO 14001"
+                             class="img-fluid" style="height: 80px;" loading="lazy">
                     </div>
                 </div>
 

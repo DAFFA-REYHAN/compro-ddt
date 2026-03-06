@@ -27,7 +27,8 @@
         href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet" />
 
-    <link rel="stylesheet" href="{{ asset('/assets/template/vendor/fonts/iconify-icons.css') }}" />
+    <!-- <link rel="stylesheet" href="{{ asset('/assets/template/vendor/fonts/iconify-icons.css') }}" /> -->
+    <link rel="stylesheet" href="{{ asset('/assets/template/css/iconify.css') }}" />
 
     <!-- Core CSS -->
 
@@ -43,7 +44,8 @@
 
     <!-- Vendors CSS -->
     <!-- <link rel="stylesheet" href="{{ asset('/assets/template/vendor/libs/nouislider/nouislider.css') }}" /> -->
-    <link rel="stylesheet" href="{{ asset('/assets/template/vendor/libs/swiper/swiper.css') }}" />
+    <link rel="stylesheet" href="{{ asset('/assets/template/vendor/libs/swiper/swiper.css') }}" media="print"
+        onload="this.media='all'">
 
     <!-- Page CSS -->
     @stack('styles')
@@ -51,9 +53,9 @@
     <link rel="stylesheet" href="{{ asset('/assets/template/vendor/css/pages/ui-carousel.css') }}" /> -->
 
     <!-- Helpers -->
-    <script src="{{ asset('/assets/template/vendor/js/helpers.js') }}"></script>
-    <script src="{{ asset('/assets/template/vendor/js/template-customizer.js') }}"></script>
-    <script src="{{ asset('/assets/template/js/front-config.js') }}"></script>
+    <script src="{{ asset('/assets/template/vendor/js/helpers.js') }}" defer></script>
+    <script src="{{ asset('/assets/template/vendor/js/template-customizer.js') }}" defer></script>
+    <script src="{{ asset('/assets/template/js/front-config.js') }}" defer></script>
 
     {{-- Slot untuk schema / OG / JSON-LD tambahan per halaman --}}
     @stack('head')
