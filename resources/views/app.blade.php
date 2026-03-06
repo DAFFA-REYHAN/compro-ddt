@@ -257,7 +257,7 @@
             </div>
 
             <button type="button" class="fab-main btn-lg" id="btnFabMain" aria-label="Hubungi kami">
-                <i class="iconbase ti tabler-phone"></i>
+                <i class="iconbase ti tabler-messages"></i>
             </button>
         </div>
     </div>
@@ -286,7 +286,7 @@
                     floating.style.visibility = 'hidden';
                     fabScrollTop.classList.remove('show');
                     fabMenu.classList.remove('open');
-                    btnFabMain.innerHTML = '<i class="iconbase ti tabler-phone"></i>';
+                    btnFabMain.innerHTML = '<i class="iconbase ti tabler-messages"></i>';
                 }
             });
 
@@ -297,7 +297,7 @@
                 fabMenu.classList.toggle('open', isOpen);
                 btnFabMain.innerHTML = isOpen ?
                     '<i class="iconbase ti tabler-x"></i>' :
-                    '<i class="iconbase ti tabler-phone"></i>';
+                    '<i class="iconbase ti tabler-messages"></i>';
             });
 
             // Scroll top
@@ -313,7 +313,7 @@
                 if (!e.target.closest('.floating-actions')) {
                     isOpen = false;
                     fabMenu.classList.remove('open');
-                    btnFabMain.innerHTML = '<i class="iconbase ti tabler-phone"></i>';
+                    btnFabMain.innerHTML = '<i class="iconbase ti tabler-messages"></i>';
                 }
             });
         });
