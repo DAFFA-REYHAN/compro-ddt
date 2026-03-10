@@ -127,17 +127,6 @@
                                         </div>
                                     </a>
 
-                                    <!-- Kartu WhatsApp Admin & Finance -->
-                                    <a href="https://wa.me/628117783477?text=Halo%20Bu%20Sisti,%20Admin%20%26%20Finance%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Ibu%20dari%20website%20dwidamartirta.co.id."
-                                        target="_blank" rel="noopener"
-                                        class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
-                                        <i class="ti tabler-brand-whatsapp fs-5"></i>
-                                        <div class="small">
-                                            <div class="fw-bold">Sisti</div>
-                                            <div class="text-white-50">Admin &amp; Finance</div>
-                                            <div class="text-white">+62 811‑7783‑477</div>
-                                        </div>
-                                    </a>
                                 </div>
 
 
