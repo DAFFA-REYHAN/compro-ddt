@@ -1,14 +1,14 @@
 <footer class="landing-footer bg-body footer-text">
     <div class="footer-top position-relative overflow-hidden z-1">
         <img src="{{ asset('/assets/template/img/backgrounds/footer-bg-2.webp') }}" alt="footer bg"
-             class="footer-bg banner-bg-img z-n1" />
+            class="footer-bg banner-bg-img z-n1" />
         <div class="container py-5">
             <div class="row gy-4">
                 {{-- Col 1: Company + CTA + ISO --}}
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center mb-3">
                         <img src="{{ asset('assets/template/img/logo/logo dwi damar tirta.webp') }}"
-                             alt="Logo PT Dwi Damar Tirta" width="56" class="me-2">
+                            alt="Logo PT Dwi Damar Tirta" width="56" class="me-2">
                         <span class="fw-bold fs-5 text-white">
                             {{ __('footer.company_name') }}
                         </span>
@@ -24,11 +24,11 @@
                     {{-- ISO logos --}}
                     <div class="d-flex align-items-center flex-wrap gap-3 mt-2">
                         <img src="{{ asset('assets/template/img/iso/ISO-140011000.webp') }}" alt="ISO 45001"
-                             class="img-fluid" style="height: 80px;" loading="lazy">
-                        <img src="{{ asset('assets/template/img/iso/ISO-9001.webp') }}" alt="ISO 9001"
-                             class="img-fluid" style="height: 80px;" loading="lazy">
+                            class="img-fluid" style="height: 80px;" loading="lazy">
+                        <img src="{{ asset('assets/template/img/iso/ISO-9001.webp') }}" alt="ISO 9001" class="img-fluid"
+                            style="height: 80px;" loading="lazy">
                         <img src="{{ asset('assets/template/img/iso/ISO-45001.webp') }}" alt="ISO 14001"
-                             class="img-fluid" style="height: 80px;" loading="lazy">
+                            class="img-fluid" style="height: 80px;" loading="lazy">
                     </div>
                 </div>
 
@@ -42,20 +42,25 @@
                         </li>
 
                         <li class="mb-2">
-                            <a href="{{ url('/profil/tentang-kami') }}" class="footer-link">{{ __('footer.nav_about') }}</a>
+                            <a href="{{ url('/profil/tentang-kami') }}"
+                                class="footer-link">{{ __('footer.nav_about') }}</a>
                         </li>
                         <li class="mb-2">
-                            <a href="{{ url('/profil/visi-misi') }}" class="footer-link">{{ __('footer.nav_vision_mission') }}</a>
+                            <a href="{{ url('/profil/visi-misi') }}"
+                                class="footer-link">{{ __('footer.nav_vision_mission') }}</a>
                         </li>
                         <li class="mb-2">
-                            <a href="{{ url('/profil/struktur-organisasi') }}" class="footer-link">{{ __('footer.nav_structure') }}</a>
+                            <a href="{{ url('/profil/struktur-organisasi') }}"
+                                class="footer-link">{{ __('footer.nav_structure') }}</a>
                         </li>
 
                         <li class="mb-2">
-                            <a href="{{ url('/layanan-kami') }}" class="footer-link">{{ __('footer.nav_services') }}</a>
+                            <a href="{{ url('/layanan-kami') }}"
+                                class="footer-link">{{ __('footer.nav_services') }}</a>
                         </li>
                         <li class="mb-2">
-                            <a href="{{ url('/fasilitas') }}" class="footer-link">{{ __('footer.nav_facilities') }}</a>
+                            <a href="{{ url('/fasilitas') }}"
+                                class="footer-link">{{ __('footer.nav_facilities') }}</a>
                         </li>
 
                         <li class="mb-2">
@@ -81,7 +86,7 @@
                             <div>
                                 <strong>{{ __('footer.location') }}</strong><br>
                                 <a href="https://maps.app.goo.gl/YLhTuDD5Hrnnr9km9" target="_blank"
-                                   rel="noopener noreferrer" class="footer-link">
+                                    rel="noopener noreferrer" class="footer-link">
                                     Jl. Letjend Suprapto No.1, Kibing, Kec. Batu Aji, Kota Batam,
                                     Kepulauan Riau 29424
                                 </a>
@@ -99,20 +104,48 @@
                             <div>
                                 <strong>{{ __('footer.email') }}</strong><br>
                                 <a href="mailto:gufron.wiguna@dwidamartirta.co.id"
-                                   class="footer-link d-block">gufron.wiguna@dwidamartirta.co.id</a>
+                                    class="footer-link d-block">gufron.wiguna@dwidamartirta.co.id</a>
                                 <a href="mailto:admin@dwidamartirta.co.id"
-                                   class="footer-link d-block">admin@dwidamartirta.co.id</a>
+                                    class="footer-link d-block">admin@dwidamartirta.co.id</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-start">
                             <i class="icon-base ti tabler-brand-whatsapp me-2 mt-1"></i>
                             <div>
-                                <strong>{{ __('footer.whatsapp') }}</strong><br>
-                                <a href="https://wa.me/628116933777" class="footer-link" target="_blank">
-                                    +62 811‑6933‑777
-                                </a>
+                                <strong class="mb-2 d-block">{{ __('footer.whatsapp') }}</strong>
+
+                                <div class="d-flex flex-column flex-md-row gap-3 mt-2">
+                                    <!-- Kartu WhatsApp Direktur Utama -->
+                                    <a href="https://wa.me/6281277000789?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                                        target="_blank" rel="noopener"
+                                        class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
+                                        <i class="ti tabler-brand-whatsapp fs-5"></i>
+                                        <div class="small">
+                                            <div class="fw-bold">Gufron Wiguna</div>
+                                            <div class="text-white-50">Direktur Utama</div>
+                                            <div class="text-white">+62 812-7700-0789</div>
+                                        </div>
+                                    </a>
+
+                                    <!-- Kartu WhatsApp Admin & Finance -->
+                                    <a href="https://wa.me/628117783477?text=Halo%20Bu%20Sisti,%20Admin%20%26%20Finance%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Ibu%20dari%20website%20dwidamartirta.co.id."
+                                        target="_blank" rel="noopener"
+                                        class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
+                                        <i class="ti tabler-brand-whatsapp fs-5"></i>
+                                        <div class="small">
+                                            <div class="fw-bold">Sisti</div>
+                                            <div class="text-white-50">Admin &amp; Finance</div>
+                                            <div class="text-white">+62 811‑7783‑477</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+
                             </div>
                         </li>
+
+
                     </ul>
                 </div>
             </div>
@@ -130,7 +163,7 @@
             <div>
                 <a href="#" class="me-2 text-white-50">LinkedIn</a>
                 <a href="https://www.instagram.com/dwidamartirta.id/" class="text-white-50"
-                   target="_blank">Instagram</a>
+                    target="_blank">Instagram</a>
             </div>
         </div>
     </div>
