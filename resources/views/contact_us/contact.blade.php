@@ -163,7 +163,7 @@
                         class="btn btn-primary w-100 mt-2 d-inline-flex align-items-center justify-content-center"
                         style="background: linear-gradient(90deg, #003d99, #0F78ED); border: none;"
                     >
-                        <span class="spinner-border spinner-border-sm me-2 d-none" role="status" aria-hidden="true"></span>
+                        <span class="spinner-border spinner-border-sm me-2 d-none" role="status" ></span>
                         <span class="btn-text">{{ __('contact.form_submit') }}</span>
                     </button>
                 </form>

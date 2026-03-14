@@ -74,7 +74,7 @@
     </section>
 
     <!-- MODAL SERVICE 1 -->
-    <div class="modal fade" id="modal-service1" tabindex="-1" aria-hidden="true">
+    <div class="modal fade" id="modal-service1" tabindex="-1" >
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -93,7 +93,7 @@
     </div>
 
     <!-- MODAL SERVICE 2 -->
-    <div class="modal fade" id="modal-service2" tabindex="-1" aria-hidden="true">
+    <div class="modal fade" id="modal-service2" tabindex="-1" >
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -112,7 +112,7 @@
     </div>
 
     <!-- MODAL SERVICE 3 -->
-    <div class="modal fade" id="modal-service3" tabindex="-1" aria-hidden="true">
+    <div class="modal fade" id="modal-service3" tabindex="-1" >
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -131,7 +131,7 @@
     </div>
 
     <!-- MODAL SERVICE 4 -->
-    <div class="modal fade" id="modal-service4" tabindex="-1" aria-hidden="true">
+    <div class="modal fade" id="modal-service4" tabindex="-1" >
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">

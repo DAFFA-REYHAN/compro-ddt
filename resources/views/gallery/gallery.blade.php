@@ -366,7 +366,7 @@
     </section>
 
     {{-- Modal preview --}}
-    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+    <div class="modal fade" id="galleryModal" tabindex="-1" >
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content bg-white text-dark border-0">
                 <div class="modal-header border-0">

@@ -64,7 +64,7 @@
                      <iframe
                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.3347347611834!2d103.99386257477701!3d1.0397762989502235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98de593e79ff3%3A0x2641f82d34cfed6!2sPT.%20Dwi%20Damar%20Tirta!5e1!3m2!1sid!2sid!4v1771232233248!5m2!1sid!2sid"
                          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         referrerpolicy="no-referrer-when-downgrade" title="Lokasi PT Dwi Damar Tirta di Google Maps"></iframe>
                  </div>
              </div>
          </div>

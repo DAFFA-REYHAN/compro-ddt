@@ -15,7 +15,7 @@
                 {{-- Beranda --}}
                 <li class="nav-link-item">
                     <a href="{{ url('/') }}" class="nav-link-custom {{ Request::is('/') ? 'active' : '' }}">
-                        <i class="iconbase ti tabler-home" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-home" ></i>
                         {{ __('nav.home') }}
                     </a>
                 </li>
@@ -24,21 +24,21 @@
                 <li class="nav-link-item has-dropdown">
                     <a href="{{ url('/profil/tentang-kami') }}"
                         class="nav-link-custom {{ Request::is('profil*') ? 'active' : '' }}">
-                        <i class="iconbase ti tabler-user-circle" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-user-circle" ></i>
                         {{ __('nav.profile') }}
-                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" ></i>
                     </a>
                     <div class="dropdown-menu-custom">
                         <a href="{{ url('/profil/tentang-kami') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-info-circle text-primary" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-info-circle text-primary" ></i>
                             {{ __('nav.about') }}
                         </a>
                         <a href="{{ url('/profil/visi-misi') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-target-arrow text-success" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-target-arrow text-success" ></i>
                             {{ __('nav.vissionMission') }}
                         </a>
                         <a href="{{ url('/profil/struktur-organisasi') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-hierarchy-3 text-warning" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-hierarchy-3 text-warning" ></i>
                             {{ __('nav.structureOrganization') }}
                         </a>
                     </div>
@@ -48,17 +48,17 @@
                 <li class="nav-link-item has-dropdown">
                     <a href="{{ url('/layanan-kami') }}"
                         class="nav-link-custom {{ Request::is('layanan-kami')||Request::is('fasilitas') ? 'active' : '' }}">
-                        <i class="iconbase ti tabler-recycle" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-recycle" ></i>
                         {{ __('nav.service') }}
-                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" ></i>
                     </a>
                     <div class="dropdown-menu-custom">
                         <a href="{{ url('/layanan-kami') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-settings-cog text-primary" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-settings-cog text-primary" ></i>
                             {{ __('nav.service') }}
                         </a>
                         <a href="{{ url('/fasilitas') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-building-factory-2 text-success" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-building-factory-2 text-success" ></i>
                             {{ __('nav.facility') }}
                         </a>
                     </div>
@@ -67,36 +67,36 @@
                 {{-- Dokumen (Dropdown) --}}
                 <li class="nav-link-item">
                     <a href="{{ url('/dokumen') }}" class="nav-link-custom {{ Request::is('dokumen') ? 'active' : '' }}">
-                        <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-file-certificate" ></i>
                         {{ __('nav.document') }}
                     </a>
                 </li>
                 <!-- <li class="nav-link-item has-dropdown">
                     <a href="{{ url('/dokumen/legal') }}"
                         class="nav-link-custom {{ Request::is('dokumen*') ? 'active' : '' }}">
-                        <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-file-certificate" ></i>
                         {{ __('nav.document') }}
-                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" ></i>
                     </a>
                     <div class="dropdown-menu-custom">
                         <a href="{{ url('/dokumen/legal') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-shield-check text-success" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-shield-check text-success" ></i>
                             {{ __('nav.legal') }}
                         </a>
                         <a href="{{ url('/dokumen/rekomendasi') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-file-description text-primary" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-file-description text-primary" ></i>
                             {{ __('nav.recomendation') }}
                         </a>
                         <a href="{{ url('/dokumen/kerjasama') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-heart-handshake text-info" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-heart-handshake text-info" ></i>
                             {{ __('nav.partnership') }}
                         </a>
                         <a href="{{ url('/dokumen/asuransi') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-shield-half text-warning" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-shield-half text-warning" ></i>
                             {{ __('nav.insurence') }}
                         </a>
                         <a href="{{ url('/dokumen/prestasi') }}" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-trophy text-danger" aria-hidden="true"></i>
+                            <i class="iconbase ti tabler-trophy text-danger" ></i>
                             {{ __('nav.achievment') }}
                         </a>
                     </div>
@@ -106,7 +106,7 @@
                 <li class="nav-link-item">
                     <a href="{{ url('/gallery') }}"
                         class="nav-link-custom {{ Request::is('gallery') ? 'active' : '' }}">
-                        <i class="iconbase ti tabler-library-photo" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-library-photo" ></i>
                         {{ __('nav.gallery') }}
                     </a>
                 </li>
@@ -122,7 +122,7 @@
                             <img src="{{ asset('assets/template/img/language/IND.png') }}" alt="Bahasa Indonesia"
                                 style="width:20px;height:auto;border-radius:3px;">
                         @endif
-                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" ></i>
                     </button>
                     <div class="dropdown-menu-custom">
                         <a href="{{ route('set-locale', 'id') }}" class="dropdown-item-custom">
@@ -141,7 +141,7 @@
                 {{-- Hubungi Kami (CTA) --}}
                 <li class="nav-link-item">
                     <a href="{{ url('/kontak-kami') }}" class="btn-nav-cta">
-                        <i class="iconbase ti tabler-phone" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-phone" ></i>
                         {{ __('nav.contact') }}
                     </a>
                 </li>
@@ -157,7 +157,7 @@
 </nav>
 
 {{-- SIDEBAR MOBILE --}}
-<div class="mobile-sidebar" id="mobileSidebar" aria-hidden="true">
+<div class="mobile-sidebar" id="mobileSidebar" >
     <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
     <div class="sidebar-content">
@@ -166,7 +166,7 @@
             <img src="{{ asset('assets/template/img/logo/logo dwi damar tirta.webp') }}" alt="PT Dwi Damar Tirta">
             <h5 class="mb-0 text-white">Dwi Damar Tirta</h5>
             <button class="sidebar-close" id="sidebarClose" type="button" aria-label="Tutup menu">
-                <i class="iconbase ti tabler-x" aria-hidden="true"></i>
+                <i class="iconbase ti tabler-x" ></i>
             </button>
         </div>
 
@@ -176,7 +176,7 @@
             {{-- Beranda --}}
             <li>
                 <a href="{{ url('/') }}" class="{{ Request::is('/') ? 'active' : '' }}">
-                    <i class="iconbase ti tabler-home" aria-hidden="true"></i>
+                    <i class="iconbase ti tabler-home" ></i>
                     <span>{{ __('nav.home') }}</span>
                 </a>
             </li>
@@ -184,10 +184,10 @@
             {{-- Profil --}}
             <li class="has-submenu">
                 <button type="button" class="menu-toggle {{ Request::is('profil*') ? 'active' : '' }}">
-                    <i class="iconbase ti tabler-user-circle" aria-hidden="true"></i>
+                    <i class="iconbase ti tabler-user-circle" ></i>
                     <span class="ms-2">{{ __('nav.profile') }}</span>
                     <span class="arrow-icon">
-                        <i class="iconbase ti tabler-chevron-right" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-chevron-right" ></i>
                     </span>
                 </button>
                 <ul class="submenu">
@@ -212,10 +212,10 @@
             {{-- Pengolahan --}}
             <li class="has-submenu">
                 <button type="button" class="menu-toggle {{ Request::is('pengolahan*') ? 'active' : '' }}">
-                    <i class="iconbase ti tabler-recycle" aria-hidden="true"></i>
+                    <i class="iconbase ti tabler-recycle" ></i>
                     <span class="ms-2">{{ __('nav.service') }}</span>
                     <span class="arrow-icon">
-                        <i class="iconbase ti tabler-chevron-right" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-chevron-right" ></i>
                     </span>
                 </button>
                 <ul class="submenu">
@@ -235,7 +235,7 @@
             {{-- Dokumen --}}
             <li >
                 <a href="{{ url('/dokumen') }}" class="{{ Request::is('dokumen*') ? 'active' : '' }}">
-                    <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
+                    <i class="iconbase ti tabler-file-certificate" ></i>
                     <span>{{ __('nav.document') }}</span>
                 </a>
             </li>
@@ -244,7 +244,7 @@
             {{-- Gallery --}}
             <li>
                 <a href="{{ url('/gallery') }}" class="{{ Request::is('gallery') ? 'active' : '' }}">
-                    <i class="iconbase ti tabler-library-photo" aria-hidden="true"></i>
+                    <i class="iconbase ti tabler-library-photo" ></i>
                     <span>{{ __('nav.gallery') }}</span>
                 </a>
             </li>
@@ -273,7 +273,7 @@
             {{-- Hubungi Kami --}}
             <li>
                 <a href="{{ url('/kontak-kami') }}" class="btn-cta-mobile">
-                    <i class="iconbase ti tabler-phone" aria-hidden="true"></i>
+                    <i class="iconbase ti tabler-phone" ></i>
                     <span>{{ __('nav.contact') }}</span>
                 </a>
             </li>
