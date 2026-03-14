@@ -1,20 +1,20 @@
 <!doctype html>
-<html lang="en" class="layout-navbar-fixed layout-wide" dir="ltr"
+<html lang="id" class="layout-navbar-fixed layout-wide" dir="ltr"
     data-skin="default" data-bs-theme="light" data-assets-path="https://dwidamartirta.test/assets/template/"
     data-template="front-pages">
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" /> -->
 
     
     <meta name="robots" content="index, follow" />
 
     <title>Pengelolaan Limbah B3 Profesional di Batam | PT Dwi Damar Tirta</title>
 
-    <meta name="description" content="Dwi Damar Tirta melayani pengangkutan dan pengelolaan limbah B3 di Batam dan Kepulauan Riau." />
-
+    <meta name="description" content="PT Dwi Damar Tirta melayani pengangkutan, pengumpulan, penyimpanan, dan pengiriman limbah B3 di Batam secara legal dan sesuai regulasi.">
     
     <link rel="canonical" href="https://dwidamartirta.test" />
 
@@ -28,13 +28,14 @@
         href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/fonts/iconify-icons.css" />
+    <!-- <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/fonts/iconify-icons.css" /> -->
+    <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/css/iconify.css" />
 
     <!-- Core CSS -->
 
     <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/libs/node-waves/node-waves.css" />
     <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/libs/pickr/pickr-themes.css" />
-    <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/css/core.css" />
+    <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/css/core.css" defer />
     <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/css/demo.css" />
     <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/css/pages/front-page.css" />
     <link rel="stylesheet" href="https://dwidamartirta.test/assets/css/app.css" />
@@ -44,7 +45,8 @@
 
     <!-- Vendors CSS -->
     <!-- <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/libs/nouislider/nouislider.css" /> -->
-    <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/libs/swiper/swiper.css" />
+    <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/libs/swiper/swiper.css" media="print"
+        onload="this.media='all'">
 
     <!-- Page CSS -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -53,9 +55,9 @@
     <link rel="stylesheet" href="https://dwidamartirta.test/assets/template/vendor/css/pages/ui-carousel.css" /> -->
 
     <!-- Helpers -->
-    <script src="https://dwidamartirta.test/assets/template/vendor/js/helpers.js"></script>
-    <script src="https://dwidamartirta.test/assets/template/vendor/js/template-customizer.js"></script>
-    <script src="https://dwidamartirta.test/assets/template/js/front-config.js"></script>
+    <script src="https://dwidamartirta.test/assets/template/vendor/js/helpers.js" defer></script>
+    <script src="https://dwidamartirta.test/assets/template/vendor/js/template-customizer.js" defer></script>
+    <script src="https://dwidamartirta.test/assets/template/js/front-config.js" defer></script>
 
     
     
@@ -83,8 +85,8 @@
                 
                 <li class="nav-link-item">
                     <a href="https://dwidamartirta.test" class="nav-link-custom active">
-                        <i class="iconbase ti tabler-home" aria-hidden="true"></i>
-                        Home
+                        <i class="iconbase ti tabler-home" ></i>
+                        Beranda
                     </a>
                 </li>
 
@@ -92,22 +94,22 @@
                 <li class="nav-link-item has-dropdown">
                     <a href="https://dwidamartirta.test/profil/tentang-kami"
                         class="nav-link-custom ">
-                        <i class="iconbase ti tabler-user-circle" aria-hidden="true"></i>
-                        Profile
-                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-user-circle" ></i>
+                        Profil
+                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" ></i>
                     </a>
                     <div class="dropdown-menu-custom">
                         <a href="https://dwidamartirta.test/profil/tentang-kami" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-info-circle text-primary" aria-hidden="true"></i>
-                            About Us
+                            <i class="iconbase ti tabler-info-circle text-primary" ></i>
+                            Tentang Kami 
                         </a>
                         <a href="https://dwidamartirta.test/profil/visi-misi" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-target-arrow text-success" aria-hidden="true"></i>
-                            Vission &amp; Mission
+                            <i class="iconbase ti tabler-target-arrow text-success" ></i>
+                            Visi &amp; Misi
                         </a>
                         <a href="https://dwidamartirta.test/profil/struktur-organisasi" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-hierarchy-3 text-warning" aria-hidden="true"></i>
-                            Organization Structure
+                            <i class="iconbase ti tabler-hierarchy-3 text-warning" ></i>
+                            Struktur Organisasi
                         </a>
                     </div>
                 </li>
@@ -116,18 +118,18 @@
                 <li class="nav-link-item has-dropdown">
                     <a href="https://dwidamartirta.test/layanan-kami"
                         class="nav-link-custom ">
-                        <i class="iconbase ti tabler-recycle" aria-hidden="true"></i>
-                        Services
-                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-recycle" ></i>
+                        Layanan Kami
+                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" ></i>
                     </a>
                     <div class="dropdown-menu-custom">
                         <a href="https://dwidamartirta.test/layanan-kami" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-settings-cog text-primary" aria-hidden="true"></i>
-                            Services
+                            <i class="iconbase ti tabler-settings-cog text-primary" ></i>
+                            Layanan Kami
                         </a>
                         <a href="https://dwidamartirta.test/fasilitas" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-building-factory-2 text-success" aria-hidden="true"></i>
-                            Facilities &amp; Fleet
+                            <i class="iconbase ti tabler-building-factory-2 text-success" ></i>
+                            Fasilitas &amp; Armada
                         </a>
                     </div>
                 </li>
@@ -135,37 +137,37 @@
                 
                 <li class="nav-link-item">
                     <a href="https://dwidamartirta.test/dokumen" class="nav-link-custom ">
-                        <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
-                        Document
+                        <i class="iconbase ti tabler-file-certificate" ></i>
+                        Dokumen
                     </a>
                 </li>
                 <!-- <li class="nav-link-item has-dropdown">
                     <a href="https://dwidamartirta.test/dokumen/legal"
                         class="nav-link-custom ">
-                        <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
-                        Document
-                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-file-certificate" ></i>
+                        Dokumen
+                        <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" ></i>
                     </a>
                     <div class="dropdown-menu-custom">
                         <a href="https://dwidamartirta.test/dokumen/legal" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-shield-check text-success" aria-hidden="true"></i>
-                            Legal &amp; Licensing
+                            <i class="iconbase ti tabler-shield-check text-success" ></i>
+                            Legal &amp; Perizinan
                         </a>
                         <a href="https://dwidamartirta.test/dokumen/rekomendasi" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-file-description text-primary" aria-hidden="true"></i>
-                            Recomendations
+                            <i class="iconbase ti tabler-file-description text-primary" ></i>
+                            Rekomendasi
                         </a>
                         <a href="https://dwidamartirta.test/dokumen/kerjasama" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-heart-handshake text-info" aria-hidden="true"></i>
-                            Partnership
+                            <i class="iconbase ti tabler-heart-handshake text-info" ></i>
+                            Kerja Sama
                         </a>
                         <a href="https://dwidamartirta.test/dokumen/asuransi" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-shield-half text-warning" aria-hidden="true"></i>
-                            Insurence
+                            <i class="iconbase ti tabler-shield-half text-warning" ></i>
+                            Asuransi
                         </a>
                         <a href="https://dwidamartirta.test/dokumen/prestasi" class="dropdown-item-custom">
-                            <i class="iconbase ti tabler-trophy text-danger" aria-hidden="true"></i>
-                            Achievments
+                            <i class="iconbase ti tabler-trophy text-danger" ></i>
+                            Prestasi
                         </a>
                     </div>
                 </li> -->
@@ -174,17 +176,17 @@
                 <li class="nav-link-item">
                     <a href="https://dwidamartirta.test/gallery"
                         class="nav-link-custom ">
-                        <i class="iconbase ti tabler-library-photo" aria-hidden="true"></i>
-                        Gallery
+                        <i class="iconbase ti tabler-library-photo" ></i>
+                        Galeri
                     </a>
                 </li>
 
                 
                                 <li class="nav-link-item has-dropdown">
                     <button type="button" class="nav-link-custom nav-link-button">
-                                                    <img src="https://dwidamartirta.test/assets/template/img/language/ENG.png" alt="English"
+                                                    <img src="https://dwidamartirta.test/assets/template/img/language/IND.png" alt="Bahasa Indonesia"
                                 style="width:20px;height:auto;border-radius:3px;">
-                                                <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" aria-hidden="true"></i>
+                                                <i class="iconbase ti tabler-chevron-down" style="font-size:0.85rem;" ></i>
                     </button>
                     <div class="dropdown-menu-custom">
                         <a href="https://dwidamartirta.test/set-locale/id" class="dropdown-item-custom">
@@ -192,19 +194,19 @@
                                 style="width:20px;height:auto;border-radius:3px;">
                             <span>Indonesia</span>
                         </a>
-                        <a href="https://dwidamartirta.test/set-locale/en" class="dropdown-item-custom">
+                        <!-- <a href="https://dwidamartirta.test/set-locale/en" class="dropdown-item-custom">
                             <img src="https://dwidamartirta.test/assets/template/img/language/ENG.png" alt="English"
                                 style="width:20px;height:auto;border-radius:3px;">
                             <span>English</span>
-                        </a>
+                        </a> -->
                     </div>
                 </li>
 
                 
                 <li class="nav-link-item">
                     <a href="https://dwidamartirta.test/kontak-kami" class="btn-nav-cta">
-                        <i class="iconbase ti tabler-phone" aria-hidden="true"></i>
-                        Contact Us
+                        <i class="iconbase ti tabler-phone" ></i>
+                        Hubungi Kami
                     </a>
                 </li>
             </ul>
@@ -219,7 +221,7 @@
 </nav>
 
 
-<div class="mobile-sidebar" id="mobileSidebar" aria-hidden="true">
+<div class="mobile-sidebar" id="mobileSidebar" >
     <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
     <div class="sidebar-content">
@@ -228,7 +230,7 @@
             <img src="https://dwidamartirta.test/assets/template/img/logo/logo dwi damar tirta.webp" alt="PT Dwi Damar Tirta">
             <h5 class="mb-0 text-white">Dwi Damar Tirta</h5>
             <button class="sidebar-close" id="sidebarClose" type="button" aria-label="Tutup menu">
-                <i class="iconbase ti tabler-x" aria-hidden="true"></i>
+                <i class="iconbase ti tabler-x" ></i>
             </button>
         </div>
 
@@ -238,34 +240,34 @@
             
             <li>
                 <a href="https://dwidamartirta.test" class="active">
-                    <i class="iconbase ti tabler-home" aria-hidden="true"></i>
-                    <span>Home</span>
+                    <i class="iconbase ti tabler-home" ></i>
+                    <span>Beranda</span>
                 </a>
             </li>
 
             
             <li class="has-submenu">
                 <button type="button" class="menu-toggle ">
-                    <i class="iconbase ti tabler-user-circle" aria-hidden="true"></i>
-                    <span class="ms-2">Profile</span>
+                    <i class="iconbase ti tabler-user-circle" ></i>
+                    <span class="ms-2">Profil</span>
                     <span class="arrow-icon">
-                        <i class="iconbase ti tabler-chevron-right" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-chevron-right" ></i>
                     </span>
                 </button>
                 <ul class="submenu">
                     <li>
                         <a href="https://dwidamartirta.test/profil/tentang-kami">
-                            About Us
+                            Tentang Kami 
                         </a>
                     </li>
                     <li>
                         <a href="https://dwidamartirta.test/profil/visi-misi">
-                            Vission &amp; Mission
+                            Visi &amp; Misi
                         </a>
                     </li>
                     <li>
                         <a href="https://dwidamartirta.test/profil/struktur-organisasi">
-                            Organization Structure
+                            Struktur Organisasi
                         </a>
                     </li>
                 </ul>
@@ -274,21 +276,21 @@
             
             <li class="has-submenu">
                 <button type="button" class="menu-toggle ">
-                    <i class="iconbase ti tabler-recycle" aria-hidden="true"></i>
-                    <span class="ms-2">Services</span>
+                    <i class="iconbase ti tabler-recycle" ></i>
+                    <span class="ms-2">Layanan Kami</span>
                     <span class="arrow-icon">
-                        <i class="iconbase ti tabler-chevron-right" aria-hidden="true"></i>
+                        <i class="iconbase ti tabler-chevron-right" ></i>
                     </span>
                 </button>
                 <ul class="submenu">
                     <li>
                         <a href="https://dwidamartirta.test/layanan-kami">
-                            Services
+                            Layanan Kami
                         </a>
                     </li>
                     <li>
                         <a href="https://dwidamartirta.test/fasilitas">
-                            Facilities &amp; Fleet
+                            Fasilitas &amp; Armada
                         </a>
                     </li>
                 </ul>
@@ -297,8 +299,8 @@
             
             <li >
                 <a href="https://dwidamartirta.test/dokumen" class="">
-                    <i class="iconbase ti tabler-file-certificate" aria-hidden="true"></i>
-                    <span>Document</span>
+                    <i class="iconbase ti tabler-file-certificate" ></i>
+                    <span>Dokumen</span>
                 </a>
             </li>
               
@@ -306,8 +308,8 @@
             
             <li>
                 <a href="https://dwidamartirta.test/gallery" class="">
-                    <i class="iconbase ti tabler-library-photo" aria-hidden="true"></i>
-                    <span>Gallery</span>
+                    <i class="iconbase ti tabler-library-photo" ></i>
+                    <span>Galeri</span>
                 </a>
             </li>
 
@@ -317,26 +319,26 @@
                 <div class="d-flex align-items-center justify-content-start px-4 py-2 gap-2">
                     <a href="https://dwidamartirta.test/set-locale/id"
                         class="badge rounded-pill d-flex align-items-center gap-1
-               bg-light text-dark">
+               bg-primary text-white">
                         <img src="https://dwidamartirta.test/assets/template/img/language/IND.png" alt="Bahasa Indonesia"
                             style="width:18px;height:auto;border-radius:3px;">
                         ID
                     </a>
-                    <a href="https://dwidamartirta.test/set-locale/en"
+                    <!-- <a href="https://dwidamartirta.test/set-locale/en"
                         class="badge rounded-pill d-flex align-items-center gap-1
-               bg-primary text-white">
+               bg-light text-dark">
                         <img src="https://dwidamartirta.test/assets/template/img/language/ENG.png" alt="English"
                             style="width:18px;height:auto;border-radius:3px;">
                         EN
-                    </a>
+                    </a> -->
                 </div>
             </li>
 
             
             <li>
                 <a href="https://dwidamartirta.test/kontak-kami" class="btn-cta-mobile">
-                    <i class="iconbase ti tabler-phone" aria-hidden="true"></i>
-                    <span>Contact Us</span>
+                    <i class="iconbase ti tabler-phone" ></i>
+                    <span>Hubungi Kami</span>
                 </a>
             </li>
         </ul>
@@ -344,7 +346,8 @@
 </div>
 
     <div data-bs-spy="scroll" class="scrollspy-example">
-            <section class="hero-clean" id="beranda">
+        <main>
+                <section class="hero-clean" id="beranda">
     <div class="container">
         <div class="row align-items-center min-vh-100 py-5">
 
@@ -355,18 +358,17 @@
                     
                     <p class="hero-badge" data-aos="fade-right">
                         <span class="badge-dot"></span>
-                        <span>Specialist Hazardous Waste Solution • Batam</span>
+                        <span>Spesialis Solusi Limbah B3 • Batam</span>
                     </p>
 
                     
-                    <h1 class="hero-title text-center text-md-start" data-aos="fade-right" data-aos-delay="100">
-                        Specialist Hazardous Waste Solution, All Scrap &amp; Tank
-Cleaning
+                    <h1 class="hero-title text-center text-md-start">
+                        Spesialis Solusi Limbah B3, Segala Jenis Scrap &amp; Jasa Pembersihan Tangki
                     </h1>
 
                     
                     <p class="hero-desc text-justify" data-aos="fade-right" data-aos-delay="200">
-                        We are a team of professionals with over 10 years of experience in managing hazardous and non‑hazardous industrial waste, ready to help your company handle waste safely, in compliance with regulations, and with proper documentation.
+                        Kami adalah tim profesional dengan pengalaman lebih dari 10 tahun dalam pengelolaan limbah industri B3 dan non‑B3, siap membantu perusahaan Anda mengelola limbah secara aman, patuh regulasi, dan terdokumentasi.
                     </p>
 
                     
@@ -374,12 +376,12 @@ Cleaning
                         <div class="row">
                             <div class="col-6">
                                 <a href="#layanan" class="btn btn-primary w-100 py-3">
-                                    <span>Our Services</span>
+                                    <span>Layanan Kami</span>
                                 </a>
                             </div>
                             <div class="col-6">
                                 <a href="/dokumen" class="btn btn-outline-primary w-100 py-3">
-                                    <span>Legal &amp; Licensing</span>
+                                    <span>Perizinan Kami</span>
                                 </a>
                             </div>
                         </div>
@@ -391,9 +393,9 @@ Cleaning
                                     <div class="card-body d-flex align-items-center gap-3 text-center border rounded">
                                         <div>
                                             <span
-                                                class="hero-trust-label d-block">Experience</span>
+                                                class="hero-trust-label d-block">Pengalaman</span>
                                             <span
-                                                class="hero-trust-value d-block">15+ years.</span>
+                                                class="hero-trust-value d-block">15+ tahun</span>
                                         </div>
                                     </div>
                                 </div>
@@ -403,8 +405,8 @@ Cleaning
                                 <div class="card hero-trust-card h-100">
                                     <div class="card-body d-flex align-items-center gap-3 text-center border rounded">
                                         <div>
-                                            <span class="hero-trust-label d-block">Active Clients</span>
-                                            <span class="hero-trust-value d-block">30+ clients.</span>
+                                            <span class="hero-trust-label d-block">Klien Aktif</span>
+                                            <span class="hero-trust-value d-block">30+ Clients</span>
                                         </div>
                                     </div>
                                 </div>
@@ -414,9 +416,9 @@ Cleaning
                                 <div class="card hero-trust-card h-100">
                                     <div class="card-body d-flex align-items-center gap-3 text-center border rounded">
                                         <div>
-                                            <span class="hero-trust-label d-block">Licensing</span>
+                                            <span class="hero-trust-label d-block">Perizinan</span>
                                             <span
-                                                class="hero-trust-value d-block">Complete licenses in line with regulations.</span>
+                                                class="hero-trust-value d-block">Perizinan lengkap dan sesuai regulasi.</span>
                                         </div>
                                     </div>
                                 </div>
@@ -433,7 +435,7 @@ Cleaning
                 <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
                     <div class="image-wrapper position-relative">
                         <img src="https://dwidamartirta.test/assets/template/img/Hero/Hero6.webp"
-                            alt="Kantor PT Dwi Damar Tirta dan armada pengangkutan limbah B3 di Batam">
+                            alt="Kantor PT Dwi Damar Tirta dan armada pengangkutan limbah B3 di Batam" loading="lazy">
 
 
                         
@@ -453,10 +455,10 @@ Cleaning
     <section class="section-padding" id="layanan">
     <div class="container">
         <div class="section-header text-center mb-5" data-aos="fade-up">
-            <span class="section-subtitle">Our Services</span>
-            <h2 class="section-title">Complete hazardous and non-hazardous waste solutions</h2>
+            <span class="section-subtitle">Layanan Kami</span>
+            <h2 class="section-title">Solusi Lengkap untuk Limbah B3 dan Non B3</h2>
             <p class="section-desc">
-                Designed to meet the needs of manufacturing, logistics, oil &amp; gas companies, as well as commercial facilities in Batam.
+                Dirancang untuk kebutuhan perusahaan manufaktur, logistik, oil &amp; gas, serta fasilitas komersial di Batam.
             </p>
         </div>
 
@@ -467,9 +469,9 @@ Cleaning
                     <div class="service-icon">
                         <i class="iconbase ti tabler-truck"></i>
                     </div>
-                    <h3 class="service-title">Hazardous Waste Transport</h3>
+                    <h3 class="service-title">Pengangkutan Limbah B3</h3>
                     <p class="service-text">
-                        Scheduled and on-call pickup services with licensed fleets and fully documented manifests.
+                        Layanan penjemputan limbah B3 secara terjadwal dan on-call dengan armada berizin dan manifest terdokumentasi.
                     </p>
                 </div>
             </div>
@@ -480,9 +482,9 @@ Cleaning
                     <div class="service-icon">
                         <i class="iconbase ti tabler-recycle"></i>
                     </div>
-                    <h3 class="service-title">Hazardous Waste Collection</h3>
+                    <h3 class="service-title">Pengumpulan Limbah B3</h3>
                     <p class="service-text">
-                        Collection of hazardous waste from multiple sources, including sorting, labeling, and safe temporary storage.
+                        Pengumpulan limbah B3 dari berbagai sumber, termasuk pemilahan, pelabelan, dan penyimpanan sementara yang aman.
                     </p>
                 </div>
             </div>
@@ -494,9 +496,9 @@ Cleaning
                         <i class="iconbase ti tabler-wash-machine"></i>
                         
                     </div>
-                    <h3 class="service-title">Marine Tank Cleaning</h3>
+                    <h3 class="service-title">Pembersihan Tangki Kapal</h3>
                     <p class="service-text">
-                        Professional cleaning of oil, fuel, and liquid waste tanks using safe procedures that meet environmental standards.
+                        Pembersihan tangki oli, bahan bakar, dan limbah cair dengan prosedur kerja aman dan sesuai standar lingkungan.
                     </p>
                 </div>
             </div>
@@ -507,16 +509,16 @@ Cleaning
                     <div class="service-icon">
                         <i class="iconbase ti tabler-file-description"></i>
                     </div>
-                    <h3 class="service-title">Environmental Consulting &amp; CSR Programs</h3>
+                    <h3 class="service-title">Konsultasi Lingkungan &amp; Program CSR</h3>
                     <p class="service-text">
-                        Support for environmental compliance and the development of CSR programs aligned with your operations.
+                        Pendampingan kepatuhan lingkungan dan perancangan program CSR yang relevan bagi operasional perusahaan Anda.
                     </p>
                 </div>
             </div>
 
             <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="250">
                 <a href="https://dwidamartirta.test/layanan-kami" class="btn btn-primary">
-                    See More...
+                    Lihat Selengkapnya...
                 </a>
             </div>
         </div>
@@ -535,17 +537,17 @@ Cleaning
 
             <div class="col-lg-6" data-aos="fade-up">
                 <div class="about-content">
-                    <span class="section-subtitle d-inline-block mb-2">About Us</span>
+                    <span class="section-subtitle d-inline-block mb-2">Tentang Kami</span>
                     <h2 class="section-title mb-3">PT Dwi Damar Tirta</h2>
 
                     <p class="mb-3">
-                        We are a Batam-based company specializing in hazardous waste transportation, collection, and tank cleaning services, serving various industries since 2009.
+                        Kami adalah perusahaan pengangkutan, pengumpulan limbah B3, dan jasa pembersihan tangki yang berbasis di Batam dan telah melayani berbagai industri sejak 2009.
                     </p>
                     <p class="mb-4">
-                        Our focus is simple: helping companies manage their waste safely, legally, and efficiently so you can focus on your core operations.
+                        Fokus kami sederhana: membantu perusahaan mengelola limbah secara aman, legal, dan praktis sehingga Anda bisa fokus pada operasional utama.
                     </p>
 
-                    <a href="/profil/tentang-kami" class="btn btn-primary">See More...</a>
+                    <a href="/profil/tentang-kami" class="btn btn-primary">Lihat Selengkapnya...</a>
                 </div>
             </div>
         </div>
@@ -556,9 +558,9 @@ Cleaning
     <section class="section-padding">
     <div class="container">
         <div class="section-header text-center mb-5" data-aos="fade-up">
-            <span class="section-subtitle">Our Clients</span>
-            <h2 class="section-title">Our Clients</h2>
-            <p class="section-desc">We are currently trusted to serve a wide range of local and multinational companies, including :</p>
+            <span class="section-subtitle">Klien Kami</span>
+            <h2 class="section-title">Klien Kami</h2>
+            <p class="section-desc">Saat ini kami dipercaya untuk melayani berbagai perusahaan, baik lokal maupun multinasional, antara lain :</p>
         </div>
 
         
@@ -566,83 +568,83 @@ Cleaning
             <div class="marquee-track marquee-ltr">
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-1.jpg"
-                            alt="Client 1">
+                            alt="Client 1" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-2.jpg"
-                            alt="Client 2">
+                            alt="Client 2" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-3.jpg"
-                            alt="Client 3">
+                            alt="Client 3" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-4.jpg"
-                            alt="Client 4">
+                            alt="Client 4" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-5.jpg"
-                            alt="Client 5">
+                            alt="Client 5" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-6.jpg"
-                            alt="Client 6">
+                            alt="Client 6" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-7.jpg"
-                            alt="Client 7">
+                            alt="Client 7" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-8.jpg"
-                            alt="Client 8">
+                            alt="Client 8" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-9.jpg"
-                            alt="Client 9">
+                            alt="Client 9" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-10.jpg"
-                            alt="Client 10">
+                            alt="Client 10" loading="lazy">
                     </div>
                                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-1.jpg"
-                            alt="Client 1">
+                            alt="Client 1" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-2.jpg"
-                            alt="Client 2">
+                            alt="Client 2" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-3.jpg"
-                            alt="Client 3">
+                            alt="Client 3" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-4.jpg"
-                            alt="Client 4">
+                            alt="Client 4" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-5.jpg"
-                            alt="Client 5">
+                            alt="Client 5" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-6.jpg"
-                            alt="Client 6">
+                            alt="Client 6" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-7.jpg"
-                            alt="Client 7">
+                            alt="Client 7" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-8.jpg"
-                            alt="Client 8">
+                            alt="Client 8" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-9.jpg"
-                            alt="Client 9">
+                            alt="Client 9" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-10.jpg"
-                            alt="Client 10">
+                            alt="Client 10" loading="lazy">
                     </div>
                             </div>
         </div>
@@ -652,83 +654,83 @@ Cleaning
             <div class="marquee-track marquee-rtl">
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-11.jpg"
-                            alt="Client 11">
+                            alt="Client 11" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-12.jpg"
-                            alt="Client 12">
+                            alt="Client 12" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-13.jpg"
-                            alt="Client 13">
+                            alt="Client 13" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-14.jpg"
-                            alt="Client 14">
+                            alt="Client 14" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-15.jpg"
-                            alt="Client 15">
+                            alt="Client 15" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-16.jpg"
-                            alt="Client 16">
+                            alt="Client 16" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-17.jpg"
-                            alt="Client 17">
+                            alt="Client 17" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-18.jpg"
-                            alt="Client 18">
+                            alt="Client 18" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-19.jpg"
-                            alt="Client 19">
+                            alt="Client 19" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-20.jpg"
-                            alt="Client 20">
+                            alt="Client 20" loading="lazy">
                     </div>
                                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-11.jpg"
-                            alt="Client 11">
+                            alt="Client 11" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-12.jpg"
-                            alt="Client 12">
+                            alt="Client 12" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-13.jpg"
-                            alt="Client 13">
+                            alt="Client 13" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-14.jpg"
-                            alt="Client 14">
+                            alt="Client 14" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-15.jpg"
-                            alt="Client 15">
+                            alt="Client 15" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-16.jpg"
-                            alt="Client 16">
+                            alt="Client 16" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-17.jpg"
-                            alt="Client 17">
+                            alt="Client 17" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-18.jpg"
-                            alt="Client 18">
+                            alt="Client 18" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-19.jpg"
-                            alt="Client 19">
+                            alt="Client 19" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-20.jpg"
-                            alt="Client 20">
+                            alt="Client 20" loading="lazy">
                     </div>
                             </div>
         </div>
@@ -738,71 +740,71 @@ Cleaning
             <div class="marquee-track marquee-ltr">
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-21.jpg"
-                            alt="Client 21">
+                            alt="Client 21" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-22.jpg"
-                            alt="Client 22">
+                            alt="Client 22" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-23.jpg"
-                            alt="Client 23">
+                            alt="Client 23" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-24.jpg"
-                            alt="Client 24">
+                            alt="Client 24" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-25.jpg"
-                            alt="Client 25">
+                            alt="Client 25" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-26.jpg"
-                            alt="Client 26">
+                            alt="Client 26" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-27.jpg"
-                            alt="Client 27">
+                            alt="Client 27" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-28.jpg"
-                            alt="Client 28">
+                            alt="Client 28" loading="lazy">
                     </div>
                                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-21.jpg"
-                            alt="Client 21">
+                            alt="Client 21" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-22.jpg"
-                            alt="Client 22">
+                            alt="Client 22" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-23.jpg"
-                            alt="Client 23">
+                            alt="Client 23" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-24.jpg"
-                            alt="Client 24">
+                            alt="Client 24" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-25.jpg"
-                            alt="Client 25">
+                            alt="Client 25" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-26.jpg"
-                            alt="Client 26">
+                            alt="Client 26" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-27.jpg"
-                            alt="Client 27">
+                            alt="Client 27" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-28.jpg"
-                            alt="Client 28">
+                            alt="Client 28" loading="lazy">
                     </div>
                                     <div class="client-logo">
                         <img src="https://dwidamartirta.test/assets/template/img/clients/client-29.jpg"
-                            alt="Client 29">
+                            alt="Client 29" loading="lazy">
                     </div>
                             </div>
         </div>
@@ -813,7 +815,7 @@ Cleaning
      <div class="container">
          <div class="section-header text-center mb-5" data-aos="fade-up">
              <span class="section-subtitle">Kontak Kami</span>
-             <h2 class="section-title">Contact &amp; Location</h2>
+             <h2 class="section-title">Kontak &amp; Lokasi</h2>
          </div>
 
          <div class="row g-4">
@@ -821,14 +823,14 @@ Cleaning
                  <div class="location-card border">
 
                      <h4 class="mb-4"> <i class="iconbase ti tabler-map-pin me-2"></i>
-                          Visit or Contact Us
+                          Kunjungi atau Hubungi Kami
                      </h4>
 
                      <div class="location-info">
                          <div class="info-item">
                              <i class="iconbase ti tabler-building"></i>
                              <div>
-                                 <strong>Address</strong>
+                                 <strong>Alamat</strong>
                                  <p>Jl. Letjend Suprapto No.1, Kibing, Kec. Batu Aji, Kota Batam, Kepulauan Riau 29424
                                  </p>
                              </div>
@@ -837,7 +839,7 @@ Cleaning
                          <div class="info-item">
                              <i class="iconbase ti tabler-phone"></i>
                              <div>
-                                 <strong>Telephone</strong>
+                                 <strong>Telepon</strong>
                                  <p>(0778) 3582877, 7355372</p>
                              </div>
                          </div>
@@ -856,15 +858,15 @@ Cleaning
                          <div class="info-item">
                              <i class="iconbase ti tabler-clock"></i>
                              <div>
-                                 <strong>Operational Hours</strong>
-                                 <p>Monday - Friday: 08:00 - 17:00<br>Saturday: 08:00 - 14:00</p>
+                                 <strong>Jam Operasional</strong>
+                                 <p>Senin - Jumat: 08:00 - 17:00<br>Sabtu: 08:00 - 14:00</p>
                              </div>
                          </div>
                      </div>
 
                      <a href="https://maps.app.goo.gl/pP6vwMbKsHZrHrBD9" target="_blank"
                          class="btn-primary-modern w-100">
-                         <span>Open in Google Maps</span>
+                         <span>Buka di Google Maps</span>
                          <i class="iconbase ti tabler-external-link"></i>
                      </a>
                  </div>
@@ -875,71 +877,73 @@ Cleaning
                      <iframe
                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.3347347611834!2d103.99386257477701!3d1.0397762989502235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98de593e79ff3%3A0x2641f82d34cfed6!2sPT.%20Dwi%20Damar%20Tirta!5e1!3m2!1sid!2sid!4v1771232233248!5m2!1sid!2sid"
                          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         referrerpolicy="no-referrer-when-downgrade" title="Lokasi PT Dwi Damar Tirta di Google Maps"></iframe>
                  </div>
              </div>
          </div>
      </div>
  </section>
-                    
-            <section class="py-5">
-                <div class="container text">
-                    <div class="d-flex flex-column flex-md-row align-items-center align-items-md-center justify-content-between gap-3 p-4 rounded-3 border">
-                        <div class="text-center text-md-start">
-                            <h5 class="mb-1">
-                                Need a waste management consultation?
-                            </h5>
-                            <p class="mb-0 text-muted">
-                                Contact us for a brief discussion about your company’s hazardous and non‑hazardous waste needs.
-                            </p>
-                        </div>
-                        <div class="text-center text-md-start">
-                            <a href="https://dwidamartirta.test/kontak-kami" class="btn btn-primary px-4">
-                                Contact us
-                            </a>
+                            
+                <section class="py-5">
+                    <div class="container text">
+                        <div
+                            class="d-flex flex-column flex-md-row align-items-center align-items-md-center justify-content-between gap-3 p-4 rounded-3 border">
+                            <div class="text-center text-md-start">
+                                <h5 class="mb-1">
+                                    Ingin konsultasi pengelolaan limbah?
+                                </h5>
+                                <p class="mb-0 text-muted">
+                                    Hubungi kami untuk diskusi singkat mengenai kebutuhan limbah B3 dan non‑B3 di perusahaan Anda.
+                                </p>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <a href="https://dwidamartirta.test/kontak-kami" class="btn btn-primary px-4">
+                                    Hubungi kami
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            </div>
+                </section>
+                    </main>
+    </div>
 
     <footer class="landing-footer bg-body footer-text">
     <div class="footer-top position-relative overflow-hidden z-1">
         <img src="https://dwidamartirta.test/assets/template/img/backgrounds/footer-bg-2.webp" alt="footer bg"
-             class="footer-bg banner-bg-img z-n1" />
+            class="footer-bg banner-bg-img z-n1" />
         <div class="container py-5">
             <div class="row gy-4">
                 
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center mb-3">
                         <img src="https://dwidamartirta.test/assets/template/img/logo/logo dwi damar tirta.webp"
-                             alt="Logo PT Dwi Damar Tirta" width="56" class="me-2">
+                            alt="Logo PT Dwi Damar Tirta" width="56" class="me-2">
                         <span class="fw-bold fs-5 text-white">
                             PT Dwi Damar Tirta
                         </span>
                     </div>
 
                     <p class="footer-text footer-logo-description mb-3 text" style="text-align: justify;">
-                        Specialist in collection and transportation of hazardous &amp; non-hazardous waste, industrial scrap, and environmental documentation assistance for companies in Batam and surrounding areas.
+                        Spesialis pengumpulan dan pengangkutan limbah B3 &amp; non‑B3, scrap industri, serta pendampingan dokumen lingkungan untuk perusahaan di Batam dan sekitarnya.
                         <a href="https://dwidamartirta.test/kontak-kami" class="text-white">
-                            Contact Us Now!
+                            Hubungi Kami Sekarang !
                         </a>
                     </p>
 
                     
                     <div class="d-flex align-items-center flex-wrap gap-3 mt-2">
-                        <img src="https://dwidamartirta.test/assets/template/img/iso/ISO-140011000.png" alt="ISO 45001"
-                             class="img-fluid" style="height: 80px;">
-                        <img src="https://dwidamartirta.test/assets/template/img/iso/ISO-9001.png" alt="ISO 9001"
-                             class="img-fluid" style="height: 80px;">
-                        <img src="https://dwidamartirta.test/assets/template/img/iso/ISO-45001.png" alt="ISO 14001"
-                             class="img-fluid" style="height: 80px;">
+                        <img src="https://dwidamartirta.test/assets/template/img/iso/ISO-140011000.webp" alt="ISO 45001"
+                            class="img-fluid" style="height: 80px;" loading="lazy">
+                        <img src="https://dwidamartirta.test/assets/template/img/iso/ISO-9001.webp" alt="ISO 9001" class="img-fluid"
+                            style="height: 80px;" loading="lazy">
+                        <img src="https://dwidamartirta.test/assets/template/img/iso/ISO-45001.webp" alt="ISO 14001"
+                            class="img-fluid" style="height: 80px;" loading="lazy">
                     </div>
                 </div>
 
                 
                 <div class="col-lg-2 col-md-6">
-                    <h6 class="footer-title mb-3 text-white">Navigation</h6>
+                    <h6 class="footer-title mb-3 text-white">Navigasi</h6>
 
                     <ul class="list-unstyled mb-0">
                         <li class="mb-2">
@@ -947,46 +951,51 @@ Cleaning
                         </li>
 
                         <li class="mb-2">
-                            <a href="https://dwidamartirta.test/tentang-kami" class="footer-link">About Us</a>
+                            <a href="https://dwidamartirta.test/profil/tentang-kami"
+                                class="footer-link">Tentang Kami</a>
                         </li>
                         <li class="mb-2">
-                            <a href="https://dwidamartirta.test/visi-misi" class="footer-link">Vision &amp; Mission</a>
+                            <a href="https://dwidamartirta.test/profil/visi-misi"
+                                class="footer-link">Visi &amp; Misi</a>
                         </li>
                         <li class="mb-2">
-                            <a href="https://dwidamartirta.test/struktur-organisasi" class="footer-link">Organization Structure</a>
-                        </li>
-
-                        <li class="mb-2">
-                            <a href="https://dwidamartirta.test/layanan" class="footer-link">Our Services</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="https://dwidamartirta.test/fasilitas" class="footer-link">Fleet &amp; Facilities</a>
+                            <a href="https://dwidamartirta.test/profil/struktur-organisasi"
+                                class="footer-link">Struktur Organisasi</a>
                         </li>
 
                         <li class="mb-2">
-                            <a href="https://dwidamartirta.test/dokumen" class="footer-link">Documents</a>
+                            <a href="https://dwidamartirta.test/layanan-kami"
+                                class="footer-link">Layanan Kami</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://dwidamartirta.test/fasilitas"
+                                class="footer-link">Armada &amp; Fasilitas</a>
                         </li>
 
                         <li class="mb-2">
-                            <a href="https://dwidamartirta.test/gallery" class="footer-link">Gallery</a>
+                            <a href="https://dwidamartirta.test/dokumen" class="footer-link">Dokumen</a>
                         </li>
 
                         <li class="mb-2">
-                            <a href="https://dwidamartirta.test/kontak-kami" class="footer-link">Contact Us</a>
+                            <a href="https://dwidamartirta.test/gallery" class="footer-link">Galeri</a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="https://dwidamartirta.test/kontak-kami" class="footer-link">Hubungi Kami</a>
                         </li>
                     </ul>
                 </div>
 
                 
                 <div class="col-lg-4 col-md-6">
-                    <h6 class="footer-title mb-3 text-white">Contact &amp; Location</h6>
+                    <h6 class="footer-title mb-3 text-white">Kontak &amp; Lokasi</h6>
                     <ul class="list-unstyled footer-text mb-0">
                         <li class="mb-3 d-flex align-items-start">
                             <i class="icon-base ti tabler-map-pin me-2 mt-1"></i>
                             <div>
-                                <strong>Location</strong><br>
+                                <strong>Lokasi</strong><br>
                                 <a href="https://maps.app.goo.gl/YLhTuDD5Hrnnr9km9" target="_blank"
-                                   rel="noopener noreferrer" class="footer-link">
+                                    rel="noopener noreferrer" class="footer-link">
                                     Jl. Letjend Suprapto No.1, Kibing, Kec. Batu Aji, Kota Batam,
                                     Kepulauan Riau 29424
                                 </a>
@@ -995,7 +1004,7 @@ Cleaning
                         <li class="mb-3 d-flex align-items-start">
                             <i class="icon-base ti tabler-phone me-2 mt-1"></i>
                             <div>
-                                <strong>Phone</strong><br>
+                                <strong>Telepon</strong><br>
                                 <span class="text-white">(0778) 3582877</span>
                             </div>
                         </li>
@@ -1004,20 +1013,41 @@ Cleaning
                             <div>
                                 <strong>Email</strong><br>
                                 <a href="mailto:gufron.wiguna@dwidamartirta.co.id"
-                                   class="footer-link d-block">gufron.wiguna@dwidamartirta.co.id</a>
+                                    class="footer-link d-block">gufron.wiguna@dwidamartirta.co.id</a>
                                 <a href="mailto:admin@dwidamartirta.co.id"
-                                   class="footer-link d-block">admin@dwidamartirta.co.id</a>
+                                    class="footer-link d-block">admin@dwidamartirta.co.id</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-start">
                             <i class="icon-base ti tabler-brand-whatsapp me-2 mt-1"></i>
                             <div>
-                                <strong>WhatsApp</strong><br>
-                                <a href="https://wa.me/628116933777" class="footer-link" target="_blank">
-                                    +62 811‑6933‑777
-                                </a>
+                                <strong class="mb-2 d-block">WhatsApp</strong>
+
+                                <div class="d-flex flex-column flex-md-row gap-3 mt-2">
+                                    <!-- Kartu WhatsApp Direktur Utama -->
+                                    <a href="https://wa.me/6281277000789?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                                        target="_blank" rel="noopener"
+                                        class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
+                                        <i class="ti tabler-brand-whatsapp fs-5"></i>
+                                        <div class="small">
+                                            <div class="fw-bold">Gufron Wiguna</div>
+                                            <div class="text-white-50">Direktur Utama</div>
+                                        </div>
+                                    </a>
+                                    <a href="https://wa.me/628116933777?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                                        target="_blank" rel="noopener"
+                                        class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
+                                        <i class="ti tabler-brand-whatsapp fs-5"></i>
+                                        <div class="small">
+                                            <div class="fw-bold">Admin</div>
+                                            <div class="text-white-50">Dwi Damar Tirta</div>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </li>
+
+
                     </ul>
                 </div>
             </div>
@@ -1033,9 +1063,41 @@ Cleaning
                 All rights reserved.
             </div>
             <div>
-                <a href="#" class="me-2 text-white-50">LinkedIn</a>
-                <a href="https://www.instagram.com/dwidamartirta.id/" class="text-white-50"
-                   target="_blank">Instagram</a>
+                <!-- <a href="#" class="me-2 text-white">LinkedIn</a>
+                <a href="https://www.instagram.com/dwidamartirta.id/" class="text-white"
+                    target="_blank">Instagram</a> -->
+                <a href="#" class="me-2 text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-linkedin">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-9 8a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m6 0a3 3 0 0 0 -1.168 .236l-.125 .057a1 1 0 0 0 -1.707 .707v5a1 1 0 0 0 2 0v-3a1 1 0 0 1 2 0v3a1 1 0 0 0 2 0v-3a3 3 0 0 0 -3 -3m-6 -3a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" />
+                    </svg></a>
+                <a href="https://www.instagram.com/dwidamartirta.id/" class="text-white" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-instagram">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M16 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-8a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-4 5a4 4 0 0 0 -3.995 3.8l-.005 .2a4 4 0 1 0 4 -4m4.5 -1.5a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" />
+                    </svg>
+                </a>
+                <a href="#" class="text-white" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-facebook">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" />
+                    </svg>
+                </a>
+                <a href="#" class="text-white" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-x">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M8.267 3a1 1 0 0 1 .73 .317l.076 .092l4.274 5.828l5.946 -5.944a1 1 0 0 1 1.497 1.32l-.083 .094l-6.163 6.162l6.262 8.54a1 1 0 0 1 -.697 1.585l-.109 .006h-4.267a1 1 0 0 1 -.73 -.317l-.076 -.092l-4.276 -5.829l-5.944 5.945a1 1 0 0 1 -1.497 -1.32l.083 -.094l6.161 -6.163l-6.26 -8.539a1 1 0 0 1 .697 -1.585l.109 -.006h4.267z" />
+                    </svg>
+                </a>
+
             </div>
         </div>
     </div>
@@ -1053,214 +1115,238 @@ Cleaning
     <!-- <script src="https://dwidamartirta.test/assets/template/vendor/libs/nouislider/nouislider.js"></script> -->
     <!-- <script src="https://dwidamartirta.test/assets/template/vendor/libs/swiper/swiper.js"></script> -->
 
+<style>
+    .floating-actions {
+        position: fixed;
+        right: 1.25rem;
+        bottom: 4rem;
+        display: flex;
+        align-items: flex-end;
+        gap: 0.75rem; /* sedikit diperbesar agar touch target tidak terlalu rapat */
+        z-index: 1080;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .18s ease, visibility .18s ease;
+    }
 
-    <style>
+    /* Tombol utama Hubungi Kami */
+    .fab-main {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 999px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #25D366;
+        color: #fff;
+        border: none;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+
+    .fab-main i {
+        font-size: 1.6rem;
+    }
+
+    /* Menu Hubungi Kami */
+    .fab-wrapper {
+        position: relative;
+    }
+
+    .fab-menu {
+        position: absolute;
+        right: 0;
+        bottom: 3.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0.4rem;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(6px);
+        transition: opacity .18s ease, visibility .18s ease, transform .18s ease;
+    }
+
+    .fab-menu.open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .fab-item {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        background: #ffffff;
+        color: #111827;
+        font-size: .9rem;
+        padding: .45rem .9rem; /* sedikit diperbesar untuk touch target */
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+        border: none;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .fab-item i {
+        font-size: 1.3rem;
+        margin-left: 0.45rem;
+    }
+
+    .fab-label {
+        font-size: .85rem;
+    }
+
+    /* Tombol scroll top */
+    .btn-scroll-top {
+        width: 2.9rem;
+        height: 2.9rem;
+        border-radius: 999px;
+        border: none;
+        background: #0d6efd;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(6px);
+        transition: opacity .18s ease, visibility .18s ease, transform .18s ease;
+    }
+
+    .btn-scroll-top.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .btn-scroll-top i {
+        font-size: 1.4rem;
+    }
+
+    @media (max-width: 575.98px) {
         .floating-actions {
-            position: fixed;
-            right: 1.25rem;
-            bottom: 1.25rem;
-            display: flex;
-            align-items: flex-end;
-            gap: 0.5rem;
-            z-index: 1080;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity .18s ease, visibility .18s ease;
+            right: 1rem;
+            bottom: 1rem;
+            gap: 0.55rem;
         }
+    }
+</style>
 
-        /* Tombol utama Hubungi Kami */
-        .fab-main {
-            width: 4rem;
-            height: 4rem;
-            border-radius: 999px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            background: #25D366;
-            color: #fff;
-            border: none;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-            cursor: pointer;
-        }
+<div class="floating-actions" id="floatingActions" aria-live="polite">
+    <!-- Tombol scroll top -->
+    <button
+        type="button"
+        class="btn-scroll-top"
+        id="btnScrollTop"
+        aria-label="Kembali ke atas halaman">
+        <i class="iconbase ti tabler-arrow-up" aria-hidden="true"></i>
+    </button>
 
-        .fab-main i {
-            font-size: 1.5rem;
-            padding: 0px;
-        }
+    <!-- Hubungi Kami -->
+    <div class="fab-wrapper">
+        <div
+            class="fab-menu"
+            id="fabMenu"
+            role="menu"
+            aria-label="Pilihan cara menghubungi PT Dwi Damar Tirta">
+            <button
+                type="button"
+                class="fab-item"
+                role="menuitem"
+                aria-label="Hubungi via WhatsApp"
+                onclick="window.open('https://wa.me/628116933777?text=Halo%20Dwi%20Damar%20Tirta,%20saya%20ingin%20bertanya%20tentang%20layanan.','_blank')">
+                <span class="fab-label">WhatsApp</span>
+                <i class="iconbase ti tabler-brand-whatsapp" style="color:#25D366;" aria-hidden="true"></i>
+            </button>
 
-        /* Menu Hubungi Kami */
-        .fab-wrapper {
-            position: relative;
-        }
+            <button
+                type="button"
+                class="fab-item"
+                role="menuitem"
+                aria-label="Kirim email ke PT Dwi Damar Tirta"
+                onclick="window.location.href='mailto:info@dwidamartirta.co.id?subject=Permintaan%20Informasi%20Layanan'">
+                <span class="fab-label">Email</span>
+                <i class="iconbase ti tabler-mail" aria-hidden="true"></i>
+            </button>
 
-        .fab-menu {
-            position: absolute;
-            right: 0;
-            bottom: 3.4rem;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 0.35rem;
-            opacity: 0;
-            visibility: hidden;
-            transform: translateY(6px);
-            transition: opacity .18s ease, visibility .18s ease, transform .18s ease;
-        }
-
-        .fab-menu.open {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(0);
-        }
-
-        .fab-item {
-            display: inline-flex;
-            align-items: center;
-            border-radius: 999px;
-            background: #ffffff;
-            color: #111827;
-            font-size: .85rem;
-            padding: .3rem .75rem;
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
-            border: none;
-            cursor: pointer;
-            white-space: nowrap;
-        }
-
-        .fab-item i {
-            font-size: 1.25rem;
-            margin-left: 0.45rem;
-        }
-
-        .fab-label {
-            font-size: .8rem;
-        }
-
-        /* Tombol scroll top sendiri */
-        .btn-scroll-top {
-            width: 2.6rem;
-            height: 2.6rem;
-            border-radius: 999px;
-            border: none;
-            background: #0d6efd;
-            color: #fff;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
-            cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
-            transform: translateY(6px);
-            transition: opacity .18s ease, visibility .18s ease, transform .18s ease;
-        }
-
-        .btn-scroll-top.show {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(0);
-        }
-
-        .btn-scroll-top i {
-            font-size: 1.3rem;
-        }
-
-        @media (max-width: 575.98px) {
-            .floating-actions {
-                right: 1rem;
-                bottom: 1rem;
-                gap: 0.4rem;
-            }
-        }
-    </style>
-
-    <div class="floating-actions" id="floatingActions">
-        
-        <button type="button" class="btn-scroll-top" id="btnScrollTop" aria-label="Kembali ke atas">
-            <i class="iconbase ti tabler-arrow-up"></i>
-        </button>
-
-        
-        <div class="fab-wrapper">
-            <div class="fab-menu" id="fabMenu">
-                <button type="button" class="fab-item"
-                    onclick="window.open('https://wa.me/628116933777?text=Halo%20Dwi%20Damar%20Tirta,%20saya%20ingin%20bertanya%20tentang%20layanan.','_blank')">
-                    <span class="fab-label">WhatsApp</span>
-                    <i class="iconbase ti tabler-brand-whatsapp" style="color:#25D366;"></i>
-                </button>
-                <button type="button" class="fab-item"
-                    onclick="window.location.href='mailto:info@dwidamartirta.co.id?subject=Permintaan%20Informasi%20Layanan'">
-                    <span class="fab-label">Email</span>
-                    <i class="iconbase ti tabler-mail"></i>
-                </button>
-                <button type="button" class="fab-item" onclick=`window.location.href="https://dwidamartirta.test/kontak-kami"`>
-                    <span class="fab-label">Get Quotation</span>
-                    <i class="iconbase ti tabler-file-text"></i>
-                </button>
-            </div>
-
-            <button type="button" class="fab-main btn-lg" id="btnFabMain" aria-label="Hubungi kami">
-                <i class="iconbase ti tabler-phone"></i>
+            <button
+                type="button"
+                class="fab-item"
+                role="menuitem"
+                aria-label="Buka halaman formulir quotation"
+                onclick="window.location.href='https://dwidamartirta.test/kontak-kami'">
+                <span class="fab-label">Get Quotation</span>
+                <i class="iconbase ti tabler-file-text" aria-hidden="true"></i>
             </button>
         </div>
+
+        <button
+            type="button"
+            class="fab-main btn-lg"
+            id="btnFabMain"
+            aria-label="Buka menu Hubungi kami"
+            aria-expanded="false"
+            aria-controls="fabMenu">
+            <i class="iconbase ti tabler-messages" aria-hidden="true"></i>
+        </button>
     </div>
+</div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const floating = document.getElementById('floatingActions');
-            const btnFabMain = document.getElementById('btnFabMain');
-            const fabMenu = document.getElementById('fabMenu');
-            const fabScrollTop = document.getElementById('btnScrollTop');
-            const heroSection = document.getElementById('hero');
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const floating = document.getElementById('floatingActions');
+    const btnFabMain = document.getElementById('btnFabMain');
+    const fabMenu = document.getElementById('fabMenu');
+    const fabScrollTop = document.getElementById('btnScrollTop');
+    const heroSection = document.getElementById('hero');
 
-            let triggerOffset = 200;
-            if (heroSection) {
-                triggerOffset = heroSection.offsetTop + heroSection.offsetHeight;
-            }
+    let triggerOffset = 200;
+    if (heroSection) {
+        triggerOffset = heroSection.offsetTop + heroSection.offsetHeight;
+    }
 
-            // Tampilkan / sembunyikan floating berdasarkan scroll
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > triggerOffset) {
-                    floating.style.opacity = '1';
-                    floating.style.visibility = 'visible';
-                    fabScrollTop.classList.add('show');
-                } else {
-                    floating.style.opacity = '0';
-                    floating.style.visibility = 'hidden';
-                    fabScrollTop.classList.remove('show');
-                    fabMenu.classList.remove('open');
-                    btnFabMain.innerHTML = '<i class="iconbase ti tabler-phone"></i>';
-                }
-            });
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > triggerOffset) {
+            floating.style.opacity = '1';
+            floating.style.visibility = 'visible';
+            fabScrollTop.classList.add('show');
+        } else {
+            floating.style.opacity = '0';
+            floating.style.visibility = 'hidden';
+            fabScrollTop.classList.remove('show');
+            fabMenu.classList.remove('open');
+            btnFabMain.setAttribute('aria-expanded', 'false');
+            btnFabMain.innerHTML = '<i class="iconbase ti tabler-messages" aria-hidden="true"></i>';
+        }
+    });
 
-            // Toggle menu Hubungi Kami
-            let isOpen = false;
-            btnFabMain.addEventListener('click', function() {
-                isOpen = !isOpen;
-                fabMenu.classList.toggle('open', isOpen);
-                btnFabMain.innerHTML = isOpen ?
-                    '<i class="iconbase ti tabler-x"></i>' :
-                    '<i class="iconbase ti tabler-phone"></i>';
-            });
+    let isOpen = false;
+    btnFabMain.addEventListener('click', function() {
+        isOpen = !isOpen;
+        fabMenu.classList.toggle('open', isOpen);
+        btnFabMain.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        btnFabMain.innerHTML = isOpen
+            ? '<i class="iconbase ti tabler-x" aria-hidden="true"></i>'
+            : '<i class="iconbase ti tabler-messages" aria-hidden="true"></i>';
+    });
 
-            // Scroll top
-            fabScrollTop.addEventListener('click', function() {
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            });
+    fabScrollTop.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 
-            // Klik di luar => tutup menu
-            document.addEventListener('click', function(e) {
-                if (!e.target.closest('.floating-actions')) {
-                    isOpen = false;
-                    fabMenu.classList.remove('open');
-                    btnFabMain.innerHTML = '<i class="iconbase ti tabler-phone"></i>';
-                }
-            });
-        });
-    </script>
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.floating-actions')) {
+            isOpen = false;
+            fabMenu.classList.remove('open');
+            btnFabMain.setAttribute('aria-expanded', 'false');
+            btnFabMain.innerHTML = '<i class="iconbase ti tabler-messages" aria-hidden="true"></i>';
+        }
+    });
+});
+</script>
+
         <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
     <script src="https://dwidamartirta.test/assets/js/home.js" defer></script>
 </body>
