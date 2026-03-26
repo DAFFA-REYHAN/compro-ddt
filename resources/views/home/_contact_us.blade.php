@@ -35,10 +35,48 @@
                              <i class="iconbase ti tabler-mail"></i>
                              <div>
                                  <strong>Email</strong>
-                                 <a href="mailto:gufron.wiguna@dwidamartirta.co.id"
-                                     class="footer-link d-block">gufron.wiguna@dwidamartirta.co.id</a>
-                                 <a href="mailto:admin@dwidamartirta.co.id"
-                                     class="footer-link d-block">admin@dwidamartirta.co.id</a>
+                                 <div class="d-flex align-items-center gap-2 mb-2">
+                                    <a href="mailto:gufron.wiguna@dwidamartirta.co.id" class="footer-link mb-0 text-dark">
+                                        gufron.wiguna@dwidamartirta.co.id
+                                    </a>
+
+                                    <button type="button"
+                                        class="btn btn-sm btn-outline-primary d-inline-flex align-items-center gap-1 copy-btn p-1"
+                                        data-copy="gufron.wiguna@dwidamartirta.co.id">
+                                        <span class="copy-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <rect x="8" y="8" width="12" height="12" rx="2"></rect>
+                                                <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="copy-label">Salin</span>
+                                    </button>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-2">
+                                    <a href="mailto:admin@dwidamartirta.co.id" class="footer-link mb-0 text-dark">
+                                        admin@dwidamartirta.co.id
+                                    </a>
+
+                                    <button type="button"
+                                        class="btn btn-sm btn-outline-primary d-inline-flex align-items-center gap-1 copy-btn p-1"
+                                        data-copy="admin@dwidamartirta.co.id">
+                                        <span class="copy-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <rect x="8" y="8" width="12" height="12" rx="2">
+                                                </rect>
+                                                <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="copy-label">Salin</span>
+                                    </button>
+                                </div>
                              </div>
                          </div>
 

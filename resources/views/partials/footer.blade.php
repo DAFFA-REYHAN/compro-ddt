@@ -103,10 +103,49 @@
                             <i class="icon-base ti tabler-mail me-2 mt-1"></i>
                             <div>
                                 <strong>{{ __('footer.email') }}</strong><br>
-                                <a href="mailto:gufron.wiguna@dwidamartirta.co.id"
-                                    class="footer-link d-block">gufron.wiguna@dwidamartirta.co.id</a>
-                                <a href="mailto:admin@dwidamartirta.co.id"
-                                    class="footer-link d-block">admin@dwidamartirta.co.id</a>
+
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <a href="mailto:gufron.wiguna@dwidamartirta.co.id" class="footer-link fw-bold mb-0">
+                                        gufron.wiguna@dwidamartirta.co.id
+                                    </a>
+
+                                    <button type="button"
+                                        class="btn btn-sm btn-outline-light d-inline-flex align-items-center gap-1 copy-btn p-1"
+                                        data-copy="gufron.wiguna@dwidamartirta.co.id">
+                                        <span class="copy-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <rect x="8" y="8" width="12" height="12" rx="2"></rect>
+                                                <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="copy-label">Salin</span>
+                                    </button>
+                                </div>
+
+                                <div class="d-flex align-items-center gap-2">
+                                    <a href="mailto:admin@dwidamartirta.co.id" class="footer-link fw-bold mb-0">
+                                        admin@dwidamartirta.co.id
+                                    </a>
+
+                                    <button type="button"
+                                        class="btn btn-sm btn-outline-light d-inline-flex align-items-center gap-1 copy-btn p-1"
+                                        data-copy="admin@dwidamartirta.co.id">
+                                        <span class="copy-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <rect x="8" y="8" width="12" height="12" rx="2">
+                                                </rect>
+                                                <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="copy-label">Salin</span>
+                                    </button>
+                                </div>
                             </div>
                         </li>
                         <li class="d-flex align-items-start">
@@ -193,3 +232,95 @@
         </div>
     </div>
 </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const copySvg = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="8" y="8" width="12" height="12" rx="2"></rect>
+            <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"></path>
+        </svg>
+    `;
+
+    const checkSvg = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12l5 5L20 7"></path>
+        </svg>
+    `;
+
+    const getVariantClass = (button) => {
+        return [...button.classList].find(cls =>
+            /^(btn-(outline-)?(primary|secondary|success|danger|warning|info|light|dark))$/.test(cls)
+        );
+    };
+
+    const setButtonState = (button, type) => {
+        const label = button.querySelector('.copy-label');
+        const icon = button.querySelector('.copy-icon');
+
+        if (!button.dataset.originalBtnClass) {
+            const originalClass = getVariantClass(button);
+            if (originalClass) {
+                button.dataset.originalBtnClass = originalClass;
+            }
+        }
+
+        const originalBtnClass = button.dataset.originalBtnClass;
+
+        if (originalBtnClass) {
+            button.classList.remove(
+                'btn-primary', 'btn-secondary', 'btn-success', 'btn-danger',
+                'btn-warning', 'btn-info', 'btn-light', 'btn-dark',
+                'btn-outline-primary', 'btn-outline-secondary', 'btn-outline-success',
+                'btn-outline-danger', 'btn-outline-warning', 'btn-outline-info',
+                'btn-outline-light', 'btn-outline-dark'
+            );
+        }
+
+        if (type === 'success') {
+            button.classList.add('btn-success');
+            if (label) label.textContent = 'Tersalin';
+            if (icon) icon.innerHTML = checkSvg;
+        } else if (type === 'error') {
+            button.classList.add('btn-danger');
+            if (label) label.textContent = 'Gagal';
+        } else if (type === 'reset') {
+            if (originalBtnClass) {
+                button.classList.add(originalBtnClass);
+            }
+            if (label) label.textContent = 'Salin';
+            if (icon) icon.innerHTML = copySvg;
+        }
+
+        button.blur();
+    };
+
+    document.querySelectorAll('.copy-btn').forEach(button => {
+        if (!button.dataset.originalBtnClass) {
+            const originalClass = getVariantClass(button);
+            if (originalClass) {
+                button.dataset.originalBtnClass = originalClass;
+            }
+        }
+
+        button.addEventListener('click', async function () {
+            const text = this.dataset.copy;
+            if (!text) return;
+
+            try {
+                await navigator.clipboard.writeText(text);
+                setButtonState(this, 'success');
+            } catch (error) {
+                setButtonState(this, 'error');
+            }
+
+            clearTimeout(this.copyTimeout);
+            this.copyTimeout = setTimeout(() => {
+                setButtonState(this, 'reset');
+            }, 1200);
+        });
+    });
+});
+</script>
