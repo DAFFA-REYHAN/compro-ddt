@@ -9,20 +9,20 @@ return [
 
     // VISI
     'visi_title' => 'Vision',
-    'visi_text'  => 'Becoming a leading hazardous waste management company in Indonesia that actively contributes to creating a sustainable environment and supporting community welfare.',
+    'visi_text'  => 'To become a leading hazardous waste management company in Indonesia that actively contributes to creating a sustainable environment and supporting community welfare.',
 
     // MISI
     'misi_title'    => 'Mission',
-    'misi_1_title'  => 'Community empowerment',
-    'misi_1_text'   => 'Helping people around the company to get a job and a better life.',
-    'misi_2_title'  => 'Support to partners',
-    'misi_2_text'   => 'Assisting all clients of the company in the handling of waste properly, correctly, and economically.',
-    'misi_3_title'  => 'Reducing environmental pollution',
-    'misi_3_text'   => 'Helping governments and the community to reduce the impact of environmental pollution.',
-    'misi_4_title'  => 'Regulatory compliance',
-    'misi_4_text'   => 'Performing all the rules and regulations applicable in Indonesia, especially those related to the environment.',
-    'misi_5_title'  => 'Sustainable collaboration',
-    'misi_5_text'   => 'Always fostering and maintaining good relations with social institutions, government, society, and similar companies.',
+    'misi_1_title'  => 'Community Empowerment',
+    'misi_1_text'   => 'Providing job opportunities and helping improve the lives of the local community.',
+    'misi_2_title'  => 'Client Support',
+    'misi_2_text'   => 'Assisting companies in handling their waste properly, safely, and economically.',
+    'misi_3_title'  => 'Environmental Protection',
+    'misi_3_text'   => 'Working together with the government and community to reduce the impact of environmental pollution.',
+    'misi_4_title'  => 'Regulatory Compliance',
+    'misi_4_text'   => 'Complying with all applicable rules and regulations in Indonesia, especially regarding the environment.',
+    'misi_5_title'  => 'Sustainable Collaboration',
+    'misi_5_text'   => 'Maintaining good relationships with social institutions, the government, the community, and fellow industry players.',
 
     // CTA
     'cta_title'  => 'Want to discuss waste management?',

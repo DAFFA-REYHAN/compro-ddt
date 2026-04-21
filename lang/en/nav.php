@@ -7,17 +7,17 @@ return [
     'contact' => 'Contact Us',
     
     'about'=>'About Us',
-    'vissionMission'=>'Vission & Mission',
+    'vissionMission'=>'Vision & Mission',
     'structureOrganization'=> 'Organization Structure',
-    'service'=>'Services',
+    'service'=>'Our Services',
     'gallery'=> 'Gallery',
     'facility'=>'Facilities & Fleet',
 
     'legal'=>'Legal & Licensing',
-    'recomendation'=>'Recomendations',
-    'partnership'=>'Partnership',
-    'insurence'=>'Insurence',
-    'achievment'=> 'Achievments',
+    'recomendation'=>'Recommendations',
+    'partnership'=>'Partnerships',
+    'insurence'=>'Insurance',
+    'achievment'=> 'Achievements',
 
 
     

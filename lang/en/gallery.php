@@ -3,46 +3,46 @@
 return [
     // Meta
     'title' => 'Hazardous Waste (B3) Management Gallery - PT Dwi Damar Tirta',
-    'meta_description' => 'A visual overview of PT Dwi Damar Tirta’s hazardous waste (B3) management in Batam, covering licensed transportation, secure warehouse handling, compliant temporary storage (up to 90 days), and final transfer to authorized processing partners.',
-    'meta_keywords' => 'B3 waste gallery,hazardous waste transport Batam,B3 waste warehouse handling,temporary B3 storage 90 days,shipment to licensed waste processors',
+    'meta_description' => 'A visual overview of PT Dwi Damar Tirta’s hazardous waste (B3) management processes in Batam, covering waste transportation, warehouse handling, temporary storage, and shipment to final processing partners.',
+    'meta_keywords' => 'B3 waste gallery, hazardous waste transport Batam, B3 waste warehouse, compliant B3 storage, waste processing',
 
     // Hero
-    'hero_badge' => 'B3 Waste Management Gallery',
-    'hero_heading' => 'Our Hazardous Waste (B3) Management in Practice',
-    'hero_text' => 'This gallery highlights the key stages of our B3 waste management process: compliant transportation, controlled warehouse handling, regulated temporary storage and clear labelling (up to 90 days), and final shipment to licensed recovery and treatment partners.',
+    'hero_badge' => 'Operational Gallery',
+    'hero_heading' => 'Our Waste Management Operations',
+    'hero_text' => 'Take a look at our daily operations: from safe transportation and careful warehouse handling, to proper temporary storage and final shipment to our licensed recycling and treatment partners.',
 
     // Filter buttons
     'filter_all' => 'All',
     'filter_pengangkutan' => 'Transportation',
     'filter_bongkar' => 'Loading & Unloading',
-    'filter_penyimpanan' => 'Storage & Labelling',
-    'filter_pengiriman' => 'Final Shipment',
+    'filter_penyimpanan' => 'Storage & Labeling',
+    'filter_pengiriman' => 'Delivery',
 
     // Card: Pengangkutan
     'card_pengangkutan_badge' => 'Transportation',
-    'card_pengangkutan_title' => 'B3 Waste Transportation Fleet',
-    'card_pengangkutan_text' => 'Dedicated and licensed fleet for transporting B3 waste from production areas to our temporary storage facilities in accordance with applicable regulations.',
+    'card_pengangkutan_title' => 'Waste Transport Fleet',
+    'card_pengangkutan_text' => 'Using our dedicated and licensed fleet to safely transport hazardous waste from customer locations to our facilities.',
 
     // Card: Bongkar muat
     'card_bongkar_badge' => 'Loading & Unloading',
-    'card_bongkar_title' => 'Secure Warehouse Loading & Unloading',
-    'card_bongkar_text' => 'Loading and unloading activities carried out in protected warehouse areas, following HSE procedures and using appropriate equipment to minimise spill and contamination risks.',
+    'card_bongkar_title' => 'Warehouse Loading Operations',
+    'card_bongkar_text' => 'Careful loading and unloading activities in our warehouse to prevent any spills, following standard safety procedures.',
 
     // Card: Penyimpanan & label
-    'card_penyimpanan_badge' => 'Storage & Labelling',
-    'card_penyimpanan_title' => 'Regulated B3 Waste Storage & Labelling',
-    'card_penyimpanan_text' => 'Temporary storage of B3 waste for up to 90 days, supported by clear labelling of waste codes, identification data, and hazard information on each container.',
+    'card_penyimpanan_badge' => 'Storage & Labeling',
+    'card_penyimpanan_title' => 'Temporary Storage & Sorting',
+    'card_penyimpanan_text' => 'Proper temporary storage where waste is sorted, packed, and clearly labeled according to environmental regulations.',
 
     // Card: Pengiriman ke rekanan
-    'card_pengiriman_badge' => 'Final Shipment',
-    'card_pengiriman_title' => 'Shipment to Licensed B3 Processors',
-    'card_pengiriman_text' => 'Final shipment of B3 waste to duly licensed recovery and treatment companies, ensuring traceability and regulatory compliance across the entire waste management chain.',
+    'card_pengiriman_badge' => 'Final Delivery',
+    'card_pengiriman_title' => 'Delivery to Processing Partners',
+    'card_pengiriman_text' => 'Final delivery of collected waste to our licensed processing and recycling partners for safe disposal or reuse.',
 
     // Locations
-    'location_pengangkutan' => 'Batam Industrial Estate',
+    'location_pengangkutan' => 'Customer Location',
     'location_bongkar' => 'PT Dwi Damar Tirta Warehouse',
-    'location_penyimpanan' => 'Temporary Storage Warehouse',
-    'location_pengiriman' => 'Partner Company Site',
+    'location_penyimpanan' => 'Temporary Storage Area',
+    'location_pengiriman' => 'Partner Processing Plant',
 
     // Modal
     'modal_close' => 'Close',

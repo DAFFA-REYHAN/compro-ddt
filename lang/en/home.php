@@ -2,57 +2,56 @@
 
 return [
     // Hero
-    'badgeHero' => 'Specialist Hazardous Waste Solution • Batam',
-    'heroTitle' => 'Specialist Hazardous Waste Solution, All Scrap & Tank
-Cleaning',
-    'heroSubTitle' => 'We are a team of professionals with over 10 years of experience in managing hazardous and non‑hazardous industrial waste, ready to help your company handle waste safely, in compliance with regulations, and with proper documentation.',
-    'legal' => 'Legal & Licensing',
+    'badgeHero' => 'Hazardous Waste Management • Batam',
+    'heroTitle' => 'Reliable Hazardous Waste Management & Tank Cleaning Services',
+    'heroSubTitle' => 'With over 10 years of experience, we help industrial companies handle hazardous and non-hazardous waste safely, efficiently, and in full compliance with regulations.',
+    'legal' => 'Fully Licensed & Certified',
 
     'experience_label' => 'Experience',
-    'experience_value' => '15+ years.',
+    'experience_value' => 'Over 15 Years',
 
     'clients_label' => 'Active Clients',
-    'clients_value' => '30+ clients.',
+    'clients_value' => '30+ Companies',
 
-    'license_label' => 'Licensing',
-    'license_value' => 'Complete licenses in line with regulations.',
+    'license_label' => 'Compliance',
+    'license_value' => 'Complete Licensing',
 
     // Client
     'titleClient' => 'Our Clients',
-    'descriptionClient' => 'We are currently trusted to serve a wide range of local and multinational companies, including :',
+    'descriptionClient' => 'We are trusted by various local and multinational companies across different industries, including:',
 
     // Services (EN)
     'serviceButton' => 'Our Services',
-    'titleService' => 'Complete hazardous and non-hazardous waste solutions',
-    'descriptionService' => 'Designed to meet the needs of manufacturing, logistics, oil & gas companies, as well as commercial facilities in Batam.',
+    'titleService' => 'Comprehensive Waste Management Solutions',
+    'descriptionService' => 'Designed to meet the needs of manufacturing, logistics, oil & gas, and commercial facilities in Batam.',
 
-    'card1Title' => 'Hazardous Waste Transport',
-    'card1Description' => 'Scheduled and on-call pickup services with licensed fleets and fully documented manifests.',
+    'card1Title' => 'Waste Transportation',
+    'card1Description' => 'Safe and scheduled waste transportation using our licensed logistics fleet with complete manifest documentation.',
 
-    'card2Title' => 'Hazardous Waste Collection',
-    'card2Description' => 'Collection of hazardous waste from multiple sources, including sorting, labeling, and safe temporary storage.',
+    'card2Title' => 'Waste Collection',
+    'card2Description' => 'Scheduled or on-demand waste collection, including proper sorting, labeling, and temporary storage.',
 
-    'card3Title' => 'Marine Tank Cleaning',
-    'card3Description' => 'Professional cleaning of oil, fuel, and liquid waste tanks using safe procedures that meet environmental standards.',
+    'card3Title' => 'Tank Cleaning',
+    'card3Description' => 'Professional cleaning of oil, fuel, and liquid waste tanks following strict safety and environmental standards.',
 
-    'card4Title' => 'Environmental Consulting & CSR Programs',
-    'card4Description' => 'Support for environmental compliance and the development of CSR programs aligned with your operations.',
+    'card4Title' => 'Environmental Consulting',
+    'card4Description' => 'Consulting services for environmental regulation compliance and Corporate Social Responsibility (CSR) programs.',
 
-    'btnServices' => 'See More...',
+    'btnServices' => 'See details...',
 
     // About Us
     'badgeAbout' => 'About Us',
-    'aboutDescription1' => 'We are a Batam-based company specializing in hazardous waste transportation, collection, and tank cleaning services, serving various industries since 2009.',
-    'aboutDescription2' => 'Our focus is simple: helping companies manage their waste safely, legally, and efficiently so you can focus on your core operations.',
+    'aboutDescription1' => 'Based in Batam, we specialize in hazardous waste transportation, collection, and tank cleaning services, operating since 2009.',
+    'aboutDescription2' => 'Our goal is straightforward: to help companies manage their waste safely and legally, allowing you to focus on your core business.',
 
     // Contact Us
-    'contactBadge' => 'Kontak Kami',
-    'contactTitle' => 'Contact & Location',
-    'contacth4' => ' Visit or Contact Us',
-    'address' => 'Address',
-    'telephone' => 'Telephone',
-    'operational' => 'Operational Hours',
+    'contactBadge' => 'Contact Us',
+    'contactTitle' => 'Get in Touch',
+    'contacth4' => ' Contact Information',
+    'address' => 'Office Address',
+    'telephone' => 'Phone',
+    'operational' => 'Business Hours',
     'days1' => 'Monday - Friday',
     'days2' => 'Saturday',
-    'btnOpenMaps' => 'Open in Google Maps',
+    'btnOpenMaps' => 'Open Google Maps',
 ];

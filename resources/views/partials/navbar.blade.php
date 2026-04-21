@@ -116,8 +116,9 @@
                 <li class="nav-link-item has-dropdown">
                     <button type="button" class="nav-link-custom nav-link-button">
                         @if ($locale === 'en')
-                            <!-- <img src="{{ asset('assets/template/img/language/ENG.png') }}" alt="English"
-                                style="width:20px;height:auto;border-radius:3px;"> -->
+                            <img src="{{ asset('assets/template/img/language/ENG.png') }}" alt="English"
+                                style="width:20px;height:auto;border-radius:3px;">
+
                         @else
                             <img src="{{ asset('assets/template/img/language/IND.png') }}" alt="Bahasa Indonesia"
                                 style="width:20px;height:auto;border-radius:3px;">
@@ -130,11 +131,11 @@
                                 style="width:20px;height:auto;border-radius:3px;">
                             <span>Indonesia</span>
                         </a>
-                        <!-- <a href="{{ route('set-locale', 'en') }}" class="dropdown-item-custom">
+                        <a href="{{ route('set-locale', 'en') }}" class="dropdown-item-custom">
                             <img src="{{ asset('assets/template/img/language/ENG.png') }}" alt="English"
                                 style="width:20px;height:auto;border-radius:3px;">
                             <span>English</span>
-                        </a> -->
+                        </a>
                     </div>
                 </li>
 
@@ -260,13 +261,13 @@
                             style="width:18px;height:auto;border-radius:3px;">
                         ID
                     </a>
-                    <!-- <a href="{{ route('set-locale', 'en') }}"
+                    <a href="{{ route('set-locale', 'en') }}"
                         class="badge rounded-pill d-flex align-items-center gap-1
                {{ app()->getLocale() === 'en' ? 'bg-primary text-white' : 'bg-light text-dark' }}">
                         <img src="{{ asset('assets/template/img/language/ENG.png') }}" alt="English"
                             style="width:18px;height:auto;border-radius:3px;">
                         EN
-                    </a> -->
+                    </a>
                 </div>
             </li>
 

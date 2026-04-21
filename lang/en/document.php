@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'page_title' => 'Documents',
+    'page_title' => 'Legal & Certifications',
     'badge' => 'Documents',
-    'heading' => 'Documents',
-    'subheading' => 'Collection of legal permits, insurance coverage, partnerships, and awards of PT Dwi Damar Tirta.',
+    'heading' => 'Legal & Certifications',
+    'subheading' => 'A collection of PT Dwi Damar Tirta’s official permits, insurance, partnerships, and recognitions.',
 
-    'legal_title' => 'Legal & Permits',
+    'legal_title' => 'Permits & Legal Documents',
 
     'legal_1_title' => 'Environmental Permit – Batam City Government',
     'legal_1_number' => 'No: 146/IL/DPMPTSP-BTM/VII/2018',
@@ -18,55 +18,55 @@ return [
     'legal_3_issuer' => 'Riau Islands Provincial Government',
     'legal_3_number' => 'No: 1834/KPTS-18/X/2017',
 
-    'legal_4_title' => 'Hazardous Waste Collection Permit – Ministry of Environment and Forestry',
-    'legal_4_issuer' => 'Ministry of Environment and Forestry (MoEF)',
+    'legal_4_title' => 'National Hazardous Waste Collection Permit – Ministry of Environment and Forestry',
+    'legal_4_issuer' => 'Ministry of Environment and Forestry Republic of Indonesia',
     'legal_4_number' => 'No: 1834/KPTS-18/X/2017',
 
-    'legal_5_title' => 'Technical Approval for Hazardous Waste Management for Collection and Tank Cleaning Operations (<span class="fst-italic">Tank Cleaning</span>)',
-    'legal_5_issuer' => 'Ministry of Environment and Forestry (MoEF)',
+    'legal_5_title' => 'Technical Approval for Hazardous Waste Processing & Tank Cleaning Operations (<span class="fst-italic">Tank Cleaning</span>)',
+    'legal_5_issuer' => 'Ministry of Environment and Forestry Republic of Indonesia',
     'legal_5_number' => 'No: S-613/PSLB3/VPLB3/PLB.3/11/2021',
 
-    'legal_6_title' => 'SLO for Hazardous Waste Management for Collection and Tank Cleaning Operations (<span class="fst-italic">Tank Cleaning</span>)',
-    'legal_6_issuer' => 'Ministry of Environment and Forestry (MoEF)',
+    'legal_6_title' => 'Operational Feasibility Certificate (SLO) for Tank Cleaning Operations (<span class="fst-italic">Tank Cleaning</span>)',
+    'legal_6_issuer' => 'Ministry of Environment and Forestry Republic of Indonesia',
     'legal_6_number' => 'No: S-754/PSLB3/VPLB3/PLB.3/12/2021',
 
-    'legal_7_title' => 'Technical Approval for Hazardous Waste Collection Activities',
+    'legal_7_title' => 'Technical Approval for Hazardous Waste Collection',
     'legal_7_issuer' => 'Riau Islands Provincial Government',
     'legal_7_number' => 'No: B/600.4.13.1/471/DLHK-03/2025',
 
-    'legal_8_title' => 'SLO for Provincial-Scale Hazardous Waste Collection',
+    'legal_8_title' => 'Operational Feasibility Certificate (SLO) for Provincial Waste Collection',
     'legal_8_issuer' => 'Riau Islands Provincial Government',
     'legal_8_number' => 'No: B/600.4.13.1/1229/DLHK-03/2025',
 
-    'legal_9_title' => 'Transport Permit for All Fleet',
-    'legal_9_button' => 'View All Fleet',
+    'legal_9_title' => 'Transport Permits for All Fleet',
+    'legal_9_button' => 'View Fleet Details',
 
-    'insurance_title' => 'Insurance',
-    'insurance_text' => 'To provide security assurance to all clients, we maintain insurance coverage to anticipate incidents that could cause environmental pollution or damage, with coverage up to <strong>IDR 5,000,000,000 (five billion rupiah)</strong>.',
-    'insurance_img_alt' => 'Insurance of PT Dwi Damar Tirta',
+    'insurance_title' => 'Insurance Coverage',
+    'insurance_text' => 'To guarantee security for our clients, we maintain an environmental liability insurance policy covering up to <strong>IDR 5,000,000,000 (Five Billion Rupiah)</strong> against unexpected environmental impact incidents.',
+    'insurance_img_alt' => 'Insurance Certificate - PT Dwi Damar Tirta',
 
     'partnership_title' => 'Partnerships',
-    'partnership_text' => 'To deliver comprehensive and sustainable waste management solutions, PT Dwi Damar Tirta has established strategic partnerships with licensed hazardous waste users and processors.',
+    'partnership_text' => 'We partner with a network of officially licensed hazardous waste processors and transportation companies to ensure proper waste management from start to finish.',
 
-    'partner_1' => 'PT. Tenang Jaya (Hazardous Waste Utilization)',
-    'partner_2' => 'PT. Pria Restu Ibu Abad (Hazardous Waste Utilization)',
-    'partner_3' => 'PT. Karya Nusa Bumi Persada (Hazardous Waste Utilization)',
-    'partner_4' => 'PT. Mega Green Technology (Hazardous Waste Treatment/Utilization)',
-    'partner_5' => 'PT. Star Line Expresindo (Marine Transport)',
-    'partner_6' => 'PT. AYODHIA (Marine Transport)',
+    'partner_1' => 'PT. Tenang Jaya (Waste Utilization)',
+    'partner_2' => 'PT. Pria Restu Ibu Abad (Waste Utilization)',
+    'partner_3' => 'PT. Karya Nusa Bumi Persada (Waste Utilization)',
+    'partner_4' => 'PT. Mega Green Technology (Waste Treatment)',
+    'partner_5' => 'PT. Star Line Expresindo (Marine Transportation)',
+    'partner_6' => 'PT. AYODHIA (Marine Transportation)',
 
-    'achievement_title' => 'Achievements',
-    'achievement_subtitle' => 'Official awards received by PT Dwi Damar Tirta for environmental management performance.',
+    'achievement_title' => 'Awards & Recognitions',
+    'achievement_subtitle' => 'Official government awards acknowledging PT Dwi Damar Tirta’s commitment to good environmental management.',
 
-    'achv_1_title' => 'Second Best Environmental Manager – Hazardous Waste Collector Category',
-    'achv_1_alt' => 'Second Best Environmental Manager Award – Hazardous Waste Collector',
+    'achv_1_title' => 'Second Best Environmental Manager – Corporate Collector Category',
+    'achv_1_alt' => 'Second Best Environmental Manager Award',
 
-    'achv_2_title' => 'Second Best Environmental Manager – Hazardous Waste Collector Category',
-    'achv_2_alt' => 'Environmental Management Award Certificate',
+    'achv_2_title' => 'Second Best Environmental Manager – Corporate Collector Category',
+    'achv_2_alt' => 'Certificate of Environmental Management',
 
-    'achv_3_title' => 'Second Best Environmental Manager – Hazardous Waste Collector & Transporter',
-    'achv_3_alt' => 'Second Best Environmental Manager Award – Collector & Transporter',
+    'achv_3_title' => 'Second Best Environmental Manager – Collector & Transporter',
+    'achv_3_alt' => 'Second Best Environmental Manager Award',
 
-    'achv_4_title' => 'Third Best Environmental Manager – Hazardous Waste Collector & Transporter',
-    'achv_4_alt' => 'Third Best Environmental Manager Award – Collector & Transporter',
+    'achv_4_title' => 'Third Best Environmental Manager – Collector & Transporter',
+    'achv_4_alt' => 'Third Best Environmental Manager Award',
 ];
