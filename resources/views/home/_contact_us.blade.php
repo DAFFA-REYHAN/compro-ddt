@@ -1,7 +1,7 @@
  <section class="section-padding">
      <div class="container">
          <div class="section-header text-center mb-5" data-aos="fade-up">
-             <span class="section-subtitle">{{__('home.contactBadge')}}</span>
+             <span class="section-subtitle">{{ __('home.contactBadge') }}</span>
              <h2 class="section-title">{{ __('home.contactTitle') }}</h2>
          </div>
 
@@ -36,47 +36,48 @@
                              <div>
                                  <strong>Email</strong>
                                  <div class="d-flex align-items-center gap-2 mb-2">
-                                    <a href="mailto:gufron.wiguna@dwidamartirta.co.id" class="footer-link mb-0 text-dark">
-                                        gufron.wiguna@dwidamartirta.co.id
-                                    </a>
+                                     <a href="mailto:gufron.wiguna@dwidamartirta.co.id"
+                                         class="footer-link mb-0 text-dark">
+                                         gufron.wiguna@dwidamartirta.co.id
+                                     </a>
 
-                                    <button type="button"
-                                        class="btn btn-sm btn-outline-primary d-inline-flex align-items-center gap-1 copy-btn p-1"
-                                        data-copy="gufron.wiguna@dwidamartirta.co.id">
-                                        <span class="copy-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <rect x="8" y="8" width="12" height="12" rx="2"></rect>
-                                                <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
-                                                </path>
-                                            </svg>
-                                        </span>
-                                        <span class="copy-label">Salin</span>
-                                    </button>
-                                </div>
+                                     <button type="button"
+                                         class="btn btn-sm btn-outline-primary d-inline-flex align-items-center gap-1 copy-btn p-1"
+                                         data-copy="gufron.wiguna@dwidamartirta.co.id">
+                                         <span class="copy-icon">
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                 <rect x="8" y="8" width="12" height="12" rx="2"></rect>
+                                                 <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
+                                                 </path>
+                                             </svg>
+                                         </span>
+                                         <span class="copy-label">Salin</span>
+                                     </button>
+                                 </div>
 
-                                <div class="d-flex align-items-center gap-2">
-                                    <a href="mailto:admin@dwidamartirta.co.id" class="footer-link mb-0 text-dark">
-                                        admin@dwidamartirta.co.id
-                                    </a>
+                                 <div class="d-flex align-items-center gap-2">
+                                     <a href="mailto:admin@dwidamartirta.co.id" class="footer-link mb-0 text-dark">
+                                         admin@dwidamartirta.co.id
+                                     </a>
 
-                                    <button type="button"
-                                        class="btn btn-sm btn-outline-primary d-inline-flex align-items-center gap-1 copy-btn p-1"
-                                        data-copy="admin@dwidamartirta.co.id">
-                                        <span class="copy-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <rect x="8" y="8" width="12" height="12" rx="2">
-                                                </rect>
-                                                <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
-                                                </path>
-                                            </svg>
-                                        </span>
-                                        <span class="copy-label">Salin</span>
-                                    </button>
-                                </div>
+                                     <button type="button"
+                                         class="btn btn-sm btn-outline-primary d-inline-flex align-items-center gap-1 copy-btn p-1"
+                                         data-copy="admin@dwidamartirta.co.id">
+                                         <span class="copy-icon">
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                 <rect x="8" y="8" width="12" height="12" rx="2">
+                                                 </rect>
+                                                 <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
+                                                 </path>
+                                             </svg>
+                                         </span>
+                                         <span class="copy-label">Salin</span>
+                                     </button>
+                                 </div>
                              </div>
                          </div>
 
@@ -88,13 +89,47 @@
                              </div>
                          </div>
                      </div>
+                     <div class="d-flex flex-column flex-md-row gap-3 mt-2 mb-3 justify-content-center">
+                         <!-- Kartu WhatsApp Direktur Utama -->
+                         <a href="https://wa.me/6281277000789?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                             target="_blank" rel="noopener"
+                             class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
+                             <i class="ti tabler-brand-whatsapp fs-5"></i>
+                             <div class="small">
+                                 <div class="fw-bold">Gufron Wiguna</div>
+                                 <div class="text-white-50">Direktur Utama</div>
+                             </div>
+                         </a>
+
+                         <a href="https://wa.me/628116933777?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                             target="_blank" rel="noopener"
+                             class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
+                             <i class="ti tabler-brand-whatsapp fs-5"></i>
+                             <div class="small">
+                                 <div class="fw-bold">Admin</div>
+                                 <div class="text-white-50">Dwi Damar Tirta</div>
+                             </div>
+                         </a>
+                         <a href="https://wa.me/6285881839674?text=Halo%20Daffa,%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                             target="_blank" rel="noopener"
+                             class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
+                             <i class="ti tabler-brand-whatsapp fs-5"></i>
+                             <div class="small">
+                                 <div class="fw-bold">Daffa</div>
+                                 <div class="text-white-50">Dwi Damar Tirta</div>
+                             </div>
+                         </a>
+                     </div>
 
                      <a href="https://maps.app.goo.gl/pP6vwMbKsHZrHrBD9" target="_blank"
                          class="btn-primary-modern w-100">
-                         <span>{{__('home.btnOpenMaps')}}</span>
+                         <span>{{ __('home.btnOpenMaps') }}</span>
                          <i class="iconbase ti tabler-external-link"></i>
                      </a>
+
+
                  </div>
+
              </div>
 
              <div class="col-lg-7" data-aos="fade-up">
@@ -102,7 +137,8 @@
                      <iframe
                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.3347347611834!2d103.99386257477701!3d1.0397762989502235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98de593e79ff3%3A0x2641f82d34cfed6!2sPT.%20Dwi%20Damar%20Tirta!5e1!3m2!1sid!2sid!4v1771232233248!5m2!1sid!2sid"
                          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                         referrerpolicy="no-referrer-when-downgrade" title="Lokasi PT Dwi Damar Tirta di Google Maps"></iframe>
+                         referrerpolicy="no-referrer-when-downgrade"
+                         title="Lokasi PT Dwi Damar Tirta di Google Maps"></iframe>
                  </div>
              </div>
          </div>
