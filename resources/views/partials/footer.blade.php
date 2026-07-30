@@ -55,12 +55,10 @@
                         </li>
 
                         <li class="mb-2">
-                            <a href="{{ url('/layanan-kami') }}"
-                                class="footer-link">{{ __('footer.nav_services') }}</a>
+                            <a href="{{ url('/layanan-kami') }}" class="footer-link">{{ __('footer.nav_services') }}</a>
                         </li>
                         <li class="mb-2">
-                            <a href="{{ url('/fasilitas') }}"
-                                class="footer-link">{{ __('footer.nav_facilities') }}</a>
+                            <a href="{{ url('/fasilitas') }}" class="footer-link">{{ __('footer.nav_facilities') }}</a>
                         </li>
 
                         <li class="mb-2">
@@ -114,8 +112,8 @@
                                         data-copy="gufron.wiguna@dwidamartirta.co.id">
                                         <span class="copy-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
                                                 <rect x="8" y="8" width="12" height="12" rx="2"></rect>
                                                 <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
                                                 </path>
@@ -135,8 +133,8 @@
                                         data-copy="admin@dwidamartirta.co.id">
                                         <span class="copy-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
                                                 <rect x="8" y="8" width="12" height="12" rx="2">
                                                 </rect>
                                                 <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2">
@@ -155,7 +153,7 @@
 
                                 <div class="d-flex flex-column flex-md-row gap-3 mt-2">
                                     <!-- Kartu WhatsApp Direktur Utama -->
-                                    <a href="https://wa.me/6281277000789?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                                    <!-- <a href="https://wa.me/6281277000789?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
                                         target="_blank" rel="noopener"
                                         class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
                                         <i class="ti tabler-brand-whatsapp fs-5"></i>
@@ -163,8 +161,9 @@
                                             <div class="fw-bold">Gufron Wiguna</div>
                                             <div class="text-white-50">Direktur Utama</div>
                                         </div>
-                                    </a>
-                                   
+                                    </a> -->
+
+
                                     <a href="https://wa.me/628116933777?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
                                         target="_blank" rel="noopener"
                                         class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
@@ -174,9 +173,7 @@
                                             <div class="text-white-50">Dwi Damar Tirta</div>
                                         </div>
                                     </a>
-                                </div>
-                                <div class="d-flex flex-column flex-md-row gap-3 mt-2">
-                                     <a href="https://wa.me/6285881839674?text=Halo%20Daffa,%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                                    <a href="https://wa.me/6285881839674?text=Halo%20Daffa,%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
                                         target="_blank" rel="noopener"
                                         class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
                                         <i class="ti tabler-brand-whatsapp fs-5"></i>
@@ -186,7 +183,10 @@
                                         </div>
                                     </a>
                                 </div>
-                                
+                                <!-- <div class="d-flex flex-column flex-md-row gap-3 mt-2">
+                                   
+                                </div> -->
+
                             </div>
                         </li>
 
@@ -247,8 +247,8 @@
 </footer>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    const copySvg = `
+    document.addEventListener('DOMContentLoaded', function () {
+        const copySvg = `
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="8" y="8" width="12" height="12" rx="2"></rect>
@@ -256,84 +256,84 @@ document.addEventListener('DOMContentLoaded', function () {
         </svg>
     `;
 
-    const checkSvg = `
+        const checkSvg = `
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M5 12l5 5L20 7"></path>
         </svg>
     `;
 
-    const getVariantClass = (button) => {
-        return [...button.classList].find(cls =>
-            /^(btn-(outline-)?(primary|secondary|success|danger|warning|info|light|dark))$/.test(cls)
-        );
-    };
-
-    const setButtonState = (button, type) => {
-        const label = button.querySelector('.copy-label');
-        const icon = button.querySelector('.copy-icon');
-
-        if (!button.dataset.originalBtnClass) {
-            const originalClass = getVariantClass(button);
-            if (originalClass) {
-                button.dataset.originalBtnClass = originalClass;
-            }
-        }
-
-        const originalBtnClass = button.dataset.originalBtnClass;
-
-        if (originalBtnClass) {
-            button.classList.remove(
-                'btn-primary', 'btn-secondary', 'btn-success', 'btn-danger',
-                'btn-warning', 'btn-info', 'btn-light', 'btn-dark',
-                'btn-outline-primary', 'btn-outline-secondary', 'btn-outline-success',
-                'btn-outline-danger', 'btn-outline-warning', 'btn-outline-info',
-                'btn-outline-light', 'btn-outline-dark'
+        const getVariantClass = (button) => {
+            return [...button.classList].find(cls =>
+                /^(btn-(outline-)?(primary|secondary|success|danger|warning|info|light|dark))$/.test(cls)
             );
-        }
+        };
 
-        if (type === 'success') {
-            button.classList.add('btn-success');
-            if (label) label.textContent = 'Tersalin';
-            if (icon) icon.innerHTML = checkSvg;
-        } else if (type === 'error') {
-            button.classList.add('btn-danger');
-            if (label) label.textContent = 'Gagal';
-        } else if (type === 'reset') {
+        const setButtonState = (button, type) => {
+            const label = button.querySelector('.copy-label');
+            const icon = button.querySelector('.copy-icon');
+
+            if (!button.dataset.originalBtnClass) {
+                const originalClass = getVariantClass(button);
+                if (originalClass) {
+                    button.dataset.originalBtnClass = originalClass;
+                }
+            }
+
+            const originalBtnClass = button.dataset.originalBtnClass;
+
             if (originalBtnClass) {
-                button.classList.add(originalBtnClass);
-            }
-            if (label) label.textContent = 'Salin';
-            if (icon) icon.innerHTML = copySvg;
-        }
-
-        button.blur();
-    };
-
-    document.querySelectorAll('.copy-btn').forEach(button => {
-        if (!button.dataset.originalBtnClass) {
-            const originalClass = getVariantClass(button);
-            if (originalClass) {
-                button.dataset.originalBtnClass = originalClass;
-            }
-        }
-
-        button.addEventListener('click', async function () {
-            const text = this.dataset.copy;
-            if (!text) return;
-
-            try {
-                await navigator.clipboard.writeText(text);
-                setButtonState(this, 'success');
-            } catch (error) {
-                setButtonState(this, 'error');
+                button.classList.remove(
+                    'btn-primary', 'btn-secondary', 'btn-success', 'btn-danger',
+                    'btn-warning', 'btn-info', 'btn-light', 'btn-dark',
+                    'btn-outline-primary', 'btn-outline-secondary', 'btn-outline-success',
+                    'btn-outline-danger', 'btn-outline-warning', 'btn-outline-info',
+                    'btn-outline-light', 'btn-outline-dark'
+                );
             }
 
-            clearTimeout(this.copyTimeout);
-            this.copyTimeout = setTimeout(() => {
-                setButtonState(this, 'reset');
-            }, 1200);
+            if (type === 'success') {
+                button.classList.add('btn-success');
+                if (label) label.textContent = 'Tersalin';
+                if (icon) icon.innerHTML = checkSvg;
+            } else if (type === 'error') {
+                button.classList.add('btn-danger');
+                if (label) label.textContent = 'Gagal';
+            } else if (type === 'reset') {
+                if (originalBtnClass) {
+                    button.classList.add(originalBtnClass);
+                }
+                if (label) label.textContent = 'Salin';
+                if (icon) icon.innerHTML = copySvg;
+            }
+
+            button.blur();
+        };
+
+        document.querySelectorAll('.copy-btn').forEach(button => {
+            if (!button.dataset.originalBtnClass) {
+                const originalClass = getVariantClass(button);
+                if (originalClass) {
+                    button.dataset.originalBtnClass = originalClass;
+                }
+            }
+
+            button.addEventListener('click', async function () {
+                const text = this.dataset.copy;
+                if (!text) return;
+
+                try {
+                    await navigator.clipboard.writeText(text);
+                    setButtonState(this, 'success');
+                } catch (error) {
+                    setButtonState(this, 'error');
+                }
+
+                clearTimeout(this.copyTimeout);
+                this.copyTimeout = setTimeout(() => {
+                    setButtonState(this, 'reset');
+                }, 1200);
+            });
         });
     });
-});
 </script>

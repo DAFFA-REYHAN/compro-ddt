@@ -89,9 +89,9 @@
                              </div>
                          </div>
                      </div>
-                     <div class="d-flex flex-column flex-md-row gap-3 mt-2 mb-3 justify-content-center">
+                     <div class="d-flex flex-column flex-md-row gap-3 mt-2 mb-3 justify-content-start">
                          <!-- Kartu WhatsApp Direktur Utama -->
-                         <a href="https://wa.me/6281277000789?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
+                         <!-- <a href="https://wa.me/6281277000789?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
                              target="_blank" rel="noopener"
                              class="btn btn-success text-start d-flex align-items-center gap-2 px-3 py-2">
                              <i class="ti tabler-brand-whatsapp fs-5"></i>
@@ -99,7 +99,7 @@
                                  <div class="fw-bold">Gufron Wiguna</div>
                                  <div class="text-white-50">Direktur Utama</div>
                              </div>
-                         </a>
+                         </a> -->
 
                          <a href="https://wa.me/628116933777?text=Halo%20Pak%20Gufron%20Wiguna,%20Direktur%20Utama%20PT%20Dwi%20Damar%20Tirta.%20Saya%20mendapatkan%20kontak%20Bapak%20dari%20website%20dwidamartirta.co.id."
                              target="_blank" rel="noopener"
